@@ -1,0 +1,88 @@
+{
+  "rawJobs": 205,
+  "jobs": 204,
+  "excludedDuplicates": 1,
+  "initialPlanningJobs": 203,
+  "completedJobs": 1,
+  "workers": 35,
+  "workersWithStartLocation": 35,
+  "distinctStartAddresses": 3,
+  "qualificationAssignments": 72,
+  "workersByQualificationCount": {
+    "1": 5,
+    "2": 23,
+    "3": 7
+  },
+  "qualifiedWorkers": {
+    "local": 30,
+    "connection": 33,
+    "emergency": 9
+  },
+  "historicallyAssignedJobs": 202,
+  "historicallyUnassignedJobIds": [
+    "beeline-v1-east-job-74198",
+    "beeline-v1-east-job-92031"
+  ],
+  "distinctHDTypes": 18,
+  "divisions": [
+    {
+      "divisionId": "east",
+      "name": "Восток",
+      "rawJobs": 66,
+      "jobs": 66,
+      "initialPlanningJobs": 66,
+      "workers": 12,
+      "startAddress": "г. Москва, ул Юных Ленинцев, д 83с 4",
+      "workersWithStartLocation": 12,
+      "qualifiedWorkers": {
+        "local": 11,
+        "connection": 11,
+        "emergency": 4
+      }
+    },
+    {
+      "divisionId": "southeast",
+      "name": "Юго-восток",
+      "rawJobs": 83,
+      "jobs": 82,
+      "initialPlanningJobs": 81,
+      "workers": 12,
+      "startAddress": "г. Москва, ул Бирюлёвская, д 1с1",
+      "workersWithStartLocation": 12,
+      "qualifiedWorkers": {
+        "local": 10,
+        "connection": 11,
+        "emergency": 4
+      }
+    },
+    {
+      "divisionId": "southcentral",
+      "name": "Югоцентр",
+      "rawJobs": 56,
+      "jobs": 56,
+      "initialPlanningJobs": 56,
+      "workers": 11,
+      "startAddress": "г.Москва проезд Симферопольский, д.7",
+      "workersWithStartLocation": 11,
+      "qualifiedWorkers": {
+        "local": 9,
+        "connection": 11,
+        "emergency": 1
+      }
+    }
+  ],
+  "checks": {
+    "source_hashes": "passed",
+    "row_pairing_and_common_fields": "passed",
+    "confirmed_duplicate": "passed",
+    "unique_job_ids": "passed",
+    "worker_identity_by_division": "passed",
+    "all_bk_categories_mapped": "passed",
+    "all_historical_assignments_compatible": "passed",
+    "no_unsupported_qualifications": "passed",
+    "every_job_has_qualified_worker_in_own_division": "passed",
+    "new_jobs_unassigned": "passed",
+    "all_workers_start_at_own_division_office": "passed",
+    "worker_start_source_rows": "passed"
+  }
+}

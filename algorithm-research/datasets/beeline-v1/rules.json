@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "qualifications": [
+    {
+      "id": "local",
+      "name": "Локальные работы",
+      "sourceBK": ["Локальная заявка"]
+    },
+    {
+      "id": "connection",
+      "name": "Работы на подключение и дозаказы",
+      "sourceBK": ["Подключение", "Дозаказ"]
+    },
+    {
+      "id": "emergency",
+      "name": "Аварийные работы",
+      "sourceBK": ["Глобальная проблема"]
+    }
+  ],
+  "divisions": [
+    {
+      "id": "east",
+      "name": "Восток",
+      "syntheticFile": "Восток Синтетические данные.csv",
+      "controlFile": "Восток Контрольное распределение..csv",
+      "expectedRawJobs": 66,
+      "expectedWorkers": 12
+    },
+    {
+      "id": "southeast",
+      "name": "Юго-восток",
+      "syntheticFile": "Юго-восток Синтетические данные.csv",
+      "controlFile": "Юго-восток Контрольное распределение.csv",
+      "expectedRawJobs": 83,
+      "expectedWorkers": 12
+    },
+    {
+      "id": "southcentral",
+      "name": "Югоцентр",
+      "syntheticFile": "Югоцентр Синтетические данные.csv",
+      "controlFile": "Югоцентр Контрольное распределение..csv",
+      "expectedRawJobs": 56,
+      "expectedWorkers": 11
+    }
+  ],
+  "confirmedDuplicate": {
+    "divisionId": "southeast",
+    "controlId": "305898293",
+    "excludedSyntheticId": "24482",
+    "excludedRow": 50,
+    "excludedSourceStatus": "Отменена",
+    "retainedSyntheticId": "11872",
+    "retainedRow": 57,
+    "retainedSourceStatus": "Выполнена",
+    "reason": "Подтверждённый дубль. Решение владельца от 17.09.2026, Q-038: исключить строку 50, сохранить выполненную строку 57."
+  }
+}
