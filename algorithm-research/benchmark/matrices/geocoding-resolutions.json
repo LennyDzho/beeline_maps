@@ -1,0 +1,170 @@
+{
+  "Москва, проезд Орехово-Зуевский, д. 18/8": {
+    "sourceAddress": "Москва, проезд Орехово-Зуевский, д. 18/8",
+    "matchedAddress": "18/8, Орехово-Зуевский проезд, Карачарово, Нижегородский район, Москва, Центральный федеральный округ, 130203, Россия",
+    "provider": "OSM/Nominatim",
+    "providerId": "way/45897230",
+    "point": {
+      "lat": 55.7311522,
+      "lon": 37.7534715
+    },
+    "isAssumption": false,
+    "reason": "OSM содержит точный составной номер 18/8 и ту же улицу.",
+    "evidence": "https://www.openstreetmap.org/way/45897230",
+    "cache": "matrices/osm-geocoding-review.json"
+  },
+  "Город Москва, ул.Талалихина, д. 16": {
+    "sourceAddress": "Город Москва, ул.Талалихина, д. 16",
+    "matchedAddress": "16, улица Талалихина, Таганский район, Москва, Центральный федеральный округ, 109316, Россия",
+    "provider": "OSM/Nominatim",
+    "providerId": "way/50286450",
+    "point": {
+      "lat": 55.7355002,
+      "lon": 37.676817
+    },
+    "isAssumption": false,
+    "reason": "Точный адрес; выбран Таганский район, указанный в исходной заявке, а не Липки/Щербинка.",
+    "evidence": "https://www.openstreetmap.org/way/50286450",
+    "cache": "matrices/osm-geocoding-review.json"
+  },
+  "г.Город Москва, наб.Семеновская, д. 2/1": {
+    "sourceAddress": "г.Город Москва, наб.Семеновская, д. 2/1",
+    "matchedAddress": "2/1, Семёновская набережная, Бауманка, Басманный район, Москва, Центральный федеральный округ, 105094, Россия",
+    "provider": "OSM/Nominatim",
+    "providerId": "way/48899469",
+    "point": {
+      "lat": 55.7768615,
+      "lon": 37.7046831
+    },
+    "isAssumption": false,
+    "reason": "OSM содержит точный номер 2/1 без добавления строения.",
+    "evidence": "https://www.openstreetmap.org/way/48899469",
+    "cache": "matrices/osm-geocoding-review.json"
+  },
+  "Кашира, ул.Садовая, д. 18": {
+    "sourceAddress": "Кашира, ул.Садовая, д. 18",
+    "matchedAddress": "18, Садовая улица, Кашира-2, Кашира, городской округ Кашира, Московская область, Центральный федеральный округ, 142904, Россия",
+    "provider": "OSM/Nominatim",
+    "providerId": "way/106326960",
+    "point": {
+      "lat": 54.8423286,
+      "lon": 38.2453976
+    },
+    "isAssumption": false,
+    "reason": "Точный адрес и город; выбран контур здания, остальные результаты OSM — точки услуг внутри него.",
+    "evidence": "https://www.openstreetmap.org/way/106326960",
+    "cache": "matrices/osm-geocoding-review.json"
+  },
+  "Кашира, ул.8 Марта, д. 22": {
+    "sourceAddress": "Кашира, ул.8 Марта, д. 22",
+    "matchedAddress": "22, улица 8-го Марта, Кашира-2, Кашира, городской округ Кашира, Московская область, Центральный федеральный округ, 142904, Россия",
+    "provider": "OSM/Nominatim",
+    "providerId": "way/302388031",
+    "point": {
+      "lat": 54.8442956,
+      "lon": 38.2387126
+    },
+    "isAssumption": false,
+    "reason": "Точный номер 22 в Кашире-2; альтернативный объект имеет номер 22/2. Нормализация 8 Марта / 8-го Марта.",
+    "evidence": "https://www.openstreetmap.org/way/302388031",
+    "cache": "matrices/osm-geocoding-review.json"
+  },
+  "Москва Бирюлевская ул. д. 44": {
+    "sourceAddress": "Москва Бирюлевская ул. д. 44",
+    "matchedAddress": "44/6, Бирюлёвская улица, район Бирюлёво Восточное, Москва, Центральный федеральный округ, 115372, Россия",
+    "provider": "OSM/Nominatim",
+    "providerId": "way/32632061",
+    "point": {
+      "lat": 55.5864357,
+      "lon": 37.664566
+    },
+    "isAssumption": true,
+    "reason": "Адресное допущение: неполный номер 44 сопоставлен с 44/6; оба провайдера находят это здание.",
+    "evidence": "https://www.openstreetmap.org/way/32632061",
+    "cache": "matrices/osm-geocoding-review.json"
+  },
+  "МО, г. Кашира Кржижановского ул. д. 5/1": {
+    "sourceAddress": "МО, г. Кашира Кржижановского ул. д. 5/1",
+    "matchedAddress": "улица Кржижановского, 5 к1",
+    "provider": "2gis corroborated by OSM",
+    "providerId": "way/106326979",
+    "point": {
+      "lat": 54.840976,
+      "lon": 38.239527
+    },
+    "isAssumption": true,
+    "reason": "Адресное допущение: 5/1 трактуется как 5 к1, согласно 2ГИС и OSM. В OSM два контура 5 к1 рядом; сохранена точка 2ГИС на северном контуре, без выдуманного уточнения подъезда.",
+    "evidence": "https://www.openstreetmap.org/way/106326979",
+    "cache": "matrices/osm-routing-address-probe.json"
+  },
+  "МО, г. Кашира Кржижановского ул. д. 5/2": {
+    "sourceAddress": "МО, г. Кашира Кржижановского ул. д. 5/2",
+    "matchedAddress": "улица Кржижановского, 5 к2",
+    "provider": "OSM/Overpass",
+    "providerId": "way/106326943",
+    "point": {
+      "lat": 54.8406569,
+      "lon": 38.2420016
+    },
+    "isAssumption": true,
+    "reason": "Адресное допущение: 5/2 трактуется как 5 к2; оба провайдера находят соответствующий корпус.",
+    "evidence": "https://www.openstreetmap.org/way/106326943",
+    "cache": "matrices/osm-routing-address-probe.json"
+  },
+  "МО, г. Кашира Кржижановского ул. д. 5/3": {
+    "sourceAddress": "МО, г. Кашира Кржижановского ул. д. 5/3",
+    "matchedAddress": "улица Кржижановского, 5 к3",
+    "provider": "OSM/Overpass",
+    "providerId": "way/106326939",
+    "point": {
+      "lat": 54.8408173,
+      "lon": 38.2429879
+    },
+    "isAssumption": true,
+    "reason": "Адресное допущение: 5/3 трактуется как 5 к3; оба провайдера находят соответствующий корпус.",
+    "evidence": "https://www.openstreetmap.org/way/106326939",
+    "cache": "matrices/osm-routing-address-probe.json"
+  },
+  "г. Москва, ул Юных Ленинцев, д 83с 4": {
+    "sourceAddress": "г. Москва, ул Юных Ленинцев, д 83с 4",
+    "matchedAddress": "улица Юных Ленинцев, 83 к4",
+    "provider": "OSM/Overpass",
+    "providerId": "way/85397778",
+    "point": {
+      "lat": 55.702225,
+      "lon": 37.7738501
+    },
+    "isAssumption": true,
+    "reason": "Модельный старт: с4 в исходнике заменено на к4 только для эксперимента. Оба провайдера находят 83 к4; фактический офис не подтверждён.",
+    "evidence": "https://www.openstreetmap.org/way/85397778",
+    "cache": "matrices/osm-routing-address-probe.json"
+  },
+  "г. Москва, ул Бирюлёвская, д 1с1": {
+    "sourceAddress": "г. Москва, ул Бирюлёвская, д 1с1",
+    "matchedAddress": "Бирюлёвская улица, 1 к1",
+    "provider": "OSM/Overpass",
+    "providerId": "way/28456829",
+    "point": {
+      "lat": 55.6021068,
+      "lon": 37.6648086
+    },
+    "isAssumption": true,
+    "reason": "Модельный старт: с1 в исходнике заменено на к1 только для эксперимента. Оба провайдера находят 1 к1; фактический офис не подтверждён.",
+    "evidence": "https://www.openstreetmap.org/way/28456829",
+    "cache": "matrices/osm-routing-address-probe.json"
+  },
+  "Город Москва, ул.Дубининская, д. 59 к 2": {
+    "sourceAddress": "Город Москва, ул.Дубининская, д. 59 к 2",
+    "matchedAddress": "Дубининская улица, 59",
+    "provider": "OSM/Overpass",
+    "providerId": "way/118566367",
+    "point": {
+      "lat": 55.7191144,
+      "lon": 37.6348003
+    },
+    "isAssumption": true,
+    "reason": "Синтетическая точка: 59 к2 не найдено. Использован существующий дом 59 на той же улице; это не подтверждённый адрес заявки. Кандидат 2ГИС 57Б не принят как эквивалент.",
+    "evidence": "https://www.openstreetmap.org/way/118566367",
+    "cache": "matrices/osm-routing-address-probe.json"
+  }
+}

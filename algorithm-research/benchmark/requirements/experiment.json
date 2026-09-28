@@ -1,0 +1,85 @@
+{
+  "experimentId": "beeline-car-no-breaks-v2-strict-hd",
+  "datasetPath": "../../datasets/beeline-hd-v2/dataset.json",
+  "sourceRequirements": "ALGORITHM_RESEARCH_REQUIREMENTS.md",
+  "requirementsSelectionNote": "Файл ALGORITHM_RESEARCH_REQUIREMENTS(1).md, указанный в задании, не найден в Downloads. Использована актуальная редакция проекта от 17.09.2026; её копия сохранена рядом.",
+  "transportMode": "car",
+  "transportSource": "Уточнение владельца 17.09.2026: транспорт везде авто",
+  "shift": {
+    "start": "09:00",
+    "end": "22:00",
+    "breaks": []
+  },
+  "shiftSource": "09:00–22:00 — явно объявленный экспериментальный горизонт; отсутствие перерывов задано владельцем. Это не утверждение о фактическом графике кейсодателя.",
+  "serviceMinutesByBK": {
+    "Подключение": 70,
+    "Глобальная проблема": 80,
+    "Дозаказ": 20,
+    "Локальная заявка": 30
+  },
+  "serviceSource": "Нормативы.xlsx: технические работы + документы. Соответствие BK — раздел 4.2 требований; дорожные 20 минут исключены.",
+  "emergencyHDTypes": [
+    "Авария"
+  ],
+  "emergencyNormalization": "Только HD Авария помечается срочной. Суточное окно [00:00,24:00), точность секунды. Информация не помечается аварией автоматически.",
+  "initialReleaseTime": "09:00",
+  "releaseSource": "Экспериментальное допущение первичного расчёта: все исходные новые заявки известны в 09:00. В динамических сценариях releaseTime задаётся событием.",
+  "matrixProvider": "OSM/OSRM",
+  "matrixStatus": "FROZEN_READY_DECLARED_GEOGRAPHY",
+  "timeLimitsSeconds": [
+    1,
+    5,
+    15,
+    60,
+    300
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "policies": [
+    "PRIMARY",
+    "POLICY_FAST_RESPONSE",
+    "POLICY_MIN_STAFF"
+  ],
+  "scopes": [
+    "east",
+    "southeast",
+    "southcentral",
+    "all"
+  ],
+  "scalingJobs": [
+    500,
+    1000
+  ],
+  "exactReferenceJobs": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "returnToStart": false,
+  "matrixUnits": {
+    "time": "seconds",
+    "distance": "metres"
+  },
+  "timeWindowMeaning": "service_start_inclusive",
+  "initialPlanIsWarmStart": false,
+  "resources": {
+    "requiredQualifications": [],
+    "equipment": [],
+    "note": "Отдельные допуски и оборудование в исходном кейсе не заданы"
+  },
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "matrixFallback": "2GIS returned HTTP 429; all divisions rebuilt using OSM/OSRM",
+  "geocodingDecisions": "../matrices/geocoding-resolutions.json",
+  "geocodingAssumptionLocationCount": 8
+}

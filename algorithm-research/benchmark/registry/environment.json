@@ -1,0 +1,74 @@
+{
+  "recordedAt": "2026-09-18T06:00:48.217218+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+  "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+  "logicalCpuCount": 8,
+  "physicalCpuCount": 4,
+  "totalMemoryBytes": 16407719936,
+  "packages": {
+    "absl-py": "2.5.0",
+    "alns": "7.0.0",
+    "colorama": "0.4.6",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "fonttools": "4.65.0",
+    "immutabledict": "4.3.1",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "ortools": "9.15.6755",
+    "packaging": "26.3",
+    "pandas": "3.0.5",
+    "pillow": "12.3.0",
+    "pip": "24.0",
+    "protobuf": "6.33.6",
+    "psutil": "7.2.2",
+    "PuLP": "3.3.2",
+    "pyparsing": "3.3.2",
+    "PySCIPOpt": "6.2.1",
+    "python-dateutil": "2.9.0.post0",
+    "pyvroom": "1.15.2",
+    "pyvrp": "0.14.0",
+    "six": "1.17.0",
+    "tqdm": "4.70.1",
+    "typing_extensions": "4.16.0",
+    "tzdata": "2026.4",
+    "vrplib": "2.2.0"
+  },
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "protocol": {
+    "optimizationParallelism": "One solver run at a time; native search configured for one thread where supported",
+    "javaHeapLimit": "2 GiB",
+    "javaStartup": "New JVM per run; included in solver wall time",
+    "budget": "Native search budget, except ALNS construction included. CBC uses CPU limit. Complete wall time separately reported.",
+    "resources": "Fresh Python process and child-process RSS/CPU sampled every 50 ms in run_campaign.py",
+    "hardwareIsolation": "User desktop; no claim of dedicated hardware, fixed CPU frequency or absence of other applications"
+  },
+  "criticalFiles": {
+    "datasets/problem.json": {
+      "sha256": "8eba5ae1177f45602618815f9a42cadd08d2233e547b6c97ab4aabb7b0f2af83",
+      "bytes": 1823513
+    },
+    "datasets/configuration.snapshot.json": {
+      "sha256": "a607c92184d2a511ed033b262ad02f70f13a219b2fb92027b5f5e651ae9c024e",
+      "bytes": 2967
+    },
+    "requirements/python-lock.txt": {
+      "sha256": "8e16e92425616da5f28263d5537cb0974ae9e91c4f3b13f3f0aaffdc6303711d",
+      "bytes": 482
+    },
+    "registry/java-runtime.json": {
+      "sha256": "3db100368ce3f75f0b7bb278769545b4bce80bd91745e032986455682a651ede",
+      "bytes": 999
+    },
+    "registry/java-build.json": {
+      "sha256": "52cb32f1500d34fe08fae1835a4fd6d51f97109a10fc79aa7199d3f37fa2189f",
+      "bytes": 5857
+    },
+    "registry/cbc-runtime.json": {
+      "sha256": "906e89b76fb0c24034a05154784f98473cfdc00b15f5482ed29ab0808e06912a",
+      "bytes": 490
+    }
+  }
+}
