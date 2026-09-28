@@ -1,0 +1,55 @@
+{
+  "solver": "pyvrp",
+  "test": "T20",
+  "timestamp": "2026-09-18T05:50:33.381284+00:00",
+  "budget": 2.0,
+  "component": "COMMON_INTEGRATION",
+  "solverExecuted": false,
+  "status": "PASS",
+  "evidence": {
+    "history": [
+      {
+        "jobId": "j",
+        "before": null,
+        "after": {
+          "jobId": "j",
+          "start": 36000,
+          "finish": 38400,
+          "workerId": "w"
+        },
+        "firstAssignment": true,
+        "reason": null
+      },
+      {
+        "jobId": "j",
+        "before": {
+          "jobId": "j",
+          "start": 36000,
+          "finish": 38400,
+          "workerId": "w"
+        },
+        "after": null,
+        "firstAssignment": false,
+        "reason": {
+          "eventType": "manual",
+          "text": "Назначение изменено после события; значения до и после сохранены"
+        }
+      },
+      {
+        "jobId": "j",
+        "before": null,
+        "after": {
+          "jobId": "j",
+          "start": 36000,
+          "finish": 38400,
+          "workerId": "other"
+        },
+        "firstAssignment": false,
+        "reason": {
+          "eventType": "manual",
+          "text": "Назначение изменено после события; значения до и после сохранены"
+        }
+      }
+    ]
+  }
+}

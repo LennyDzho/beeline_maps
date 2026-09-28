@@ -1,0 +1,3669 @@
+{
+  "solver": "ortools_routing",
+  "dataset": "synthetic-strict-hd-500",
+  "policy": "PRIMARY",
+  "timeLimitSec": 15.0,
+  "seed": 1,
+  "timestamp": "2026-09-18T08:55:54.072104+00:00",
+  "datasetVersion": "22686b39cbc2c929a2cbbd6de70d1aa4ca2ba950312fed417f809774a83daf79",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "2b656220a772971dda10cd68e0ed785335c87a32ef0dd8e5782995538483da64",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 500,
+    "workersTotal": 88,
+    "locationCount": 197
+  },
+  "solverVersion": "9.15.6755",
+  "adapterVersion": "4cca666a01510ed955a46960414e8f1e05064b9980ce0d11125a3118fa760f75",
+  "validatorVersion": "0c61d8c1df227c32250aa273409ac70e1620bb479543a14b5ecac19bed86786a",
+  "metricsVersion": "e861c7dfa0aaba64959d594b8f8610d547a02a8ac890ff348cbe00246ff0f62e",
+  "status": "FEASIBLE",
+  "solution": {
+    "status": "FEASIBLE",
+    "routes": [
+      {
+        "workerId": "scale-500-east-worker-0000",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0016",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0151",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-east-job-0108",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-east-job-0118",
+            "start": 51763,
+            "finish": 55963
+          },
+          {
+            "jobId": "scale-500-east-job-0133",
+            "start": 55963,
+            "finish": 60163
+          },
+          {
+            "jobId": "scale-500-east-job-0002",
+            "start": 64800,
+            "finish": 66600
+          },
+          {
+            "jobId": "scale-500-east-job-0147",
+            "start": 66600,
+            "finish": 68400
+          },
+          {
+            "jobId": "scale-500-east-job-0017",
+            "start": 68400,
+            "finish": 70200
+          },
+          {
+            "jobId": "scale-500-east-job-0082",
+            "start": 70390,
+            "finish": 74590
+          },
+          {
+            "jobId": "scale-500-east-job-0006",
+            "start": 74767,
+            "finish": 78967
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0001",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0044",
+            "start": 57600,
+            "finish": 62400
+          },
+          {
+            "jobId": "scale-500-east-job-0013",
+            "start": 62661,
+            "finish": 67461
+          },
+          {
+            "jobId": "scale-500-east-job-0115",
+            "start": 67562,
+            "finish": 68762
+          },
+          {
+            "jobId": "scale-500-east-job-0059",
+            "start": 68762,
+            "finish": 69962
+          },
+          {
+            "jobId": "scale-500-east-job-0054",
+            "start": 69962,
+            "finish": 71162
+          },
+          {
+            "jobId": "scale-500-east-job-0015",
+            "start": 71162,
+            "finish": 72362
+          },
+          {
+            "jobId": "scale-500-east-job-0030",
+            "start": 72450,
+            "finish": 74250
+          },
+          {
+            "jobId": "scale-500-east-job-0035",
+            "start": 74250,
+            "finish": 75450
+          },
+          {
+            "jobId": "scale-500-east-job-0132",
+            "start": 75450,
+            "finish": 77250
+          },
+          {
+            "jobId": "scale-500-east-job-0105",
+            "start": 77250,
+            "finish": 79050
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0002",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0036",
+            "start": 36000,
+            "finish": 37200
+          },
+          {
+            "jobId": "scale-500-east-job-0089",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "scale-500-east-job-0117",
+            "start": 45000,
+            "finish": 46800
+          },
+          {
+            "jobId": "scale-500-east-job-0033",
+            "start": 50400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-east-job-0046",
+            "start": 51600,
+            "finish": 52800
+          },
+          {
+            "jobId": "scale-500-east-job-0119",
+            "start": 52800,
+            "finish": 54000
+          },
+          {
+            "jobId": "scale-500-east-job-0081",
+            "start": 54000,
+            "finish": 55200
+          },
+          {
+            "jobId": "scale-500-east-job-0128",
+            "start": 55710,
+            "finish": 57510
+          },
+          {
+            "jobId": "scale-500-east-job-0001",
+            "start": 57755,
+            "finish": 59555
+          },
+          {
+            "jobId": "scale-500-east-job-0161",
+            "start": 59555,
+            "finish": 61355
+          },
+          {
+            "jobId": "scale-500-east-job-0131",
+            "start": 61355,
+            "finish": 63155
+          },
+          {
+            "jobId": "scale-500-east-job-0031",
+            "start": 64800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-east-job-0146",
+            "start": 66000,
+            "finish": 67200
+          },
+          {
+            "jobId": "scale-500-east-job-0049",
+            "start": 67689,
+            "finish": 69489
+          },
+          {
+            "jobId": "scale-500-east-job-0051",
+            "start": 69489,
+            "finish": 71289
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0003",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0043",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0080",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-east-job-0139",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-east-job-0057",
+            "start": 51813,
+            "finish": 56013
+          },
+          {
+            "jobId": "scale-500-east-job-0074",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-east-job-0102",
+            "start": 61800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-east-job-0109",
+            "start": 66812,
+            "finish": 71012
+          },
+          {
+            "jobId": "scale-500-east-job-0112",
+            "start": 72000,
+            "finish": 76200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0004",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0011",
+            "start": 32529,
+            "finish": 37329
+          },
+          {
+            "jobId": "scale-500-east-job-0058",
+            "start": 37329,
+            "finish": 42129
+          },
+          {
+            "jobId": "scale-500-east-job-0045",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-east-job-0009",
+            "start": 48392,
+            "finish": 53192
+          },
+          {
+            "jobId": "scale-500-east-job-0150",
+            "start": 53192,
+            "finish": 57992
+          },
+          {
+            "jobId": "scale-500-east-job-0103",
+            "start": 57992,
+            "finish": 62792
+          },
+          {
+            "jobId": "scale-500-east-job-0078",
+            "start": 62792,
+            "finish": 67592
+          },
+          {
+            "jobId": "scale-500-east-job-0071",
+            "start": 67592,
+            "finish": 72392
+          },
+          {
+            "jobId": "scale-500-east-job-0050",
+            "start": 72392,
+            "finish": 77192
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0006",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0069",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0023",
+            "start": 40741,
+            "finish": 42541
+          },
+          {
+            "jobId": "scale-500-east-job-0137",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-east-job-0040",
+            "start": 50400,
+            "finish": 52200
+          },
+          {
+            "jobId": "scale-500-east-job-0141",
+            "start": 52200,
+            "finish": 54000
+          },
+          {
+            "jobId": "scale-500-east-job-0100",
+            "start": 54000,
+            "finish": 55800
+          },
+          {
+            "jobId": "scale-500-east-job-0099",
+            "start": 55800,
+            "finish": 57600
+          },
+          {
+            "jobId": "scale-500-east-job-0018",
+            "start": 57899,
+            "finish": 62099
+          },
+          {
+            "jobId": "scale-500-east-job-0070",
+            "start": 64800,
+            "finish": 69000
+          },
+          {
+            "jobId": "scale-500-east-job-0159",
+            "start": 69453,
+            "finish": 73653
+          },
+          {
+            "jobId": "scale-500-east-job-0048",
+            "start": 74023,
+            "finish": 78223
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0007",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0005",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-east-job-0014",
+            "start": 37800,
+            "finish": 39600
+          },
+          {
+            "jobId": "scale-500-east-job-0107",
+            "start": 39600,
+            "finish": 41400
+          },
+          {
+            "jobId": "scale-500-east-job-0106",
+            "start": 41632,
+            "finish": 45832
+          },
+          {
+            "jobId": "scale-500-east-job-0026",
+            "start": 45889,
+            "finish": 50089
+          },
+          {
+            "jobId": "scale-500-east-job-0156",
+            "start": 50832,
+            "finish": 55032
+          },
+          {
+            "jobId": "scale-500-east-job-0134",
+            "start": 55032,
+            "finish": 59232
+          },
+          {
+            "jobId": "scale-500-east-job-0083",
+            "start": 59508,
+            "finish": 63708
+          },
+          {
+            "jobId": "scale-500-east-job-0095",
+            "start": 63708,
+            "finish": 67908
+          },
+          {
+            "jobId": "scale-500-east-job-0136",
+            "start": 72000,
+            "finish": 76200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0008",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0110",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-east-job-0073",
+            "start": 37831,
+            "finish": 39031
+          },
+          {
+            "jobId": "scale-500-east-job-0064",
+            "start": 39031,
+            "finish": 40231
+          },
+          {
+            "jobId": "scale-500-east-job-0037",
+            "start": 40231,
+            "finish": 41431
+          },
+          {
+            "jobId": "scale-500-east-job-0007",
+            "start": 41431,
+            "finish": 42631
+          },
+          {
+            "jobId": "scale-500-east-job-0104",
+            "start": 43123,
+            "finish": 47323
+          },
+          {
+            "jobId": "scale-500-east-job-0153",
+            "start": 47500,
+            "finish": 51700
+          },
+          {
+            "jobId": "scale-500-east-job-0000",
+            "start": 51969,
+            "finish": 56169
+          },
+          {
+            "jobId": "scale-500-east-job-0121",
+            "start": 56169,
+            "finish": 60369
+          },
+          {
+            "jobId": "scale-500-east-job-0034",
+            "start": 64800,
+            "finish": 69000
+          },
+          {
+            "jobId": "scale-500-east-job-0065",
+            "start": 69000,
+            "finish": 73200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0009",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0025",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0066",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-east-job-0055",
+            "start": 44597,
+            "finish": 48797
+          },
+          {
+            "jobId": "scale-500-east-job-0116",
+            "start": 49481,
+            "finish": 53681
+          },
+          {
+            "jobId": "scale-500-east-job-0120",
+            "start": 54077,
+            "finish": 58277
+          },
+          {
+            "jobId": "scale-500-east-job-0063",
+            "start": 58556,
+            "finish": 62756
+          },
+          {
+            "jobId": "scale-500-east-job-0144",
+            "start": 62756,
+            "finish": 66956
+          },
+          {
+            "jobId": "scale-500-east-job-0004",
+            "start": 67226,
+            "finish": 69026
+          },
+          {
+            "jobId": "scale-500-east-job-0094",
+            "start": 69026,
+            "finish": 70826
+          },
+          {
+            "jobId": "scale-500-east-job-0022",
+            "start": 70826,
+            "finish": 72626
+          },
+          {
+            "jobId": "scale-500-east-job-0075",
+            "start": 72995,
+            "finish": 77195
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0010",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0003",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "scale-500-east-job-0092",
+            "start": 45000,
+            "finish": 46800
+          },
+          {
+            "jobId": "scale-500-east-job-0088",
+            "start": 46800,
+            "finish": 48600
+          },
+          {
+            "jobId": "scale-500-east-job-0029",
+            "start": 48600,
+            "finish": 50400
+          },
+          {
+            "jobId": "scale-500-east-job-0010",
+            "start": 50400,
+            "finish": 52200
+          },
+          {
+            "jobId": "scale-500-east-job-0098",
+            "start": 57600,
+            "finish": 62400
+          },
+          {
+            "jobId": "scale-500-east-job-0086",
+            "start": 62400,
+            "finish": 67200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0011",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0020",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0021",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-east-job-0129",
+            "start": 44514,
+            "finish": 48714
+          },
+          {
+            "jobId": "scale-500-east-job-0160",
+            "start": 48714,
+            "finish": 52914
+          },
+          {
+            "jobId": "scale-500-east-job-0091",
+            "start": 57600,
+            "finish": 62400
+          },
+          {
+            "jobId": "scale-500-east-job-0124",
+            "start": 62400,
+            "finish": 67200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0012",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0090",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0111",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-east-job-0093",
+            "start": 44742,
+            "finish": 48942
+          },
+          {
+            "jobId": "scale-500-east-job-0122",
+            "start": 48942,
+            "finish": 53142
+          },
+          {
+            "jobId": "scale-500-east-job-0148",
+            "start": 64800,
+            "finish": 69000
+          },
+          {
+            "jobId": "scale-500-east-job-0138",
+            "start": 72000,
+            "finish": 76200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0013",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0062",
+            "start": 36000,
+            "finish": 40800
+          },
+          {
+            "jobId": "scale-500-east-job-0155",
+            "start": 40800,
+            "finish": 45600
+          },
+          {
+            "jobId": "scale-500-east-job-0084",
+            "start": 57600,
+            "finish": 62400
+          },
+          {
+            "jobId": "scale-500-east-job-0087",
+            "start": 62400,
+            "finish": 67200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0015",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0041",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "scale-500-east-job-0142",
+            "start": 45000,
+            "finish": 46800
+          },
+          {
+            "jobId": "scale-500-east-job-0068",
+            "start": 46800,
+            "finish": 48600
+          },
+          {
+            "jobId": "scale-500-east-job-0028",
+            "start": 48746,
+            "finish": 52946
+          },
+          {
+            "jobId": "scale-500-east-job-0097",
+            "start": 53017,
+            "finish": 57217
+          },
+          {
+            "jobId": "scale-500-east-job-0072",
+            "start": 57217,
+            "finish": 61417
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0016",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0157",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0024",
+            "start": 40920,
+            "finish": 45120
+          },
+          {
+            "jobId": "scale-500-east-job-0042",
+            "start": 45462,
+            "finish": 49662
+          },
+          {
+            "jobId": "scale-500-east-job-0126",
+            "start": 49662,
+            "finish": 53862
+          },
+          {
+            "jobId": "scale-500-east-job-0152",
+            "start": 54382,
+            "finish": 58582
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0022",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0060",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "scale-500-east-job-0113",
+            "start": 45452,
+            "finish": 47252
+          },
+          {
+            "jobId": "scale-500-east-job-0101",
+            "start": 47252,
+            "finish": 49052
+          },
+          {
+            "jobId": "scale-500-east-job-0053",
+            "start": 50400,
+            "finish": 55200
+          },
+          {
+            "jobId": "scale-500-east-job-0019",
+            "start": 57600,
+            "finish": 62400
+          },
+          {
+            "jobId": "scale-500-east-job-0076",
+            "start": 62400,
+            "finish": 67200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0023",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0158",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0162",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-east-job-0008",
+            "start": 44506,
+            "finish": 46306
+          },
+          {
+            "jobId": "scale-500-east-job-0135",
+            "start": 46752,
+            "finish": 50952
+          },
+          {
+            "jobId": "scale-500-east-job-0077",
+            "start": 51335,
+            "finish": 55535
+          },
+          {
+            "jobId": "scale-500-east-job-0143",
+            "start": 57600,
+            "finish": 62400
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0024",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0027",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-east-job-0130",
+            "start": 37800,
+            "finish": 39600
+          },
+          {
+            "jobId": "scale-500-east-job-0052",
+            "start": 39600,
+            "finish": 41400
+          },
+          {
+            "jobId": "scale-500-east-job-0038",
+            "start": 41400,
+            "finish": 43200
+          },
+          {
+            "jobId": "scale-500-east-job-0145",
+            "start": 43428,
+            "finish": 47628
+          },
+          {
+            "jobId": "scale-500-east-job-0056",
+            "start": 47928,
+            "finish": 52128
+          },
+          {
+            "jobId": "scale-500-east-job-0123",
+            "start": 52508,
+            "finish": 54308
+          },
+          {
+            "jobId": "scale-500-east-job-0140",
+            "start": 54467,
+            "finish": 58667
+          },
+          {
+            "jobId": "scale-500-east-job-0096",
+            "start": 58996,
+            "finish": 63196
+          },
+          {
+            "jobId": "scale-500-east-job-0149",
+            "start": 63196,
+            "finish": 67396
+          },
+          {
+            "jobId": "scale-500-east-job-0125",
+            "start": 72000,
+            "finish": 76200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0025",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0039",
+            "start": 57600,
+            "finish": 62400
+          },
+          {
+            "jobId": "scale-500-east-job-0079",
+            "start": 62400,
+            "finish": 67200
+          },
+          {
+            "jobId": "scale-500-east-job-0127",
+            "start": 67776,
+            "finish": 69576
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-east-worker-0027",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0032",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0047",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-east-job-0061",
+            "start": 44514,
+            "finish": 48714
+          },
+          {
+            "jobId": "scale-500-east-job-0085",
+            "start": 64800,
+            "finish": 66600
+          },
+          {
+            "jobId": "scale-500-east-job-0154",
+            "start": 66600,
+            "finish": 68400
+          },
+          {
+            "jobId": "scale-500-east-job-0067",
+            "start": 68675,
+            "finish": 70475
+          },
+          {
+            "jobId": "scale-500-east-job-0114",
+            "start": 70475,
+            "finish": 72275
+          },
+          {
+            "jobId": "scale-500-east-job-0012",
+            "start": 72780,
+            "finish": 74580
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0000",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0135",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0080",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0088",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0012",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0046",
+            "start": 61800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0032",
+            "start": 66468,
+            "finish": 68268
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0120",
+            "start": 68268,
+            "finish": 70068
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0068",
+            "start": 70068,
+            "finish": 71868
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0025",
+            "start": 72241,
+            "finish": 73441
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0122",
+            "start": 73441,
+            "finish": 74641
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0094",
+            "start": 74641,
+            "finish": 75841
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0075",
+            "start": 75841,
+            "finish": 77041
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0001",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0114",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0039",
+            "start": 40478,
+            "finish": 44678
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0091",
+            "start": 45750,
+            "finish": 49950
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0090",
+            "start": 50138,
+            "finish": 54338
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0079",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0092",
+            "start": 61800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0023",
+            "start": 66256,
+            "finish": 68056
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0137",
+            "start": 68056,
+            "finish": 69856
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0109",
+            "start": 69856,
+            "finish": 71656
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0033",
+            "start": 71656,
+            "finish": 73456
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0073",
+            "start": 73612,
+            "finish": 77812
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0002",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0133",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0065",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0043",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0086",
+            "start": 52166,
+            "finish": 56366
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0099",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0016",
+            "start": 61800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0077",
+            "start": 66025,
+            "finish": 67825
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0117",
+            "start": 68619,
+            "finish": 70419
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0087",
+            "start": 70419,
+            "finish": 72219
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0056",
+            "start": 72570,
+            "finish": 74370
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0129",
+            "start": 74370,
+            "finish": 76170
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0083",
+            "start": 76170,
+            "finish": 77970
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0003",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0020",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0051",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0123",
+            "start": 44610,
+            "finish": 48810
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0100",
+            "start": 50267,
+            "finish": 54467
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0128",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0107",
+            "start": 61800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0119",
+            "start": 66669,
+            "finish": 70869
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0082",
+            "start": 70869,
+            "finish": 75069
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0005",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0101",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0111",
+            "start": 37800,
+            "finish": 39600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0026",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0000",
+            "start": 45938,
+            "finish": 50138
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0011",
+            "start": 50138,
+            "finish": 54338
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0098",
+            "start": 54436,
+            "finish": 56236
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0035",
+            "start": 56236,
+            "finish": 58036
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0001",
+            "start": 58708,
+            "finish": 60508
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0047",
+            "start": 60508,
+            "finish": 62308
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0037",
+            "start": 62308,
+            "finish": 64108
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0003",
+            "start": 64108,
+            "finish": 65908
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0121",
+            "start": 66207,
+            "finish": 68007
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0030",
+            "start": 68007,
+            "finish": 69807
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0027",
+            "start": 69807,
+            "finish": 71607
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0059",
+            "start": 72381,
+            "finish": 74181
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0130",
+            "start": 74181,
+            "finish": 75981
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0125",
+            "start": 75981,
+            "finish": 77781
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0011",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0124",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0105",
+            "start": 38227,
+            "finish": 42427
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0019",
+            "start": 42427,
+            "finish": 46627
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0010",
+            "start": 50400,
+            "finish": 52200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0063",
+            "start": 52200,
+            "finish": 54000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0044",
+            "start": 54000,
+            "finish": 55800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0034",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0132",
+            "start": 64800,
+            "finish": 69000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0103",
+            "start": 69461,
+            "finish": 73661
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0024",
+            "start": 74207,
+            "finish": 78407
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0012",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0067",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0095",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0050",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0055",
+            "start": 54600,
+            "finish": 58800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0106",
+            "start": 59014,
+            "finish": 63214
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0002",
+            "start": 64800,
+            "finish": 69000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0015",
+            "start": 69000,
+            "finish": 73200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0096",
+            "start": 73876,
+            "finish": 78076
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0013",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0071",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0072",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0008",
+            "start": 52209,
+            "finish": 57009
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0112",
+            "start": 57787,
+            "finish": 61987
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0040",
+            "start": 61987,
+            "finish": 66187
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0029",
+            "start": 66347,
+            "finish": 70547
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0066",
+            "start": 70547,
+            "finish": 74747
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0014",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0061",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0038",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0062",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0049",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0097",
+            "start": 61800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0076",
+            "start": 72000,
+            "finish": 76200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0016",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0048",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0053",
+            "start": 37800,
+            "finish": 39600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0028",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0093",
+            "start": 45000,
+            "finish": 46800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0060",
+            "start": 46800,
+            "finish": 48600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0052",
+            "start": 49177,
+            "finish": 50977
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0074",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0058",
+            "start": 60016,
+            "finish": 61816
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0127",
+            "start": 61816,
+            "finish": 63616
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0045",
+            "start": 64800,
+            "finish": 69000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0054",
+            "start": 69000,
+            "finish": 73200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0064",
+            "start": 73797,
+            "finish": 75597
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0115",
+            "start": 75597,
+            "finish": 77397
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0022",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0057",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0085",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0134",
+            "start": 44542,
+            "finish": 48742
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0110",
+            "start": 48742,
+            "finish": 52942
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0017",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0108",
+            "start": 59400,
+            "finish": 61200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0102",
+            "start": 61200,
+            "finish": 63000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0089",
+            "start": 63000,
+            "finish": 64800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0041",
+            "start": 64800,
+            "finish": 66600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0006",
+            "start": 66944,
+            "finish": 71144
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0022",
+            "start": 72000,
+            "finish": 76200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0023",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0126",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0004",
+            "start": 37903,
+            "finish": 42103
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0007",
+            "start": 42103,
+            "finish": 46303
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0005",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0013",
+            "start": 54600,
+            "finish": 58800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0084",
+            "start": 59011,
+            "finish": 60811
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0136",
+            "start": 60811,
+            "finish": 62611
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0116",
+            "start": 62611,
+            "finish": 64411
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0113",
+            "start": 64411,
+            "finish": 66211
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0069",
+            "start": 66959,
+            "finish": 71159
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0131",
+            "start": 71159,
+            "finish": 75359
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0024",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0036",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0081",
+            "start": 37800,
+            "finish": 39600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0118",
+            "start": 39600,
+            "finish": 41400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0070",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0104",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0014",
+            "start": 64800,
+            "finish": 69000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0021",
+            "start": 69000,
+            "finish": 73200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0078",
+            "start": 73636,
+            "finish": 77836
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0025",
+        "startLocationId": "office:southcentral",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0009",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0042",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0018",
+            "start": 44542,
+            "finish": 48742
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0031",
+            "start": 72000,
+            "finish": 76200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0000",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0192",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0038",
+            "start": 44101,
+            "finish": 45901
+          },
+          {
+            "jobId": "scale-500-southeast-job-0072",
+            "start": 45901,
+            "finish": 47701
+          },
+          {
+            "jobId": "scale-500-southeast-job-0170",
+            "start": 51574,
+            "finish": 55774
+          },
+          {
+            "jobId": "scale-500-southeast-job-0039",
+            "start": 55774,
+            "finish": 59974
+          },
+          {
+            "jobId": "scale-500-southeast-job-0003",
+            "start": 60439,
+            "finish": 62239
+          },
+          {
+            "jobId": "scale-500-southeast-job-0191",
+            "start": 62239,
+            "finish": 64039
+          },
+          {
+            "jobId": "scale-500-southeast-job-0190",
+            "start": 64800,
+            "finish": 66600
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0001",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0012",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0023",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0122",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0007",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0084",
+            "start": 59600,
+            "finish": 63800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0096",
+            "start": 63800,
+            "finish": 68000
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0002",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0186",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0009",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0006",
+            "start": 48301,
+            "finish": 50101
+          },
+          {
+            "jobId": "scale-500-southeast-job-0021",
+            "start": 50101,
+            "finish": 51901
+          },
+          {
+            "jobId": "scale-500-southeast-job-0180",
+            "start": 52026,
+            "finish": 56226
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0003",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0090",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0030",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0064",
+            "start": 44653,
+            "finish": 46453
+          },
+          {
+            "jobId": "scale-500-southeast-job-0151",
+            "start": 46453,
+            "finish": 48253
+          },
+          {
+            "jobId": "scale-500-southeast-job-0132",
+            "start": 48253,
+            "finish": 50053
+          },
+          {
+            "jobId": "scale-500-southeast-job-0083",
+            "start": 50053,
+            "finish": 51853
+          },
+          {
+            "jobId": "scale-500-southeast-job-0005",
+            "start": 52741,
+            "finish": 53941
+          },
+          {
+            "jobId": "scale-500-southeast-job-0183",
+            "start": 53941,
+            "finish": 55141
+          },
+          {
+            "jobId": "scale-500-southeast-job-0017",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0188",
+            "start": 59400,
+            "finish": 61200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0146",
+            "start": 61200,
+            "finish": 63000
+          },
+          {
+            "jobId": "scale-500-southeast-job-0112",
+            "start": 63000,
+            "finish": 64800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0081",
+            "start": 64800,
+            "finish": 66600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0161",
+            "start": 67395,
+            "finish": 69195
+          },
+          {
+            "jobId": "scale-500-southeast-job-0026",
+            "start": 69488,
+            "finish": 70688
+          },
+          {
+            "jobId": "scale-500-southeast-job-0085",
+            "start": 70688,
+            "finish": 71888
+          },
+          {
+            "jobId": "scale-500-southeast-job-0043",
+            "start": 71888,
+            "finish": 73088
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0004",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0187",
+            "start": 43200,
+            "finish": 45000
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0005",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0040",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0099",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0133",
+            "start": 44746,
+            "finish": 48946
+          },
+          {
+            "jobId": "scale-500-southeast-job-0163",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0197",
+            "start": 54600,
+            "finish": 58800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0149",
+            "start": 59446,
+            "finish": 63646
+          },
+          {
+            "jobId": "scale-500-southeast-job-0198",
+            "start": 63646,
+            "finish": 67846
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0006",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0031",
+            "start": 36596,
+            "finish": 38396
+          },
+          {
+            "jobId": "scale-500-southeast-job-0153",
+            "start": 38396,
+            "finish": 40196
+          },
+          {
+            "jobId": "scale-500-southeast-job-0098",
+            "start": 40196,
+            "finish": 41996
+          },
+          {
+            "jobId": "scale-500-southeast-job-0071",
+            "start": 41996,
+            "finish": 43796
+          },
+          {
+            "jobId": "scale-500-southeast-job-0008",
+            "start": 43989,
+            "finish": 48789
+          },
+          {
+            "jobId": "scale-500-southeast-job-0050",
+            "start": 50400,
+            "finish": 52200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0068",
+            "start": 52200,
+            "finish": 54000
+          },
+          {
+            "jobId": "scale-500-southeast-job-0065",
+            "start": 54000,
+            "finish": 55800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0051",
+            "start": 55800,
+            "finish": 57600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0121",
+            "start": 58065,
+            "finish": 62865
+          },
+          {
+            "jobId": "scale-500-southeast-job-0125",
+            "start": 62865,
+            "finish": 67665
+          },
+          {
+            "jobId": "scale-500-southeast-job-0054",
+            "start": 67698,
+            "finish": 72498
+          },
+          {
+            "jobId": "scale-500-southeast-job-0015",
+            "start": 72539,
+            "finish": 73739
+          },
+          {
+            "jobId": "scale-500-southeast-job-0182",
+            "start": 73739,
+            "finish": 74939
+          },
+          {
+            "jobId": "scale-500-southeast-job-0119",
+            "start": 74939,
+            "finish": 76139
+          },
+          {
+            "jobId": "scale-500-southeast-job-0045",
+            "start": 76139,
+            "finish": 77339
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0007",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0079",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0061",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0139",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0002",
+            "start": 51691,
+            "finish": 55891
+          },
+          {
+            "jobId": "scale-500-southeast-job-0032",
+            "start": 64800,
+            "finish": 66600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0148",
+            "start": 66600,
+            "finish": 68400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0091",
+            "start": 68400,
+            "finish": 70200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0008",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0013",
+            "start": 37529,
+            "finish": 41729
+          },
+          {
+            "jobId": "scale-500-southeast-job-0024",
+            "start": 41729,
+            "finish": 45929
+          },
+          {
+            "jobId": "scale-500-southeast-job-0144",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0120",
+            "start": 54600,
+            "finish": 58800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0156",
+            "start": 58930,
+            "finish": 63730
+          },
+          {
+            "jobId": "scale-500-southeast-job-0028",
+            "start": 63751,
+            "finish": 68551
+          },
+          {
+            "jobId": "scale-500-southeast-job-0152",
+            "start": 68551,
+            "finish": 73351
+          },
+          {
+            "jobId": "scale-500-southeast-job-0111",
+            "start": 73351,
+            "finish": 78151
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0009",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0088",
+            "start": 37529,
+            "finish": 41729
+          },
+          {
+            "jobId": "scale-500-southeast-job-0092",
+            "start": 41729,
+            "finish": 45929
+          },
+          {
+            "jobId": "scale-500-southeast-job-0018",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0105",
+            "start": 54600,
+            "finish": 58800
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0010",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0175",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0172",
+            "start": 40498,
+            "finish": 42298
+          },
+          {
+            "jobId": "scale-500-southeast-job-0179",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0075",
+            "start": 50400,
+            "finish": 52200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0155",
+            "start": 53527,
+            "finish": 55327
+          },
+          {
+            "jobId": "scale-500-southeast-job-0046",
+            "start": 55327,
+            "finish": 57127
+          },
+          {
+            "jobId": "scale-500-southeast-job-0127",
+            "start": 57362,
+            "finish": 61562
+          },
+          {
+            "jobId": "scale-500-southeast-job-0035",
+            "start": 62260,
+            "finish": 67060
+          },
+          {
+            "jobId": "scale-500-southeast-job-0062",
+            "start": 67060,
+            "finish": 71860
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0011",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0118",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0160",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0140",
+            "start": 52118,
+            "finish": 56318
+          },
+          {
+            "jobId": "scale-500-southeast-job-0102",
+            "start": 56318,
+            "finish": 60518
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0012",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0115",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0029",
+            "start": 38088,
+            "finish": 42288
+          },
+          {
+            "jobId": "scale-500-southeast-job-0162",
+            "start": 42288,
+            "finish": 46488
+          },
+          {
+            "jobId": "scale-500-southeast-job-0042",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0080",
+            "start": 54600,
+            "finish": 58800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0087",
+            "start": 59131,
+            "finish": 63331
+          },
+          {
+            "jobId": "scale-500-southeast-job-0060",
+            "start": 63331,
+            "finish": 67531
+          },
+          {
+            "jobId": "scale-500-southeast-job-0107",
+            "start": 68087,
+            "finish": 69887
+          },
+          {
+            "jobId": "scale-500-southeast-job-0056",
+            "start": 72000,
+            "finish": 73800
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0013",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0052",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0114",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0141",
+            "start": 47400,
+            "finish": 51600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0101",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0059",
+            "start": 61800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-southeast-job-0113",
+            "start": 66371,
+            "finish": 70571
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0014",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0020",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0194",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0131",
+            "start": 45111,
+            "finish": 46911
+          },
+          {
+            "jobId": "scale-500-southeast-job-0173",
+            "start": 46911,
+            "finish": 48711
+          },
+          {
+            "jobId": "scale-500-southeast-job-0058",
+            "start": 50233,
+            "finish": 52033
+          },
+          {
+            "jobId": "scale-500-southeast-job-0095",
+            "start": 52169,
+            "finish": 56369
+          },
+          {
+            "jobId": "scale-500-southeast-job-0086",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0193",
+            "start": 61800,
+            "finish": 66000
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0015",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0037",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0157",
+            "start": 37800,
+            "finish": 39600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0143",
+            "start": 39600,
+            "finish": 41400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0069",
+            "start": 41400,
+            "finish": 43200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0100",
+            "start": 43343,
+            "finish": 45143
+          },
+          {
+            "jobId": "scale-500-southeast-job-0137",
+            "start": 45431,
+            "finish": 47231
+          },
+          {
+            "jobId": "scale-500-southeast-job-0117",
+            "start": 47231,
+            "finish": 49031
+          },
+          {
+            "jobId": "scale-500-southeast-job-0110",
+            "start": 49031,
+            "finish": 50831
+          },
+          {
+            "jobId": "scale-500-southeast-job-0147",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0130",
+            "start": 60005,
+            "finish": 61805
+          },
+          {
+            "jobId": "scale-500-southeast-job-0181",
+            "start": 61805,
+            "finish": 63605
+          },
+          {
+            "jobId": "scale-500-southeast-job-0135",
+            "start": 63605,
+            "finish": 65405
+          },
+          {
+            "jobId": "scale-500-southeast-job-0169",
+            "start": 65914,
+            "finish": 67714
+          },
+          {
+            "jobId": "scale-500-southeast-job-0164",
+            "start": 67714,
+            "finish": 69514
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0017",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0116",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0196",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0001",
+            "start": 44509,
+            "finish": 48709
+          },
+          {
+            "jobId": "scale-500-southeast-job-0073",
+            "start": 48709,
+            "finish": 52909
+          },
+          {
+            "jobId": "scale-500-southeast-job-0082",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0077",
+            "start": 61800,
+            "finish": 66000
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0018",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0014",
+            "start": 32651,
+            "finish": 37451
+          },
+          {
+            "jobId": "scale-500-southeast-job-0185",
+            "start": 37451,
+            "finish": 42251
+          },
+          {
+            "jobId": "scale-500-southeast-job-0178",
+            "start": 42441,
+            "finish": 46641
+          },
+          {
+            "jobId": "scale-500-southeast-job-0076",
+            "start": 47924,
+            "finish": 52124
+          },
+          {
+            "jobId": "scale-500-southeast-job-0049",
+            "start": 55304,
+            "finish": 60104
+          },
+          {
+            "jobId": "scale-500-southeast-job-0167",
+            "start": 60104,
+            "finish": 64904
+          },
+          {
+            "jobId": "scale-500-southeast-job-0109",
+            "start": 64904,
+            "finish": 69704
+          },
+          {
+            "jobId": "scale-500-southeast-job-0093",
+            "start": 69704,
+            "finish": 74504
+          },
+          {
+            "jobId": "scale-500-southeast-job-0053",
+            "start": 74700,
+            "finish": 76500
+          },
+          {
+            "jobId": "scale-500-southeast-job-0070",
+            "start": 76500,
+            "finish": 78300
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0019",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0166",
+            "start": 36596,
+            "finish": 38396
+          },
+          {
+            "jobId": "scale-500-southeast-job-0177",
+            "start": 38396,
+            "finish": 40196
+          },
+          {
+            "jobId": "scale-500-southeast-job-0025",
+            "start": 44789,
+            "finish": 48989
+          },
+          {
+            "jobId": "scale-500-southeast-job-0078",
+            "start": 48989,
+            "finish": 53189
+          },
+          {
+            "jobId": "scale-500-southeast-job-0019",
+            "start": 64800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-southeast-job-0123",
+            "start": 66000,
+            "finish": 67200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0020",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0027",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0041",
+            "start": 44200,
+            "finish": 48400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0154",
+            "start": 48400,
+            "finish": 52600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0136",
+            "start": 52725,
+            "finish": 56925
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0022",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0010",
+            "start": 37456,
+            "finish": 41656
+          },
+          {
+            "jobId": "scale-500-southeast-job-0106",
+            "start": 41656,
+            "finish": 45856
+          },
+          {
+            "jobId": "scale-500-southeast-job-0097",
+            "start": 45968,
+            "finish": 50168
+          },
+          {
+            "jobId": "scale-500-southeast-job-0044",
+            "start": 50315,
+            "finish": 55115
+          },
+          {
+            "jobId": "scale-500-southeast-job-0103",
+            "start": 55115,
+            "finish": 59915
+          },
+          {
+            "jobId": "scale-500-southeast-job-0036",
+            "start": 59915,
+            "finish": 64715
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0023",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0129",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0104",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0145",
+            "start": 54600,
+            "finish": 58800
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0024",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0074",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0138",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0000",
+            "start": 44621,
+            "finish": 48821
+          },
+          {
+            "jobId": "scale-500-southeast-job-0067",
+            "start": 48821,
+            "finish": 53021
+          },
+          {
+            "jobId": "scale-500-southeast-job-0055",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0126",
+            "start": 61800,
+            "finish": 66000
+          },
+          {
+            "jobId": "scale-500-southeast-job-0176",
+            "start": 66304,
+            "finish": 68104
+          },
+          {
+            "jobId": "scale-500-southeast-job-0016",
+            "start": 68104,
+            "finish": 69904
+          },
+          {
+            "jobId": "scale-500-southeast-job-0063",
+            "start": 69904,
+            "finish": 71704
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0025",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0159",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0189",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0033",
+            "start": 44558,
+            "finish": 48758
+          },
+          {
+            "jobId": "scale-500-southeast-job-0034",
+            "start": 52554,
+            "finish": 56754
+          },
+          {
+            "jobId": "scale-500-southeast-job-0150",
+            "start": 56754,
+            "finish": 60954
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0026",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0057",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0142",
+            "start": 40200,
+            "finish": 44400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0134",
+            "start": 45933,
+            "finish": 50133
+          },
+          {
+            "jobId": "scale-500-southeast-job-0108",
+            "start": 50300,
+            "finish": 54500
+          },
+          {
+            "jobId": "scale-500-southeast-job-0171",
+            "start": 54678,
+            "finish": 56478
+          },
+          {
+            "jobId": "scale-500-southeast-job-0128",
+            "start": 56478,
+            "finish": 58278
+          },
+          {
+            "jobId": "scale-500-southeast-job-0047",
+            "start": 58439,
+            "finish": 62639
+          },
+          {
+            "jobId": "scale-500-southeast-job-0011",
+            "start": 72000,
+            "finish": 73800
+          },
+          {
+            "jobId": "scale-500-southeast-job-0089",
+            "start": 73800,
+            "finish": 75600
+          },
+          {
+            "jobId": "scale-500-southeast-job-0066",
+            "start": 75600,
+            "finish": 77400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0048",
+            "start": 77400,
+            "finish": 79200
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0027",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0022",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "scale-500-southeast-job-0174",
+            "start": 40883,
+            "finish": 45683
+          },
+          {
+            "jobId": "scale-500-southeast-job-0195",
+            "start": 45683,
+            "finish": 50483
+          },
+          {
+            "jobId": "scale-500-southeast-job-0168",
+            "start": 54804,
+            "finish": 59604
+          },
+          {
+            "jobId": "scale-500-southeast-job-0004",
+            "start": 59664,
+            "finish": 64464
+          },
+          {
+            "jobId": "scale-500-southeast-job-0094",
+            "start": 64464,
+            "finish": 69264
+          },
+          {
+            "jobId": "scale-500-southeast-job-0165",
+            "start": 69264,
+            "finish": 74064
+          },
+          {
+            "jobId": "scale-500-southeast-job-0158",
+            "start": 74064,
+            "finish": 78864
+          }
+        ]
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0029",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "scale-500-southeast-job-0124",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "scale-500-southeast-job-0184",
+            "start": 47779,
+            "finish": 51979
+          }
+        ]
+      }
+    ],
+    "unassigned": [],
+    "seed": 1,
+    "solverVersion": "9.15.6755",
+    "solverObjective": 3601278468,
+    "runtime": {
+      "solverWallTimeMs": 15870.28090000058
+    },
+    "rawDiagnostics": {
+      "routingStatus": 2,
+      "weights": [
+        5250733089,
+        58997001,
+        1
+      ],
+      "distanceUpperBoundMetres": 58997000,
+      "seedScope": "SAT subsolver parameter; not a promise of seeded Routing local search"
+    },
+    "unassignedExplanations": []
+  },
+  "metrics": {
+    "status": "FEASIBLE",
+    "eligibleForComparison": true,
+    "hardViolations": 0,
+    "H01Violations": 0,
+    "H02Violations": 0,
+    "H03Violations": 0,
+    "H04Violations": 0,
+    "H05Violations": 0,
+    "H06Violations": 0,
+    "H07Violations": 0,
+    "H08Violations": 0,
+    "H09Violations": 0,
+    "H10Violations": 0,
+    "H11Violations": 0,
+    "H12Violations": 0,
+    "jobsTotal": 500,
+    "served": 500,
+    "unassigned": 0,
+    "servedPercent": 100.0,
+    "workersUsed": 61,
+    "remainingDayWorkersUsed": 61,
+    "committedJobs": 0,
+    "wholeDayServed": 500,
+    "distanceScope": "initial-plan",
+    "distanceMetres": 2461407,
+    "distanceKm": 2461.407,
+    "travelMinutes": 2879.233333333333,
+    "waitingMinutes": 9092.766666666666,
+    "serviceMinutes": 27080.0,
+    "emergencyTotal": 34,
+    "emergencyServed": 34,
+    "emergencyUnassigned": 0,
+    "emergencies": [
+      {
+        "jobId": "scale-500-east-job-0009",
+        "served": true,
+        "responseDelaySeconds": 15992,
+        "completionDelaySeconds": 20792
+      },
+      {
+        "jobId": "scale-500-east-job-0011",
+        "served": true,
+        "responseDelaySeconds": 129,
+        "completionDelaySeconds": 4929
+      },
+      {
+        "jobId": "scale-500-east-job-0050",
+        "served": true,
+        "responseDelaySeconds": 39992,
+        "completionDelaySeconds": 44792
+      },
+      {
+        "jobId": "scale-500-east-job-0058",
+        "served": true,
+        "responseDelaySeconds": 4929,
+        "completionDelaySeconds": 9729
+      },
+      {
+        "jobId": "scale-500-east-job-0071",
+        "served": true,
+        "responseDelaySeconds": 35192,
+        "completionDelaySeconds": 39992
+      },
+      {
+        "jobId": "scale-500-east-job-0078",
+        "served": true,
+        "responseDelaySeconds": 30392,
+        "completionDelaySeconds": 35192
+      },
+      {
+        "jobId": "scale-500-east-job-0103",
+        "served": true,
+        "responseDelaySeconds": 25592,
+        "completionDelaySeconds": 30392
+      },
+      {
+        "jobId": "scale-500-east-job-0150",
+        "served": true,
+        "responseDelaySeconds": 20792,
+        "completionDelaySeconds": 25592
+      },
+      {
+        "jobId": "scale-500-southeast-job-0004",
+        "served": true,
+        "responseDelaySeconds": 27264,
+        "completionDelaySeconds": 32064
+      },
+      {
+        "jobId": "scale-500-southeast-job-0008",
+        "served": true,
+        "responseDelaySeconds": 11589,
+        "completionDelaySeconds": 16389
+      },
+      {
+        "jobId": "scale-500-southeast-job-0014",
+        "served": true,
+        "responseDelaySeconds": 251,
+        "completionDelaySeconds": 5051
+      },
+      {
+        "jobId": "scale-500-southeast-job-0028",
+        "served": true,
+        "responseDelaySeconds": 31351,
+        "completionDelaySeconds": 36151
+      },
+      {
+        "jobId": "scale-500-southeast-job-0035",
+        "served": true,
+        "responseDelaySeconds": 29860,
+        "completionDelaySeconds": 34660
+      },
+      {
+        "jobId": "scale-500-southeast-job-0036",
+        "served": true,
+        "responseDelaySeconds": 27515,
+        "completionDelaySeconds": 32315
+      },
+      {
+        "jobId": "scale-500-southeast-job-0044",
+        "served": true,
+        "responseDelaySeconds": 17915,
+        "completionDelaySeconds": 22715
+      },
+      {
+        "jobId": "scale-500-southeast-job-0049",
+        "served": true,
+        "responseDelaySeconds": 22904,
+        "completionDelaySeconds": 27704
+      },
+      {
+        "jobId": "scale-500-southeast-job-0054",
+        "served": true,
+        "responseDelaySeconds": 35298,
+        "completionDelaySeconds": 40098
+      },
+      {
+        "jobId": "scale-500-southeast-job-0062",
+        "served": true,
+        "responseDelaySeconds": 34660,
+        "completionDelaySeconds": 39460
+      },
+      {
+        "jobId": "scale-500-southeast-job-0093",
+        "served": true,
+        "responseDelaySeconds": 37304,
+        "completionDelaySeconds": 42104
+      },
+      {
+        "jobId": "scale-500-southeast-job-0094",
+        "served": true,
+        "responseDelaySeconds": 32064,
+        "completionDelaySeconds": 36864
+      },
+      {
+        "jobId": "scale-500-southeast-job-0103",
+        "served": true,
+        "responseDelaySeconds": 22715,
+        "completionDelaySeconds": 27515
+      },
+      {
+        "jobId": "scale-500-southeast-job-0109",
+        "served": true,
+        "responseDelaySeconds": 32504,
+        "completionDelaySeconds": 37304
+      },
+      {
+        "jobId": "scale-500-southeast-job-0111",
+        "served": true,
+        "responseDelaySeconds": 40951,
+        "completionDelaySeconds": 45751
+      },
+      {
+        "jobId": "scale-500-southeast-job-0121",
+        "served": true,
+        "responseDelaySeconds": 25665,
+        "completionDelaySeconds": 30465
+      },
+      {
+        "jobId": "scale-500-southeast-job-0125",
+        "served": true,
+        "responseDelaySeconds": 30465,
+        "completionDelaySeconds": 35265
+      },
+      {
+        "jobId": "scale-500-southeast-job-0152",
+        "served": true,
+        "responseDelaySeconds": 36151,
+        "completionDelaySeconds": 40951
+      },
+      {
+        "jobId": "scale-500-southeast-job-0156",
+        "served": true,
+        "responseDelaySeconds": 26530,
+        "completionDelaySeconds": 31330
+      },
+      {
+        "jobId": "scale-500-southeast-job-0158",
+        "served": true,
+        "responseDelaySeconds": 41664,
+        "completionDelaySeconds": 46464
+      },
+      {
+        "jobId": "scale-500-southeast-job-0165",
+        "served": true,
+        "responseDelaySeconds": 36864,
+        "completionDelaySeconds": 41664
+      },
+      {
+        "jobId": "scale-500-southeast-job-0167",
+        "served": true,
+        "responseDelaySeconds": 27704,
+        "completionDelaySeconds": 32504
+      },
+      {
+        "jobId": "scale-500-southeast-job-0168",
+        "served": true,
+        "responseDelaySeconds": 22404,
+        "completionDelaySeconds": 27204
+      },
+      {
+        "jobId": "scale-500-southeast-job-0174",
+        "served": true,
+        "responseDelaySeconds": 8483,
+        "completionDelaySeconds": 13283
+      },
+      {
+        "jobId": "scale-500-southeast-job-0185",
+        "served": true,
+        "responseDelaySeconds": 5051,
+        "completionDelaySeconds": 9851
+      },
+      {
+        "jobId": "scale-500-southeast-job-0195",
+        "served": true,
+        "responseDelaySeconds": 13283,
+        "completionDelaySeconds": 18083
+      }
+    ],
+    "meanResponseDelay": 417.3622549019608,
+    "medianResponseDelay": 456.4916666666667,
+    "maxResponseDelay": 694.4,
+    "meanCompletionDelay": 497.3622549019608,
+    "maxCompletionDelay": 774.4,
+    "reassignments": null,
+    "workerChanges": null,
+    "orderChanges": null,
+    "scheduleChanges": null,
+    "removedAssignments": null,
+    "newWorkersActivated": null,
+    "maxScheduleShiftMinutes": null,
+    "routeMetrics": [
+      {
+        "workerId": "scale-500-east-worker-0000",
+        "distanceMetres": 13101,
+        "travelSeconds": 1528,
+        "waitingSeconds": 10239,
+        "serviceSeconds": 34800
+      },
+      {
+        "workerId": "scale-500-east-worker-0001",
+        "distanceMetres": 7148,
+        "travelSeconds": 853,
+        "waitingSeconds": 24797,
+        "serviceSeconds": 21000
+      },
+      {
+        "workerId": "scale-500-east-worker-0002",
+        "distanceMetres": 28760,
+        "travelSeconds": 2848,
+        "waitingSeconds": 13241,
+        "serviceSeconds": 22800
+      },
+      {
+        "workerId": "scale-500-east-worker-0003",
+        "distanceMetres": 25006,
+        "travelSeconds": 2253,
+        "waitingSeconds": 7947,
+        "serviceSeconds": 33600
+      },
+      {
+        "workerId": "scale-500-east-worker-0004",
+        "distanceMetres": 16030,
+        "travelSeconds": 1420,
+        "waitingSeconds": 772,
+        "serviceSeconds": 42600
+      },
+      {
+        "workerId": "scale-500-east-worker-0006",
+        "distanceMetres": 40990,
+        "travelSeconds": 3904,
+        "waitingSeconds": 7719,
+        "serviceSeconds": 34200
+      },
+      {
+        "workerId": "scale-500-east-worker-0007",
+        "distanceMetres": 20630,
+        "travelSeconds": 2086,
+        "waitingSeconds": 6914,
+        "serviceSeconds": 34800
+      },
+      {
+        "workerId": "scale-500-east-worker-0008",
+        "distanceMetres": 25037,
+        "travelSeconds": 2328,
+        "waitingSeconds": 6672,
+        "serviceSeconds": 31800
+      },
+      {
+        "workerId": "scale-500-east-worker-0009",
+        "distanceMetres": 30031,
+        "travelSeconds": 2879,
+        "waitingSeconds": 2916,
+        "serviceSeconds": 39000
+      },
+      {
+        "workerId": "scale-500-east-worker-0010",
+        "distanceMetres": 7840,
+        "travelSeconds": 907,
+        "waitingSeconds": 15293,
+        "serviceSeconds": 18600
+      },
+      {
+        "workerId": "scale-500-east-worker-0011",
+        "distanceMetres": 17748,
+        "travelSeconds": 1643,
+        "waitingSeconds": 6757,
+        "serviceSeconds": 26400
+      },
+      {
+        "workerId": "scale-500-east-worker-0012",
+        "distanceMetres": 22293,
+        "travelSeconds": 1977,
+        "waitingSeconds": 16623,
+        "serviceSeconds": 25200
+      },
+      {
+        "workerId": "scale-500-east-worker-0013",
+        "distanceMetres": 4992,
+        "travelSeconds": 599,
+        "waitingSeconds": 15001,
+        "serviceSeconds": 19200
+      },
+      {
+        "workerId": "scale-500-east-worker-0015",
+        "distanceMetres": 4825,
+        "travelSeconds": 536,
+        "waitingSeconds": 10481,
+        "serviceSeconds": 18000
+      },
+      {
+        "workerId": "scale-500-east-worker-0016",
+        "distanceMetres": 20322,
+        "travelSeconds": 1963,
+        "waitingSeconds": 3219,
+        "serviceSeconds": 21000
+      },
+      {
+        "workerId": "scale-500-east-worker-0022",
+        "distanceMetres": 25510,
+        "travelSeconds": 2361,
+        "waitingSeconds": 12639,
+        "serviceSeconds": 19800
+      },
+      {
+        "workerId": "scale-500-east-worker-0023",
+        "distanceMetres": 26549,
+        "travelSeconds": 2456,
+        "waitingSeconds": 4144,
+        "serviceSeconds": 23400
+      },
+      {
+        "workerId": "scale-500-east-worker-0024",
+        "distanceMetres": 18618,
+        "travelSeconds": 1930,
+        "waitingSeconds": 7670,
+        "serviceSeconds": 34200
+      },
+      {
+        "workerId": "scale-500-east-worker-0025",
+        "distanceMetres": 9805,
+        "travelSeconds": 979,
+        "waitingSeconds": 24797,
+        "serviceSeconds": 11400
+      },
+      {
+        "workerId": "scale-500-east-worker-0027",
+        "distanceMetres": 19315,
+        "travelSeconds": 2044,
+        "waitingSeconds": 18536,
+        "serviceSeconds": 21600
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0000",
+        "distanceMetres": 21927,
+        "travelSeconds": 2285,
+        "waitingSeconds": 11156,
+        "serviceSeconds": 31200
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0001",
+        "distanceMetres": 40083,
+        "travelSeconds": 3537,
+        "waitingSeconds": 5275,
+        "serviceSeconds": 36600
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0002",
+        "distanceMetres": 31914,
+        "travelSeconds": 3092,
+        "waitingSeconds": 6478,
+        "serviceSeconds": 36000
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0003",
+        "distanceMetres": 38807,
+        "travelSeconds": 3344,
+        "waitingSeconds": 5725,
+        "serviceSeconds": 33600
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0005",
+        "distanceMetres": 41832,
+        "travelSeconds": 3928,
+        "waitingSeconds": 6053,
+        "serviceSeconds": 35400
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0011",
+        "distanceMetres": 26390,
+        "travelSeconds": 2705,
+        "waitingSeconds": 10902,
+        "serviceSeconds": 32400
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0012",
+        "distanceMetres": 35913,
+        "travelSeconds": 3387,
+        "waitingSeconds": 8689,
+        "serviceSeconds": 33600
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0013",
+        "distanceMetres": 19444,
+        "travelSeconds": 1854,
+        "waitingSeconds": 10493,
+        "serviceSeconds": 30000
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0014",
+        "distanceMetres": 16381,
+        "travelSeconds": 1728,
+        "waitingSeconds": 16872,
+        "serviceSeconds": 25200
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0016",
+        "distanceMetres": 30931,
+        "travelSeconds": 3116,
+        "waitingSeconds": 13681,
+        "serviceSeconds": 28200
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0022",
+        "distanceMetres": 22201,
+        "travelSeconds": 2203,
+        "waitingSeconds": 7397,
+        "serviceSeconds": 34200
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0023",
+        "distanceMetres": 15852,
+        "travelSeconds": 1721,
+        "waitingSeconds": 7038,
+        "serviceSeconds": 34200
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0024",
+        "distanceMetres": 9517,
+        "travelSeconds": 1081,
+        "waitingSeconds": 17955,
+        "serviceSeconds": 26400
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0025",
+        "distanceMetres": 7477,
+        "travelSeconds": 771,
+        "waitingSeconds": 26229,
+        "serviceSeconds": 16800
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0000",
+        "distanceMetres": 190913,
+        "travelSeconds": 9734,
+        "waitingSeconds": 2866,
+        "serviceSeconds": 21600
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0001",
+        "distanceMetres": 17144,
+        "travelSeconds": 1575,
+        "waitingSeconds": 11225,
+        "serviceSeconds": 22800
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0002",
+        "distanceMetres": 104206,
+        "travelSeconds": 5371,
+        "waitingSeconds": 2255,
+        "serviceSeconds": 16200
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0003",
+        "distanceMetres": 32232,
+        "travelSeconds": 3096,
+        "waitingSeconds": 5192,
+        "serviceSeconds": 32400
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0004",
+        "distanceMetres": 5260,
+        "travelSeconds": 562,
+        "waitingSeconds": 10238,
+        "serviceSeconds": 1800
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0005",
+        "distanceMetres": 20786,
+        "travelSeconds": 1987,
+        "waitingSeconds": 4059,
+        "serviceSeconds": 29400
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0006",
+        "distanceMetres": 114192,
+        "travelSeconds": 5973,
+        "waitingSeconds": 566,
+        "serviceSeconds": 38400
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0007",
+        "distanceMetres": 13542,
+        "travelSeconds": 1478,
+        "waitingSeconds": 14122,
+        "serviceSeconds": 22200
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0008",
+        "distanceMetres": 109870,
+        "travelSeconds": 5410,
+        "waitingSeconds": 4341,
+        "serviceSeconds": 36000
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0009",
+        "distanceMetres": 109202,
+        "travelSeconds": 5259,
+        "waitingSeconds": 4341,
+        "serviceSeconds": 16800
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0010",
+        "distanceMetres": 47172,
+        "travelSeconds": 3552,
+        "waitingSeconds": 6508,
+        "serviceSeconds": 29400
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0011",
+        "distanceMetres": 11757,
+        "travelSeconds": 1107,
+        "waitingSeconds": 10211,
+        "serviceSeconds": 16800
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0012",
+        "distanceMetres": 19730,
+        "travelSeconds": 2478,
+        "waitingSeconds": 8322,
+        "serviceSeconds": 30600
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0013",
+        "distanceMetres": 12829,
+        "travelSeconds": 1394,
+        "waitingSeconds": 11577,
+        "serviceSeconds": 25200
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0014",
+        "distanceMetres": 48806,
+        "travelSeconds": 3610,
+        "waitingSeconds": 3590,
+        "serviceSeconds": 26400
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0015",
+        "distanceMetres": 26155,
+        "travelSeconds": 2638,
+        "waitingSeconds": 9276,
+        "serviceSeconds": 25200
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0017",
+        "distanceMetres": 16951,
+        "travelSeconds": 1479,
+        "waitingSeconds": 6921,
+        "serviceSeconds": 25200
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0018",
+        "distanceMetres": 95259,
+        "travelSeconds": 5100,
+        "waitingSeconds": 0,
+        "serviceSeconds": 40800
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0019",
+        "distanceMetres": 190235,
+        "travelSeconds": 8789,
+        "waitingSeconds": 11611,
+        "serviceSeconds": 14400
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0020",
+        "distanceMetres": 108066,
+        "travelSeconds": 5470,
+        "waitingSeconds": 2255,
+        "serviceSeconds": 16800
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0022",
+        "distanceMetres": 109796,
+        "travelSeconds": 5315,
+        "waitingSeconds": 0,
+        "serviceSeconds": 27000
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0023",
+        "distanceMetres": 13392,
+        "travelSeconds": 1263,
+        "waitingSeconds": 12537,
+        "serviceSeconds": 12600
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0024",
+        "distanceMetres": 13082,
+        "travelSeconds": 1302,
+        "waitingSeconds": 7402,
+        "serviceSeconds": 30600
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0025",
+        "distanceMetres": 103578,
+        "travelSeconds": 5299,
+        "waitingSeconds": 2255,
+        "serviceSeconds": 21000
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0026",
+        "distanceMetres": 54128,
+        "travelSeconds": 3702,
+        "waitingSeconds": 11298,
+        "serviceSeconds": 31800
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0027",
+        "distanceMetres": 117836,
+        "travelSeconds": 6409,
+        "waitingSeconds": 2255,
+        "serviceSeconds": 37800
+      },
+      {
+        "workerId": "scale-500-southeast-worker-0029",
+        "distanceMetres": 12069,
+        "travelSeconds": 1156,
+        "waitingSeconds": 10023,
+        "serviceSeconds": 8400
+      }
+    ],
+    "validationTimeMs": 7.123600000340957
+  },
+  "resources": {
+    "processWallTimeMs": 16674.830299999485,
+    "peakMemoryMb": 77.08203125,
+    "cpuTimeSampledMs": 15656.25,
+    "sampleCount": 243,
+    "samplingIntervalMs": 50,
+    "memoryGuardMiB": 6144,
+    "terminationReason": null,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "500",
+  "experimentStage": "SYNTHETIC_SCALING",
+  "sourceDatasetVersion": "f6159e9e18b37f8c5797043ba58d636bc5f35a73eb7d274531466b83c3734f23",
+  "scenarioFile": "datasets/scaling-hd-v2/500.json"
+}

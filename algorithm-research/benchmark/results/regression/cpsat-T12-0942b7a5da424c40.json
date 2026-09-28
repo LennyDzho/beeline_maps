@@ -1,0 +1,175 @@
+{
+  "solver": "cpsat",
+  "test": "T12",
+  "timestamp": "2026-09-17T13:42:35.117459+00:00",
+  "budget": 2.0,
+  "component": "COMMON_INTEGRATION",
+  "solverExecuted": false,
+  "status": "PASS",
+  "evidence": {
+    "inputProblem": {
+      "workers": [
+        {
+          "id": "w",
+          "divisionId": "d",
+          "skills": [
+            "local"
+          ],
+          "transportMode": "car",
+          "shiftStart": 32400,
+          "shiftEnd": 64800,
+          "availableAt": 32400,
+          "startLocationId": "s",
+          "startCoordinates": {
+            "lat": 55.7,
+            "lon": 37.6
+          },
+          "qualifications": [],
+          "equipment": []
+        }
+      ],
+      "jobs": [
+        {
+          "id": "j",
+          "divisionId": "d",
+          "requiredSkill": "local",
+          "requiredTransportMode": null,
+          "locationId": "j",
+          "coordinates": {
+            "lat": 55.8,
+            "lon": 37.7
+          },
+          "windowStart": 36000,
+          "windowEnd": 43200,
+          "releaseTime": 32400,
+          "serviceDuration": 2400,
+          "isEmergency": false,
+          "requiredQualifications": [],
+          "requiredEquipment": []
+        },
+        {
+          "id": "k",
+          "divisionId": "d",
+          "requiredSkill": "local",
+          "requiredTransportMode": null,
+          "locationId": "k",
+          "coordinates": {
+            "lat": 55.8,
+            "lon": 37.7
+          },
+          "windowStart": 36000,
+          "windowEnd": 43200,
+          "releaseTime": 32400,
+          "serviceDuration": 2400,
+          "isEmergency": false,
+          "requiredQualifications": [],
+          "requiredEquipment": []
+        }
+      ],
+      "travelTimeMatrices": {
+        "car": {
+          "s": {
+            "s": 0,
+            "j": 1200,
+            "k": 1200
+          },
+          "j": {
+            "s": 1200,
+            "j": 0,
+            "k": 1200
+          },
+          "k": {
+            "s": 1200,
+            "j": 1200,
+            "k": 0
+          }
+        }
+      },
+      "distanceMatrices": {
+        "car": {
+          "s": {
+            "s": 0,
+            "j": 1200,
+            "k": 1200
+          },
+          "j": {
+            "s": 1200,
+            "j": 0,
+            "k": 1200
+          },
+          "k": {
+            "s": 1200,
+            "j": 1200,
+            "k": 0
+          }
+        }
+      },
+      "matrixVersion": "fixed-test",
+      "fixedActivities": [],
+      "protectedActivities": [],
+      "eventAt": null,
+      "previousSolution": null,
+      "id": "regression",
+      "datasetVersion": "controlled-v1"
+    },
+    "providedInvalidPlan": {
+      "status": "FEASIBLE",
+      "routes": [
+        {
+          "workerId": "w",
+          "startLocationId": "s",
+          "departure": 33600,
+          "visits": [
+            {
+              "jobId": "j",
+              "start": 36000,
+              "finish": 38400
+            },
+            {
+              "jobId": "k",
+              "start": 37200,
+              "finish": 39600
+            }
+          ]
+        }
+      ],
+      "unassigned": []
+    },
+    "validation": {
+      "totalHardViolations": 2,
+      "H01": 0,
+      "H02": 0,
+      "H03": 0,
+      "H04": 0,
+      "H05": 0,
+      "H06": 0,
+      "H07": 1,
+      "H08": 1,
+      "H09": 0,
+      "H10": 0,
+      "H11": 0,
+      "H12": 0,
+      "violations": [
+        {
+          "constraint": "H07",
+          "message": "Overlapping services",
+          "jobId": "k"
+        },
+        {
+          "constraint": "H08",
+          "message": "Insufficient travel time",
+          "jobId": "k",
+          "earliestArrival": 39600
+        }
+      ],
+      "validationTimeMs": 0.08890000026440248
+    },
+    "manualPresentationContract": {
+      "label": "Назначена вручную",
+      "severity": "error",
+      "color": "red",
+      "autoPublishAllowed": false
+    },
+    "note": "Research integration contract, not a test of MVP UI rendering"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "20260918T085346",
+  "status": "COMPLETE",
+  "createdAt": "2026-09-18T08:53:46.123115+00:00",
+  "configuration": {
+    "solvers": [
+      "cpsat",
+      "scip",
+      "cbc",
+      "choco"
+    ],
+    "budgets": [
+      60.0
+    ],
+    "seeds": [
+      1
+    ],
+    "scopes": [
+      "exact-20"
+    ]
+  },
+  "total": 4,
+  "completed": 4,
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "runs": [
+    {
+      "path": "results\\raw\\baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-choco-exact-20-60s-1-0b6e8dafed2ecf6d.json",
+      "status": "NO_SOLUTION_FOUND"
+    },
+    {
+      "path": "results\\raw\\baseline-cpsat-exact-20-60s-1-2f0b17f34cd330f5.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "status": "OPTIMAL"
+    }
+  ],
+  "executionOrderRule": "Budgets ascending as requested; methods shuffled per seed with fixed ordering seed 20260918; serial execution",
+  "updatedAt": "2026-09-18T08:55:53.233106+00:00"
+}

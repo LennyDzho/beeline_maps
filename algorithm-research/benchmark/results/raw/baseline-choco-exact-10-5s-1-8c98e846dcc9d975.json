@@ -1,0 +1,292 @@
+{
+  "solver": "choco",
+  "dataset": "beeline-car-no-breaks-v1-declared-geography:exact-10",
+  "policy": "PRIMARY",
+  "timeLimitSec": 5.0,
+  "seed": 1,
+  "timestamp": "2026-09-17T13:03:45.622498+00:00",
+  "datasetVersion": "65c2548387a84e0cbd8a11c19238b1fce7775d216741fccd7ac722a0f7cd5711",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "6a82bf9a81472f54a8ed8571f986c207a1e5f3122a55cd83d81e5daba4e2212a",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 10,
+    "workersTotal": 35,
+    "locationCount": 13
+  },
+  "solverVersion": "6.0.1",
+  "adapterVersion": "d906f4ec5e2fe58b7c0c3f56f3882474b4d5131d548c7322deb22e7709f36e07",
+  "status": "FEASIBLE",
+  "solution": {
+    "status": "FEASIBLE",
+    "routes": [
+      {
+        "visits": [
+          {
+            "start": 43200,
+            "finish": 47400,
+            "jobId": "beeline-v1-east-job-7939"
+          },
+          {
+            "start": 47643,
+            "finish": 51843,
+            "jobId": "beeline-v1-east-job-10245"
+          }
+        ],
+        "workerId": "beeline-v1-east-worker-b0b8602526cd",
+        "startLocationId": "office:east",
+        "departure": 32400
+      },
+      {
+        "visits": [
+          {
+            "start": 64800,
+            "finish": 69000,
+            "jobId": "beeline-v1-east-job-50104"
+          }
+        ],
+        "workerId": "beeline-v1-east-worker-863b5f05c8b6",
+        "startLocationId": "office:east",
+        "departure": 32400
+      },
+      {
+        "visits": [
+          {
+            "start": 43200,
+            "finish": 47400,
+            "jobId": "beeline-v1-southeast-job-23094"
+          }
+        ],
+        "workerId": "beeline-v1-southeast-worker-ecdb0666099c",
+        "startLocationId": "office:southeast",
+        "departure": 32400
+      },
+      {
+        "visits": [
+          {
+            "start": 43200,
+            "finish": 45000,
+            "jobId": "beeline-v1-southeast-job-20055"
+          }
+        ],
+        "workerId": "beeline-v1-southeast-worker-4f2fdc056df1",
+        "startLocationId": "office:southeast",
+        "departure": 32400
+      },
+      {
+        "visits": [
+          {
+            "start": 36000,
+            "finish": 37800,
+            "jobId": "beeline-v1-southeast-job-63577"
+          }
+        ],
+        "workerId": "beeline-v1-southeast-worker-382322ff83e9",
+        "startLocationId": "office:southeast",
+        "departure": 32400
+      },
+      {
+        "visits": [
+          {
+            "start": 72000,
+            "finish": 73200,
+            "jobId": "beeline-v1-southeast-job-13404"
+          }
+        ],
+        "workerId": "beeline-v1-southeast-worker-f7a1595eb91f",
+        "startLocationId": "office:southeast",
+        "departure": 32400
+      },
+      {
+        "visits": [
+          {
+            "start": 64800,
+            "finish": 69000,
+            "jobId": "beeline-v1-southeast-job-84466"
+          }
+        ],
+        "workerId": "beeline-v1-southeast-worker-40ee60159b0b",
+        "startLocationId": "office:southeast",
+        "departure": 32400
+      },
+      {
+        "visits": [
+          {
+            "start": 57600,
+            "finish": 59400,
+            "jobId": "beeline-v1-southcentral-job-90709"
+          }
+        ],
+        "workerId": "beeline-v1-southcentral-worker-d6f6d95b55a7",
+        "startLocationId": "office:southcentral",
+        "departure": 32400
+      },
+      {
+        "visits": [
+          {
+            "start": 50400,
+            "finish": 52200,
+            "jobId": "beeline-v1-southcentral-job-13203"
+          }
+        ],
+        "workerId": "beeline-v1-southcentral-worker-3de19d1c1094",
+        "startLocationId": "office:southcentral",
+        "departure": 32400
+      }
+    ],
+    "unassigned": [],
+    "solverVersion": "6.0.1",
+    "solverObjective": [
+      0,
+      9,
+      281265
+    ],
+    "rawDiagnostics": {
+      "arcVariables": 349,
+      "modelBuildTimeMs": 385.7841,
+      "lexicographicStages": [
+        {
+          "level": 0,
+          "proven": true,
+          "nodes": 4506,
+          "incumbent": 0
+        },
+        {
+          "level": 1,
+          "proven": false,
+          "nodes": 70268
+        }
+      ],
+      "seedScope": "Deterministic single-thread search; seed is repetition ID only",
+      "formulation": "Reified time precedence, positive services eliminate cycles; same budget shared by three exact lexicographic stages",
+      "jvmProtocol": "Fresh JVM per run; startup, model construction and search included in wall time"
+    },
+    "runtime": {
+      "nativeWallTimeMs": 5398.2201,
+      "solverWallTimeMs": 5933.042199998454
+    },
+    "seed": 1
+  },
+  "metrics": {
+    "status": "FEASIBLE",
+    "eligibleForComparison": true,
+    "hardViolations": 0,
+    "H01Violations": 0,
+    "H02Violations": 0,
+    "H03Violations": 0,
+    "H04Violations": 0,
+    "H05Violations": 0,
+    "H06Violations": 0,
+    "H07Violations": 0,
+    "H08Violations": 0,
+    "H09Violations": 0,
+    "H10Violations": 0,
+    "H11Violations": 0,
+    "H12Violations": 0,
+    "jobsTotal": 10,
+    "served": 10,
+    "unassigned": 0,
+    "servedPercent": 100.0,
+    "workersUsed": 9,
+    "remainingDayWorkersUsed": 9,
+    "distanceMetres": 281265,
+    "distanceKm": 281.265,
+    "travelMinutes": 258.25,
+    "waitingMinutes": 2805.8,
+    "serviceMinutes": 490.0,
+    "emergencyTotal": 0,
+    "emergencyServed": 0,
+    "emergencyUnassigned": 0,
+    "emergencies": [],
+    "meanResponseDelay": null,
+    "medianResponseDelay": null,
+    "maxResponseDelay": null,
+    "meanCompletionDelay": null,
+    "maxCompletionDelay": null,
+    "reassignments": null,
+    "workerChanges": null,
+    "orderChanges": null,
+    "scheduleChanges": null,
+    "removedAssignments": null,
+    "newWorkersActivated": null,
+    "maxScheduleShiftMinutes": null,
+    "routeMetrics": [
+      {
+        "workerId": "beeline-v1-east-worker-b0b8602526cd",
+        "distanceMetres": 5734,
+        "travelSeconds": 645,
+        "waitingSeconds": 10398,
+        "serviceSeconds": 8400
+      },
+      {
+        "workerId": "beeline-v1-east-worker-863b5f05c8b6",
+        "distanceMetres": 5825,
+        "travelSeconds": 576,
+        "waitingSeconds": 31824,
+        "serviceSeconds": 4200
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-ecdb0666099c",
+        "distanceMetres": 107716,
+        "travelSeconds": 5055,
+        "waitingSeconds": 5745,
+        "serviceSeconds": 4200
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-4f2fdc056df1",
+        "distanceMetres": 9182,
+        "travelSeconds": 822,
+        "waitingSeconds": 9978,
+        "serviceSeconds": 1800
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-382322ff83e9",
+        "distanceMetres": 23058,
+        "travelSeconds": 1393,
+        "waitingSeconds": 2207,
+        "serviceSeconds": 1800
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-f7a1595eb91f",
+        "distanceMetres": 108253,
+        "travelSeconds": 5091,
+        "waitingSeconds": 34509,
+        "serviceSeconds": 1200
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-40ee60159b0b",
+        "distanceMetres": 10156,
+        "travelSeconds": 899,
+        "waitingSeconds": 31501,
+        "serviceSeconds": 4200
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-d6f6d95b55a7",
+        "distanceMetres": 7021,
+        "travelSeconds": 632,
+        "waitingSeconds": 24568,
+        "serviceSeconds": 1800
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-3de19d1c1094",
+        "distanceMetres": 4320,
+        "travelSeconds": 382,
+        "waitingSeconds": 17618,
+        "serviceSeconds": 1800
+      }
+    ],
+    "validationTimeMs": 0.234800001635449
+  },
+  "resources": {
+    "processWallTimeMs": 6221.192000000883,
+    "peakMemoryMb": 199.44140625,
+    "cpuTimeSampledMs": 10437.5,
+    "sampleCount": 90,
+    "samplingIntervalMs": 50,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "exact-10",
+  "experimentStage": "STATIC_PRIMARY_FRESH_PROCESS",
+  "campaignId": "20260917T130308"
+}

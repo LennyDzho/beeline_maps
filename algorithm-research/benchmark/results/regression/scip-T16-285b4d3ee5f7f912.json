@@ -1,0 +1,166 @@
+{
+  "solver": "scip",
+  "test": "T16",
+  "timestamp": "2026-09-17T13:42:51.071335+00:00",
+  "budget": 2.0,
+  "component": "SOLVER_ADAPTER",
+  "solverExecuted": true,
+  "status": "NOT_IMPLEMENTED",
+  "reason": "Only the static PRIMARY adapter is currently implemented",
+  "inputProblem": {
+    "workers": [
+      {
+        "id": "w",
+        "divisionId": "d",
+        "skills": [
+          "local"
+        ],
+        "transportMode": "car",
+        "shiftStart": 32400,
+        "shiftEnd": 64800,
+        "availableAt": 38400,
+        "startLocationId": "j",
+        "startCoordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "qualifications": [],
+        "equipment": [],
+        "officeLocationId": "s",
+        "currentLocationId": "j"
+      }
+    ],
+    "jobs": [
+      {
+        "id": "k",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "k",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 0,
+        "windowEnd": 86399,
+        "releaseTime": 34200,
+        "serviceDuration": 2400,
+        "isEmergency": true,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      }
+    ],
+    "travelTimeMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 1200,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "distanceMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 1200,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "matrixVersion": "fixed-test",
+    "fixedActivities": [],
+    "protectedActivities": [],
+    "eventAt": 34200,
+    "previousSolution": {
+      "status": "FEASIBLE",
+      "routes": [
+        {
+          "workerId": "w",
+          "startLocationId": "s",
+          "departure": 33600,
+          "visits": [
+            {
+              "jobId": "j",
+              "start": 36000,
+              "finish": 38400
+            }
+          ]
+        }
+      ],
+      "unassigned": []
+    },
+    "id": "regression-T16",
+    "datasetVersion": "controlled-v1",
+    "pastActivities": [
+      {
+        "jobId": "j",
+        "start": 36000,
+        "finish": 38400,
+        "workerId": "w",
+        "stateAtEvent": "en_route",
+        "travelFromLocationId": "s",
+        "travelDeparture": 33600,
+        "arrival": 34800,
+        "locationId": "j",
+        "immutable": true
+      }
+    ],
+    "snapshotProvenance": {
+      "eventAt": 34200,
+      "initialProblemFingerprint": "be82ff7215d32ad2043f957a3871033cf79535ccb1f5ed4035f5dc3940fe2f30",
+      "previousSolutionFingerprint": "b7fd8e5f55a666495860101760834141b03660d59b4be2dee0aa6e67b6a76211",
+      "committedJobIds": [
+        "j"
+      ],
+      "travelTimingConvention": "Leave previous service immediately; any remaining waiting occurs at next destination, as in common metrics",
+      "pastActivitiesMeaning": "Immutable committed prefix: completed services and any already-started travel/service; some committed finishes are after eventAt"
+    }
+  },
+  "expected": {
+    "served": 1,
+    "startNotBefore": 39600
+  },
+  "record": {
+    "solver": "scip",
+    "dataset": "regression-T16",
+    "policy": "POLICY_FAST_RESPONSE",
+    "timeLimitSec": 2.0,
+    "seed": 1,
+    "timestamp": "2026-09-17T13:42:51.071335+00:00",
+    "datasetVersion": "controlled-v1",
+    "matrixVersion": "fixed-test",
+    "problemFingerprint": "cd647779aaa6d47afdb67d9bb7e281b9ed2eb1838d4a4215ab365b8e90e1c229",
+    "preflight": {
+      "status": "READY",
+      "issues": [],
+      "jobsTotal": 1,
+      "workersTotal": 1,
+      "locationCount": 2
+    },
+    "status": "ADAPTER_NOT_IMPLEMENTED",
+    "reason": "Only the static PRIMARY adapter is currently implemented",
+    "solution": null,
+    "metrics": null
+  }
+}

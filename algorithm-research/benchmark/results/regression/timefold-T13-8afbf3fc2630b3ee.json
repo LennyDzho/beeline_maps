@@ -1,0 +1,239 @@
+{
+  "solver": "timefold",
+  "test": "T13",
+  "timestamp": "2026-09-18T05:51:07.726710+00:00",
+  "budget": 2.0,
+  "component": "SOLVER_ADAPTER",
+  "solverExecuted": true,
+  "status": "PASS",
+  "reason": null,
+  "inputProblem": {
+    "workers": [
+      {
+        "id": "w",
+        "divisionId": "d",
+        "skills": [
+          "local"
+        ],
+        "transportMode": "car",
+        "shiftStart": 32400,
+        "shiftEnd": 64800,
+        "availableAt": 39600,
+        "startLocationId": "s",
+        "startCoordinates": {
+          "lat": 55.7,
+          "lon": 37.6
+        },
+        "qualifications": [],
+        "equipment": []
+      }
+    ],
+    "jobs": [
+      {
+        "id": "j",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 0,
+        "windowEnd": 86399,
+        "releaseTime": 39600,
+        "serviceDuration": 4800,
+        "isEmergency": true,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      }
+    ],
+    "travelTimeMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 900,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "distanceMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 1200,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "matrixVersion": "fixed-test",
+    "fixedActivities": [],
+    "protectedActivities": [],
+    "eventAt": 39600,
+    "previousSolution": {
+      "routes": []
+    },
+    "id": "regression-T13",
+    "datasetVersion": "controlled-v1"
+  },
+  "expected": {
+    "served": 1,
+    "responseMinutes": 15
+  },
+  "record": {
+    "solver": "timefold",
+    "dataset": "regression-T13",
+    "policy": "POLICY_FAST_RESPONSE",
+    "timeLimitSec": 2.0,
+    "seed": 1,
+    "timestamp": "2026-09-18T05:51:07.727819+00:00",
+    "datasetVersion": "controlled-v1",
+    "matrixVersion": "fixed-test",
+    "problemFingerprint": "ea6d881e826f64766f2b3dbb5084322955779afa2da5160e8d66cde574e1eee6",
+    "preflight": {
+      "status": "READY",
+      "issues": [],
+      "jobsTotal": 1,
+      "workersTotal": 1,
+      "locationCount": 2
+    },
+    "solverVersion": "2.6.0",
+    "adapterVersion": "8d250ed43457e16bf066f55ee1850510402ae8c4d4a6deb6157b105ce528248d",
+    "validatorVersion": "0c61d8c1df227c32250aa273409ac70e1620bb479543a14b5ecac19bed86786a",
+    "metricsVersion": "e861c7dfa0aaba64959d594b8f8610d547a02a8ac890ff348cbe00246ff0f62e",
+    "status": "FEASIBLE",
+    "solution": {
+      "status": "FEASIBLE",
+      "routes": [
+        {
+          "visits": [
+            {
+              "jobId": "j",
+              "finish": 45300,
+              "start": 40500
+            }
+          ],
+          "departure": 39600,
+          "startLocationId": "s",
+          "workerId": "w"
+        }
+      ],
+      "unassigned": [],
+      "solverVersion": "2.6.0",
+      "pastActivities": [],
+      "seed": 1,
+      "solverObjective": "[0]hard/[0/0/-900/-1/-1200]soft",
+      "runtime": {
+        "nativeWallTimeMs": 1940.4433,
+        "solverWallTimeMs": 2708.2057000000077
+      },
+      "rawDiagnostics": {
+        "nativeScore": "[0]hard/[0/0/-900/-1/-1200]soft",
+        "warmStartRequested": true,
+        "variant": "protected-policy-list-model",
+        "scoreModel": "One hard feasibility level; five exact lexicographic long levels; protected visits mandatory at exact worker/time",
+        "initialAssigned": 0,
+        "protectedCount": 0
+      },
+      "unassignedExplanations": [],
+      "changeLog": [
+        {
+          "jobId": "j",
+          "before": null,
+          "after": {
+            "jobId": "j",
+            "finish": 45300,
+            "start": 40500,
+            "workerId": "w"
+          },
+          "firstAssignment": true,
+          "reason": null
+        }
+      ]
+    },
+    "metrics": {
+      "status": "FEASIBLE",
+      "eligibleForComparison": true,
+      "hardViolations": 0,
+      "H01Violations": 0,
+      "H02Violations": 0,
+      "H03Violations": 0,
+      "H04Violations": 0,
+      "H05Violations": 0,
+      "H06Violations": 0,
+      "H07Violations": 0,
+      "H08Violations": 0,
+      "H09Violations": 0,
+      "H10Violations": 0,
+      "H11Violations": 0,
+      "H12Violations": 0,
+      "jobsTotal": 1,
+      "served": 1,
+      "unassigned": 0,
+      "servedPercent": 100.0,
+      "workersUsed": 1,
+      "remainingDayWorkersUsed": 1,
+      "committedJobs": 0,
+      "wholeDayServed": 1,
+      "distanceScope": "remaining-day",
+      "distanceMetres": 1200,
+      "distanceKm": 1.2,
+      "travelMinutes": 15.0,
+      "waitingMinutes": 0.0,
+      "serviceMinutes": 80.0,
+      "emergencyTotal": 1,
+      "emergencyServed": 1,
+      "emergencyUnassigned": 0,
+      "emergencies": [
+        {
+          "jobId": "j",
+          "served": true,
+          "responseDelaySeconds": 900,
+          "completionDelaySeconds": 5700
+        }
+      ],
+      "meanResponseDelay": 15.0,
+      "medianResponseDelay": 15.0,
+      "maxResponseDelay": 15.0,
+      "meanCompletionDelay": 95.0,
+      "maxCompletionDelay": 95.0,
+      "reassignments": 0,
+      "workerChanges": 0,
+      "orderChanges": 0,
+      "scheduleChanges": 0,
+      "removedAssignments": 0,
+      "newWorkersActivated": 1,
+      "maxScheduleShiftMinutes": 0,
+      "routeMetrics": [
+        {
+          "workerId": "w",
+          "distanceMetres": 1200,
+          "travelSeconds": 900,
+          "waitingSeconds": 0,
+          "serviceSeconds": 4800
+        }
+      ],
+      "validationTimeMs": 0.08479999996779952
+    }
+  }
+}

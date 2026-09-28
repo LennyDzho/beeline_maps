@@ -1,0 +1,1519 @@
+{
+  "solver": "pyvrp",
+  "dataset": "beeline-car-no-breaks-v1-declared-geography:all",
+  "policy": "PRIMARY",
+  "timeLimitSec": 1,
+  "seed": 6,
+  "timestamp": "2026-09-17T10:49:50.592006+00:00",
+  "datasetVersion": "65c2548387a84e0cbd8a11c19238b1fce7775d216741fccd7ac722a0f7cd5711",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "f9101e111bc2b76f11e91eeaa8059d366dff7e05026dc991fdc39a20a7970e9f",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 203,
+    "workersTotal": 35,
+    "locationCount": 206
+  },
+  "adapterVersion": "c0a2cb82c65e2ad68434044c2b7c31a563be148cfb4604024dda89158897f08c",
+  "status": "FEASIBLE",
+  "solution": {
+    "seed": 6,
+    "solverVersion": "0.14.0",
+    "runtime": {
+      "solverWallTimeMs": 1413.5934000005363
+    },
+    "rawDiagnostics": {
+      "weights": [
+        862300188,
+        23952783,
+        1
+      ],
+      "distanceUpperBoundMetres": 23952782,
+      "eligibilityEncoding": "one zero-capacity dimension per worker; all other capacities N",
+      "nativeFeasible": true
+    },
+    "status": "FEASIBLE",
+    "routes": [
+      {
+        "workerId": "beeline-v1-east-worker-1309fd3aab80",
+        "startLocationId": "office:east",
+        "departure": 38042,
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-68476",
+            "start": 38935,
+            "finish": 40735
+          },
+          {
+            "jobId": "beeline-v1-east-job-76678",
+            "start": 41369,
+            "finish": 43169
+          },
+          {
+            "jobId": "beeline-v1-east-job-69967",
+            "start": 43200,
+            "finish": 44400
+          },
+          {
+            "jobId": "beeline-v1-east-job-94409",
+            "start": 44590,
+            "finish": 48790
+          },
+          {
+            "jobId": "beeline-v1-east-job-82808",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "beeline-v1-east-job-73572",
+            "start": 55402,
+            "finish": 57202
+          },
+          {
+            "jobId": "beeline-v1-east-job-30769",
+            "start": 57361,
+            "finish": 61561
+          },
+          {
+            "jobId": "beeline-v1-east-job-50104",
+            "start": 64800,
+            "finish": 69000
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-east-worker-5d0314aeefbe",
+        "startLocationId": "office:east",
+        "departure": 33335,
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-57299",
+            "start": 33464,
+            "finish": 38264
+          },
+          {
+            "jobId": "beeline-v1-east-job-54964",
+            "start": 38540,
+            "finish": 43340
+          },
+          {
+            "jobId": "beeline-v1-east-job-41912",
+            "start": 43694,
+            "finish": 45494
+          },
+          {
+            "jobId": "beeline-v1-east-job-7939",
+            "start": 45993,
+            "finish": 50193
+          },
+          {
+            "jobId": "beeline-v1-east-job-93086",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "beeline-v1-east-job-97886",
+            "start": 57600,
+            "finish": 62400
+          },
+          {
+            "jobId": "beeline-v1-east-job-41962",
+            "start": 62568,
+            "finish": 67368
+          },
+          {
+            "jobId": "beeline-v1-east-job-92031",
+            "start": 67539,
+            "finish": 68739
+          },
+          {
+            "jobId": "beeline-v1-east-job-43506",
+            "start": 72000,
+            "finish": 73800
+          },
+          {
+            "jobId": "beeline-v1-east-job-31260",
+            "start": 73800,
+            "finish": 75000
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-east-worker-a3044f7aafd7",
+        "startLocationId": "office:east",
+        "departure": 35416,
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-52405",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "beeline-v1-east-job-33527",
+            "start": 40528,
+            "finish": 41728
+          },
+          {
+            "jobId": "beeline-v1-east-job-50219",
+            "start": 41811,
+            "finish": 43611
+          },
+          {
+            "jobId": "beeline-v1-east-job-67554",
+            "start": 43665,
+            "finish": 47865
+          },
+          {
+            "jobId": "beeline-v1-east-job-60720",
+            "start": 48425,
+            "finish": 50225
+          },
+          {
+            "jobId": "beeline-v1-east-job-53587",
+            "start": 50371,
+            "finish": 54571
+          },
+          {
+            "jobId": "beeline-v1-east-job-48238",
+            "start": 54711,
+            "finish": 56511
+          },
+          {
+            "jobId": "beeline-v1-east-job-71388",
+            "start": 56677,
+            "finish": 60877
+          },
+          {
+            "jobId": "beeline-v1-east-job-87693",
+            "start": 61045,
+            "finish": 65245
+          },
+          {
+            "jobId": "beeline-v1-east-job-48174",
+            "start": 65515,
+            "finish": 67315
+          },
+          {
+            "jobId": "beeline-v1-east-job-18754",
+            "start": 67655,
+            "finish": 71855
+          },
+          {
+            "jobId": "beeline-v1-east-job-84627",
+            "start": 72056,
+            "finish": 76256
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-east-worker-b4ba875bb028",
+        "startLocationId": "office:east",
+        "departure": 40283,
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-32807",
+            "start": 40699,
+            "finish": 42499
+          },
+          {
+            "jobId": "beeline-v1-east-job-74949",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "beeline-v1-east-job-24076",
+            "start": 47542,
+            "finish": 49342
+          },
+          {
+            "jobId": "beeline-v1-east-job-41077",
+            "start": 49401,
+            "finish": 53601
+          },
+          {
+            "jobId": "beeline-v1-east-job-30243",
+            "start": 64800,
+            "finish": 66600
+          },
+          {
+            "jobId": "beeline-v1-east-job-76643",
+            "start": 66765,
+            "finish": 68565
+          },
+          {
+            "jobId": "beeline-v1-east-job-21571",
+            "start": 68840,
+            "finish": 70640
+          },
+          {
+            "jobId": "beeline-v1-east-job-86160",
+            "start": 70870,
+            "finish": 75070
+          },
+          {
+            "jobId": "beeline-v1-east-job-47670",
+            "start": 75564,
+            "finish": 77364
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-east-worker-da27975cdd3a",
+        "startLocationId": "office:east",
+        "departure": 42819,
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-77563",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "beeline-v1-east-job-10245",
+            "start": 47635,
+            "finish": 51835
+          },
+          {
+            "jobId": "beeline-v1-east-job-57866",
+            "start": 52000,
+            "finish": 56200
+          },
+          {
+            "jobId": "beeline-v1-east-job-61540",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "beeline-v1-east-job-74198",
+            "start": 72000,
+            "finish": 76200
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-east-worker-b100672a9dac",
+        "startLocationId": "office:east",
+        "departure": 35639,
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-34366",
+            "start": 36000,
+            "finish": 40200
+          },
+          {
+            "jobId": "beeline-v1-east-job-37272",
+            "start": 40818,
+            "finish": 45018
+          },
+          {
+            "jobId": "beeline-v1-east-job-48227",
+            "start": 45124,
+            "finish": 46924
+          },
+          {
+            "jobId": "beeline-v1-east-job-4893",
+            "start": 47376,
+            "finish": 49176
+          },
+          {
+            "jobId": "beeline-v1-east-job-23380",
+            "start": 49499,
+            "finish": 53699
+          },
+          {
+            "jobId": "beeline-v1-east-job-22634",
+            "start": 53975,
+            "finish": 55175
+          },
+          {
+            "jobId": "beeline-v1-east-job-82388",
+            "start": 55380,
+            "finish": 59580
+          },
+          {
+            "jobId": "beeline-v1-east-job-35675",
+            "start": 59947,
+            "finish": 64147
+          },
+          {
+            "jobId": "beeline-v1-east-job-17892",
+            "start": 64824,
+            "finish": 66624
+          },
+          {
+            "jobId": "beeline-v1-east-job-51115",
+            "start": 67081,
+            "finish": 68881
+          },
+          {
+            "jobId": "beeline-v1-east-job-10135",
+            "start": 69071,
+            "finish": 73271
+          },
+          {
+            "jobId": "beeline-v1-east-job-46393",
+            "start": 73448,
+            "finish": 77648
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-east-worker-f88c631f49c7",
+        "startLocationId": "office:east",
+        "departure": 33328,
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-21367",
+            "start": 33792,
+            "finish": 38592
+          },
+          {
+            "jobId": "beeline-v1-east-job-98182",
+            "start": 38943,
+            "finish": 43143
+          },
+          {
+            "jobId": "beeline-v1-east-job-29890",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "beeline-v1-east-job-76082",
+            "start": 47622,
+            "finish": 51822
+          },
+          {
+            "jobId": "beeline-v1-east-job-17349",
+            "start": 52183,
+            "finish": 56983
+          },
+          {
+            "jobId": "beeline-v1-east-job-47330",
+            "start": 57438,
+            "finish": 59238
+          },
+          {
+            "jobId": "beeline-v1-east-job-26645",
+            "start": 59483,
+            "finish": 61283
+          },
+          {
+            "jobId": "beeline-v1-east-job-15648",
+            "start": 61514,
+            "finish": 66314
+          },
+          {
+            "jobId": "beeline-v1-east-job-24980",
+            "start": 66373,
+            "finish": 71173
+          },
+          {
+            "jobId": "beeline-v1-east-job-98815",
+            "start": 71546,
+            "finish": 72746
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-5ee3aec28035",
+        "startLocationId": "office:southeast",
+        "departure": 36131,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-65717",
+            "start": 36575,
+            "finish": 40775
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-14494",
+            "start": 41669,
+            "finish": 45869
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-58066",
+            "start": 45992,
+            "finish": 50192
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-78920",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-2245",
+            "start": 54801,
+            "finish": 59001
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-51603",
+            "start": 64800,
+            "finish": 66000
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-89067",
+            "start": 66287,
+            "finish": 68087
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-ecdb0666099c",
+        "startLocationId": "office:southeast",
+        "departure": 36846,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-79144",
+            "start": 37436,
+            "finish": 41636
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-93798",
+            "start": 41871,
+            "finish": 46071
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-63894",
+            "start": 46223,
+            "finish": 48023
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-20055",
+            "start": 48311,
+            "finish": 50111
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-40698",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-14416",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-64168",
+            "start": 62193,
+            "finish": 63993
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-84466",
+            "start": 64800,
+            "finish": 69000
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-36961",
+            "start": 69366,
+            "finish": 71166
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-4f2fdc056df1",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-78876",
+            "start": 37529,
+            "finish": 41729
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-78673",
+            "start": 41888,
+            "finish": 46688
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-45243",
+            "start": 46721,
+            "finish": 51521
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-98998",
+            "start": 51521,
+            "finish": 56321
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-65034",
+            "start": 56381,
+            "finish": 61181
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-51774",
+            "start": 61291,
+            "finish": 66091
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-90915",
+            "start": 66107,
+            "finish": 70907
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-32589",
+            "start": 70928,
+            "finish": 75728
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-13404",
+            "start": 75855,
+            "finish": 77055
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-618ddd1105ca",
+        "startLocationId": "office:southeast",
+        "departure": 39004,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-40111",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-3151",
+            "start": 46224,
+            "finish": 48024
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-45778",
+            "start": 50400,
+            "finish": 52200
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-382322ff83e9",
+        "startLocationId": "office:southeast",
+        "departure": 35594,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-40919",
+            "start": 36220,
+            "finish": 38020
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-58129",
+            "start": 38020,
+            "finish": 42220
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-95692",
+            "start": 42518,
+            "finish": 44318
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-3566",
+            "start": 44507,
+            "finish": 48707
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-2915",
+            "start": 48707,
+            "finish": 52907
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-32066",
+            "start": 53086,
+            "finish": 54886
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-63591",
+            "start": 55551,
+            "finish": 59751
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-76173",
+            "start": 60082,
+            "finish": 64282
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-1287",
+            "start": 64717,
+            "finish": 69517
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-33507",
+            "start": 69685,
+            "finish": 71485
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-37590",
+            "start": 72000,
+            "finish": 73800
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-0ab32353c7ca",
+        "startLocationId": "office:southeast",
+        "departure": 39231,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-44117",
+            "start": 39552,
+            "finish": 43752
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-52041",
+            "start": 44098,
+            "finish": 48298
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-19216",
+            "start": 48526,
+            "finish": 50326
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-13583",
+            "start": 51820,
+            "finish": 53620
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-35057",
+            "start": 53855,
+            "finish": 58055
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-67472",
+            "start": 58340,
+            "finish": 62540
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-90989",
+            "start": 62850,
+            "finish": 64650
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-7660",
+            "start": 64800,
+            "finish": 66600
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-2928da1a0528",
+        "startLocationId": "office:southeast",
+        "departure": 35967,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-75745",
+            "start": 37312,
+            "finish": 41512
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-63577",
+            "start": 41688,
+            "finish": 43488
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-55454",
+            "start": 43559,
+            "finish": 47759
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-46199",
+            "start": 48464,
+            "finish": 50264
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-89696",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-7258",
+            "start": 54643,
+            "finish": 59443
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-81698",
+            "start": 62879,
+            "finish": 67679
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-97168",
+            "start": 67724,
+            "finish": 72524
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-65268",
+            "start": 72735,
+            "finish": 74535
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-bca5c115aea1",
+        "startLocationId": "office:southeast",
+        "departure": 36163,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-66944",
+            "start": 37508,
+            "finish": 41708
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-88209",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-79450",
+            "start": 45189,
+            "finish": 49389
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-60141",
+            "start": 49556,
+            "finish": 53756
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-60484",
+            "start": 54351,
+            "finish": 58551
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-54422",
+            "start": 58951,
+            "finish": 60751
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-68946",
+            "start": 60951,
+            "finish": 65151
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-2427",
+            "start": 65330,
+            "finish": 66530
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-7610",
+            "start": 66739,
+            "finish": 68539
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-4724",
+            "start": 68951,
+            "finish": 70751
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-f7a1595eb91f",
+        "startLocationId": "office:southeast",
+        "departure": 36368,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-11899",
+            "start": 36912,
+            "finish": 38712
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-23807",
+            "start": 39000,
+            "finish": 43200
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-876",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-12329",
+            "start": 47969,
+            "finish": 49769
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-72476",
+            "start": 50400,
+            "finish": 51600
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-31495",
+            "start": 51756,
+            "finish": 56556
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-75282",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-68359",
+            "start": 60043,
+            "finish": 64243
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-60886",
+            "start": 64664,
+            "finish": 66464
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-33880",
+            "start": 72000,
+            "finish": 73800
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-40ee60159b0b",
+        "startLocationId": "office:southeast",
+        "departure": 33832,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-62011",
+            "start": 38888,
+            "finish": 43088
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-23094",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-57353",
+            "start": 47563,
+            "finish": 51763
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-20362",
+            "start": 51888,
+            "finish": 56088
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-53552",
+            "start": 56478,
+            "finish": 60678
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-d6f6d95b55a7",
+        "startLocationId": "office:southcentral",
+        "departure": 35609,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southcentral-job-94447",
+            "start": 36215,
+            "finish": 40415
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-16024",
+            "start": 40640,
+            "finish": 44840
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-51133",
+            "start": 45286,
+            "finish": 47086
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-26845",
+            "start": 47838,
+            "finish": 49638
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-13203",
+            "start": 50550,
+            "finish": 52350
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-18023",
+            "start": 52537,
+            "finish": 57337
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-35265",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-76944",
+            "start": 59620,
+            "finish": 63820
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-66315",
+            "start": 63994,
+            "finish": 68194
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-27023",
+            "start": 68219,
+            "finish": 70019
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-77795",
+            "start": 70172,
+            "finish": 71972
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-23637",
+            "start": 72128,
+            "finish": 76328
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-78036",
+            "start": 76574,
+            "finish": 77774
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-8548747c209e",
+        "startLocationId": "office:southcentral",
+        "departure": 36019,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southcentral-job-46513",
+            "start": 36507,
+            "finish": 38307
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-94431",
+            "start": 38410,
+            "finish": 42610
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-80308",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-87819",
+            "start": 50400,
+            "finish": 52200
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-86002",
+            "start": 52436,
+            "finish": 54236
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-93276",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-61311",
+            "start": 59830,
+            "finish": 61630
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-78540",
+            "start": 64800,
+            "finish": 69000
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-52576",
+            "start": 72000,
+            "finish": 76200
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-95501",
+            "start": 76370,
+            "finish": 78170
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-3de19d1c1094",
+        "startLocationId": "office:southcentral",
+        "departure": 42990,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southcentral-job-5406",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-19203",
+            "start": 45487,
+            "finish": 49687
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-55711",
+            "start": 49909,
+            "finish": 54109
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-75881",
+            "start": 54572,
+            "finish": 58772
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-19376",
+            "start": 58987,
+            "finish": 63187
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-92618",
+            "start": 64800,
+            "finish": 66600
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-94575",
+            "start": 66942,
+            "finish": 71142
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-26177",
+            "start": 72000,
+            "finish": 73800
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-5d306e56f556",
+        "startLocationId": "office:southcentral",
+        "departure": 37005,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southcentral-job-12263",
+            "start": 37360,
+            "finish": 39160
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-23142",
+            "start": 39532,
+            "finish": 43732
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-84074",
+            "start": 43918,
+            "finish": 45718
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-10776",
+            "start": 45901,
+            "finish": 50101
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-90373",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-90709",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-80548",
+            "start": 59868,
+            "finish": 64068
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-86864",
+            "start": 64597,
+            "finish": 66397
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-26896",
+            "start": 66567,
+            "finish": 68367
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-99841",
+            "start": 68566,
+            "finish": 70366
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-6185",
+            "start": 70585,
+            "finish": 74785
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-24132",
+            "start": 75013,
+            "finish": 76813
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-be1b2490e532",
+        "startLocationId": "office:southcentral",
+        "departure": 43035,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southcentral-job-20263",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-93544",
+            "start": 45275,
+            "finish": 49475
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-76452",
+            "start": 49771,
+            "finish": 53971
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-17896",
+            "start": 54187,
+            "finish": 55987
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-97770",
+            "start": 72000,
+            "finish": 76200
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-49105",
+            "start": 76446,
+            "finish": 77646
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-7ce6a5895297",
+        "startLocationId": "office:southcentral",
+        "departure": 37815,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southcentral-job-6957",
+            "start": 38722,
+            "finish": 42922
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-79707",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-79719",
+            "start": 47571,
+            "finish": 51771
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-85188",
+            "start": 57600,
+            "finish": 61800
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-47560",
+            "start": 62528,
+            "finish": 66728
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-66376",
+            "start": 66888,
+            "finish": 71088
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-32840",
+            "start": 71421,
+            "finish": 75621
+          }
+        ]
+      }
+    ],
+    "unassigned": [],
+    "solverObjective": 551926286
+  },
+  "metrics": {
+    "status": "FEASIBLE",
+    "eligibleForComparison": true,
+    "hardViolations": 0,
+    "H01Violations": 0,
+    "H02Violations": 0,
+    "H03Violations": 0,
+    "H04Violations": 0,
+    "H05Violations": 0,
+    "H06Violations": 0,
+    "H07Violations": 0,
+    "H08Violations": 0,
+    "H09Violations": 0,
+    "H10Violations": 0,
+    "H11Violations": 0,
+    "H12Violations": 0,
+    "jobsTotal": 203,
+    "served": 203,
+    "unassigned": 0,
+    "servedPercent": 100.0,
+    "workersUsed": 23,
+    "remainingDayWorkersUsed": 23,
+    "distanceMetres": 1012277,
+    "distanceKm": 1012.277,
+    "travelMinutes": 1354.6,
+    "waitingMinutes": 1489.3833333333334,
+    "serviceMinutes": 10820.0,
+    "emergencyTotal": 15,
+    "emergencyServed": 15,
+    "emergencyUnassigned": 0,
+    "emergencies": [
+      {
+        "jobId": "beeline-v1-east-job-21367",
+        "served": true,
+        "responseDelaySeconds": 1392,
+        "completionDelaySeconds": 6192
+      },
+      {
+        "jobId": "beeline-v1-east-job-24980",
+        "served": true,
+        "responseDelaySeconds": 33973,
+        "completionDelaySeconds": 38773
+      },
+      {
+        "jobId": "beeline-v1-east-job-57299",
+        "served": true,
+        "responseDelaySeconds": 1064,
+        "completionDelaySeconds": 5864
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-7258",
+        "served": true,
+        "responseDelaySeconds": 22243,
+        "completionDelaySeconds": 27043
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-78673",
+        "served": true,
+        "responseDelaySeconds": 9488,
+        "completionDelaySeconds": 14288
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-98998",
+        "served": true,
+        "responseDelaySeconds": 19121,
+        "completionDelaySeconds": 23921
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-32589",
+        "served": true,
+        "responseDelaySeconds": 38528,
+        "completionDelaySeconds": 43328
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-51774",
+        "served": true,
+        "responseDelaySeconds": 28891,
+        "completionDelaySeconds": 33691
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-90915",
+        "served": true,
+        "responseDelaySeconds": 33707,
+        "completionDelaySeconds": 38507
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-45243",
+        "served": true,
+        "responseDelaySeconds": 14321,
+        "completionDelaySeconds": 19121
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-81698",
+        "served": true,
+        "responseDelaySeconds": 30479,
+        "completionDelaySeconds": 35279
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-97168",
+        "served": true,
+        "responseDelaySeconds": 35324,
+        "completionDelaySeconds": 40124
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-65034",
+        "served": true,
+        "responseDelaySeconds": 23981,
+        "completionDelaySeconds": 28781
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-1287",
+        "served": true,
+        "responseDelaySeconds": 32317,
+        "completionDelaySeconds": 37117
+      },
+      {
+        "jobId": "beeline-v1-southeast-job-31495",
+        "served": true,
+        "responseDelaySeconds": 19356,
+        "completionDelaySeconds": 24156
+      }
+    ],
+    "meanResponseDelay": 382.4277777777778,
+    "medianResponseDelay": 399.68333333333334,
+    "maxResponseDelay": 642.1333333333333,
+    "meanCompletionDelay": 462.4277777777778,
+    "maxCompletionDelay": 722.1333333333333,
+    "reassignments": null,
+    "workerChanges": null,
+    "orderChanges": null,
+    "scheduleChanges": null,
+    "removedAssignments": null,
+    "newWorkersActivated": null,
+    "maxScheduleShiftMinutes": null,
+    "routeMetrics": [
+      {
+        "workerId": "beeline-v1-east-worker-1309fd3aab80",
+        "distanceMetres": 34892,
+        "travelSeconds": 3295,
+        "waitingSeconds": 4263,
+        "serviceSeconds": 23400
+      },
+      {
+        "workerId": "beeline-v1-east-worker-5d0314aeefbe",
+        "distanceMetres": 20718,
+        "travelSeconds": 2312,
+        "waitingSeconds": 5753,
+        "serviceSeconds": 33600
+      },
+      {
+        "workerId": "beeline-v1-east-worker-a3044f7aafd7",
+        "distanceMetres": 27222,
+        "travelSeconds": 3040,
+        "waitingSeconds": 0,
+        "serviceSeconds": 37800
+      },
+      {
+        "workerId": "beeline-v1-east-worker-b4ba875bb028",
+        "distanceMetres": 23160,
+        "travelSeconds": 2614,
+        "waitingSeconds": 11067,
+        "serviceSeconds": 23400
+      },
+      {
+        "workerId": "beeline-v1-east-worker-da27975cdd3a",
+        "distanceMetres": 9951,
+        "travelSeconds": 1266,
+        "waitingSeconds": 11115,
+        "serviceSeconds": 21000
+      },
+      {
+        "workerId": "beeline-v1-east-worker-b100672a9dac",
+        "distanceMetres": 42351,
+        "travelSeconds": 4209,
+        "waitingSeconds": 0,
+        "serviceSeconds": 37800
+      },
+      {
+        "workerId": "beeline-v1-east-worker-f88c631f49c7",
+        "distanceMetres": 25843,
+        "travelSeconds": 2818,
+        "waitingSeconds": 0,
+        "serviceSeconds": 36600
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-5ee3aec28035",
+        "distanceMetres": 19650,
+        "travelSeconds": 2353,
+        "waitingSeconds": 5603,
+        "serviceSeconds": 24000
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-ecdb0666099c",
+        "distanceMetres": 20820,
+        "travelSeconds": 2451,
+        "waitingSeconds": 3669,
+        "serviceSeconds": 28200
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-4f2fdc056df1",
+        "distanceMetres": 111496,
+        "travelSeconds": 5655,
+        "waitingSeconds": 0,
+        "serviceSeconds": 39000
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-618ddd1105ca",
+        "distanceMetres": 109254,
+        "travelSeconds": 5594,
+        "waitingSeconds": 2202,
+        "serviceSeconds": 5400
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-382322ff83e9",
+        "distanceMetres": 34192,
+        "travelSeconds": 3406,
+        "waitingSeconds": 0,
+        "serviceSeconds": 34800
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-0ab32353c7ca",
+        "distanceMetres": 42436,
+        "travelSeconds": 3369,
+        "waitingSeconds": 0,
+        "serviceSeconds": 24000
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-2928da1a0528",
+        "distanceMetres": 105697,
+        "travelSeconds": 6168,
+        "waitingSeconds": 0,
+        "serviceSeconds": 32400
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-bca5c115aea1",
+        "distanceMetres": 67199,
+        "travelSeconds": 5188,
+        "waitingSeconds": 0,
+        "serviceSeconds": 29400
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-f7a1595eb91f",
+        "distanceMetres": 32720,
+        "travelSeconds": 3631,
+        "waitingSeconds": 6201,
+        "serviceSeconds": 27600
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-40ee60159b0b",
+        "distanceMetres": 116727,
+        "travelSeconds": 5846,
+        "waitingSeconds": 0,
+        "serviceSeconds": 21000
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-d6f6d95b55a7",
+        "distanceMetres": 38778,
+        "travelSeconds": 4365,
+        "waitingSeconds": 0,
+        "serviceSeconds": 37800
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-8548747c209e",
+        "distanceMetres": 30531,
+        "travelSeconds": 3056,
+        "waitingSeconds": 13895,
+        "serviceSeconds": 25200
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-3de19d1c1094",
+        "distanceMetres": 27456,
+        "travelSeconds": 2821,
+        "waitingSeconds": 1589,
+        "serviceSeconds": 26400
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-5d306e56f556",
+        "distanceMetres": 28560,
+        "travelSeconds": 3342,
+        "waitingSeconds": 2866,
+        "serviceSeconds": 33600
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-be1b2490e532",
+        "distanceMetres": 12338,
+        "travelSeconds": 1498,
+        "waitingSeconds": 15713,
+        "serviceSeconds": 17400
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-7ce6a5895297",
+        "distanceMetres": 30286,
+        "travelSeconds": 2979,
+        "waitingSeconds": 5427,
+        "serviceSeconds": 29400
+      }
+    ],
+    "validationTimeMs": 2.1343999997043284
+  },
+  "scope": "all",
+  "experimentStage": "STATIC_BASELINE_NOT_FINAL_COMPARISON"
+}

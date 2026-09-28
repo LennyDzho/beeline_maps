@@ -1,0 +1,175 @@
+{
+  "solver": "choco",
+  "dataset": "beeline-car-no-breaks-v1-declared-geography:exact-5",
+  "policy": "PRIMARY",
+  "timeLimitSec": 5.0,
+  "seed": 1,
+  "timestamp": "2026-09-17T13:03:23.737829+00:00",
+  "datasetVersion": "65c2548387a84e0cbd8a11c19238b1fce7775d216741fccd7ac722a0f7cd5711",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "aef46adb932423c9240d12a0d27294d59936c819180aa8daac5cf97364cbd80d",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 5,
+    "workersTotal": 35,
+    "locationCount": 8
+  },
+  "solverVersion": "6.0.1",
+  "adapterVersion": "d906f4ec5e2fe58b7c0c3f56f3882474b4d5131d548c7322deb22e7709f36e07",
+  "status": "FEASIBLE",
+  "solution": {
+    "status": "FEASIBLE",
+    "routes": [
+      {
+        "startLocationId": "office:east",
+        "workerId": "beeline-v1-east-worker-b4ba875bb028",
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-10245",
+            "finish": 47400,
+            "start": 43200
+          },
+          {
+            "jobId": "beeline-v1-east-job-7939",
+            "finish": 51900,
+            "start": 47700
+          },
+          {
+            "jobId": "beeline-v1-east-job-50104",
+            "finish": 69000,
+            "start": 64800
+          }
+        ],
+        "departure": 32400
+      },
+      {
+        "startLocationId": "office:southeast",
+        "workerId": "beeline-v1-southeast-worker-4f2fdc056df1",
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-63577",
+            "finish": 37800,
+            "start": 36000
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-23094",
+            "finish": 47400,
+            "start": 43200
+          }
+        ],
+        "departure": 32400
+      }
+    ],
+    "unassigned": [],
+    "solverVersion": "6.0.1",
+    "solverObjective": [
+      0,
+      2,
+      119184
+    ],
+    "rawDiagnostics": {
+      "seedScope": "Deterministic single-thread search; seed is repetition ID only",
+      "lexicographicStages": [
+        {
+          "level": 0,
+          "proven": true,
+          "nodes": 163,
+          "incumbent": 0
+        },
+        {
+          "level": 1,
+          "proven": true,
+          "nodes": 371,
+          "incumbent": 2
+        },
+        {
+          "level": 2,
+          "proven": false,
+          "nodes": 49998
+        }
+      ],
+      "modelBuildTimeMs": 335.7037,
+      "arcVariables": 161,
+      "formulation": "Reified time precedence, positive services eliminate cycles; same budget shared by three exact lexicographic stages",
+      "jvmProtocol": "Fresh JVM per run; startup, model construction and search included in wall time"
+    },
+    "runtime": {
+      "nativeWallTimeMs": 5353.329,
+      "solverWallTimeMs": 5852.887400000327
+    },
+    "seed": 1
+  },
+  "metrics": {
+    "status": "FEASIBLE",
+    "eligibleForComparison": true,
+    "hardViolations": 0,
+    "H01Violations": 0,
+    "H02Violations": 0,
+    "H03Violations": 0,
+    "H04Violations": 0,
+    "H05Violations": 0,
+    "H06Violations": 0,
+    "H07Violations": 0,
+    "H08Violations": 0,
+    "H09Violations": 0,
+    "H10Violations": 0,
+    "H11Violations": 0,
+    "H12Violations": 0,
+    "jobsTotal": 5,
+    "served": 5,
+    "unassigned": 0,
+    "servedPercent": 100.0,
+    "workersUsed": 2,
+    "remainingDayWorkersUsed": 2,
+    "distanceMetres": 119184,
+    "distanceKm": 119.184,
+    "travelMinutes": 111.75,
+    "waitingMinutes": 438.25,
+    "serviceMinutes": 310.0,
+    "emergencyTotal": 0,
+    "emergencyServed": 0,
+    "emergencyUnassigned": 0,
+    "emergencies": [],
+    "meanResponseDelay": null,
+    "medianResponseDelay": null,
+    "maxResponseDelay": null,
+    "meanCompletionDelay": null,
+    "maxCompletionDelay": null,
+    "reassignments": null,
+    "workerChanges": null,
+    "orderChanges": null,
+    "scheduleChanges": null,
+    "removedAssignments": null,
+    "newWorkersActivated": null,
+    "maxScheduleShiftMinutes": null,
+    "routeMetrics": [
+      {
+        "workerId": "beeline-v1-east-worker-b4ba875bb028",
+        "distanceMetres": 11641,
+        "travelSeconds": 1250,
+        "waitingSeconds": 22750,
+        "serviceSeconds": 12600
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-4f2fdc056df1",
+        "distanceMetres": 107543,
+        "travelSeconds": 5455,
+        "waitingSeconds": 3545,
+        "serviceSeconds": 6000
+      }
+    ],
+    "validationTimeMs": 0.27769999724114314
+  },
+  "resources": {
+    "processWallTimeMs": 6160.913800002163,
+    "peakMemoryMb": 184.421875,
+    "cpuTimeSampledMs": 8796.875,
+    "sampleCount": 88,
+    "samplingIntervalMs": 50,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "exact-5",
+  "experimentStage": "STATIC_PRIMARY_FRESH_PROCESS",
+  "campaignId": "20260917T130308"
+}

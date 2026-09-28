@@ -1,0 +1,43 @@
+{
+  "solver": "choco",
+  "dataset": "synthetic-strict-hd-1000",
+  "policy": "PRIMARY",
+  "timeLimitSec": 15.0,
+  "seed": 1,
+  "timestamp": "2026-09-18T09:06:43.101306+00:00",
+  "datasetVersion": "aa246041d2cf5731051cd72aa3871b9266f6d2c0ba01a4285558aed35e15236e",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "cbc3e90cea59be4701e3a8fe073a0e3afbbafbc42c032ccb0ae57f0ed9f26dca",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 1000,
+    "workersTotal": 175,
+    "locationCount": 204
+  },
+  "solverVersion": "6.0.1",
+  "adapterVersion": "2528b8ff370cda70eb9a5b24cece6aa37fbc9ff45556ab9ba7499e260a1d0d5e",
+  "validatorVersion": "0c61d8c1df227c32250aa273409ac70e1620bb479543a14b5ecac19bed86786a",
+  "metricsVersion": "e861c7dfa0aaba64959d594b8f8610d547a02a8ac890ff348cbe00246ff0f62e",
+  "status": "RUNTIME_ERROR",
+  "solution": null,
+  "metrics": null,
+  "error": {
+    "type": "RuntimeError",
+    "message": "choco exit 1; native log: C:\\Users\\vadim\\Documents\\MMI - проект\\algorithm-research\\benchmark\\.cache\\choco\\1789722403212344300\\native.log"
+  },
+  "resources": {
+    "processWallTimeMs": 35331.58809999986,
+    "peakMemoryMb": 2283.79296875,
+    "cpuTimeSampledMs": 202468.75,
+    "sampleCount": 189,
+    "samplingIntervalMs": 50,
+    "memoryGuardMiB": 6144,
+    "terminationReason": null,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "1000",
+  "experimentStage": "SYNTHETIC_SCALING",
+  "sourceDatasetVersion": "f6159e9e18b37f8c5797043ba58d636bc5f35a73eb7d274531466b83c3734f23",
+  "scenarioFile": "datasets/scaling-hd-v2/1000.json"
+}

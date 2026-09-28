@@ -1,0 +1,204 @@
+{
+  "solver": "pyvrp",
+  "test": "T15",
+  "timestamp": "2026-09-18T05:50:33.368422+00:00",
+  "budget": 2.0,
+  "component": "SOLVER_ADAPTER",
+  "solverExecuted": true,
+  "status": "NOT_IMPLEMENTED",
+  "reason": "Only the static PRIMARY adapter is currently implemented",
+  "inputProblem": {
+    "workers": [
+      {
+        "id": "w",
+        "divisionId": "d",
+        "skills": [
+          "local"
+        ],
+        "transportMode": "car",
+        "shiftStart": 32400,
+        "shiftEnd": 64800,
+        "availableAt": 39600,
+        "startLocationId": "s",
+        "startCoordinates": {
+          "lat": 55.7,
+          "lon": 37.6
+        },
+        "qualifications": [],
+        "equipment": []
+      }
+    ],
+    "jobs": [
+      {
+        "id": "j",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 0,
+        "windowEnd": 86399,
+        "releaseTime": 39600,
+        "serviceDuration": 4800,
+        "isEmergency": true,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "normal-0",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 0,
+        "windowEnd": 86399,
+        "releaseTime": 39600,
+        "serviceDuration": 1800,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "normal-1",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 0,
+        "windowEnd": 86399,
+        "releaseTime": 39600,
+        "serviceDuration": 1800,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "normal-2",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 0,
+        "windowEnd": 86399,
+        "releaseTime": 39600,
+        "serviceDuration": 1800,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      }
+    ],
+    "travelTimeMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 0,
+          "k": 0
+        },
+        "j": {
+          "s": 0,
+          "j": 0,
+          "k": 0
+        },
+        "k": {
+          "s": 0,
+          "j": 0,
+          "k": 0
+        }
+      }
+    },
+    "distanceMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 1200,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "matrixVersion": "fixed-test",
+    "fixedActivities": [],
+    "protectedActivities": [],
+    "eventAt": 39600,
+    "previousSolution": {
+      "routes": [
+        {
+          "workerId": "w",
+          "startLocationId": "s",
+          "departure": 39600,
+          "visits": [
+            {
+              "jobId": "normal-0",
+              "start": 39600,
+              "finish": 41400
+            },
+            {
+              "jobId": "normal-1",
+              "start": 41400,
+              "finish": 43200
+            },
+            {
+              "jobId": "normal-2",
+              "start": 43200,
+              "finish": 45000
+            }
+          ]
+        }
+      ]
+    },
+    "id": "regression-T15",
+    "datasetVersion": "controlled-v1"
+  },
+  "expected": {
+    "served": 4,
+    "responseMinutes": 0,
+    "scheduleChanges": 3,
+    "changeReasons": 3
+  },
+  "record": {
+    "solver": "pyvrp",
+    "dataset": "regression-T15",
+    "policy": "POLICY_FAST_RESPONSE",
+    "timeLimitSec": 2.0,
+    "seed": 1,
+    "timestamp": "2026-09-18T05:50:33.369488+00:00",
+    "datasetVersion": "controlled-v1",
+    "matrixVersion": "fixed-test",
+    "problemFingerprint": "3ab6eb32f9d2351da110e71d09f01a2923df12bb5b12eee869d0f54ffbb6d51e",
+    "preflight": {
+      "status": "READY",
+      "issues": [],
+      "jobsTotal": 4,
+      "workersTotal": 1,
+      "locationCount": 2
+    },
+    "status": "ADAPTER_NOT_IMPLEMENTED",
+    "reason": "Only the static PRIMARY adapter is currently implemented",
+    "solution": null,
+    "metrics": null
+  }
+}

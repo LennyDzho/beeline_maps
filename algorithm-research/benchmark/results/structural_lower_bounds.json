@@ -1,0 +1,55 @@
+{
+  "problemFingerprint": "cdd9fa715c2d332c485b3d9006c0ad5a20531203ede76f229daed5bc89aebac6",
+  "datasetVersion": "f6159e9e18b37f8c5797043ba58d636bc5f35a73eb7d274531466b83c3734f23",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "divisions": [
+    {
+      "divisionId": "east",
+      "jobs": 66,
+      "workersAvailable": 12,
+      "serviceHours": 59.333333333333336,
+      "qualificationCoverageLowerBound": 6,
+      "qualificationAndServiceLowerBound": 6,
+      "enumeratedSubsets": 4095,
+      "forcedWorkers": [
+        "beeline-v1-east-worker-863b5f05c8b6",
+        "beeline-v1-east-worker-a3044f7aafd7",
+        "beeline-v1-east-worker-db08e201e859"
+      ]
+    },
+    {
+      "divisionId": "southcentral",
+      "jobs": 56,
+      "workersAvailable": 11,
+      "serviceHours": 47.166666666666664,
+      "qualificationCoverageLowerBound": 5,
+      "qualificationAndServiceLowerBound": 5,
+      "enumeratedSubsets": 2047,
+      "forcedWorkers": [
+        "beeline-v1-southcentral-worker-1fa581dc6d48",
+        "beeline-v1-southcentral-worker-8548747c209e",
+        "beeline-v1-southcentral-worker-8d2a05c4ddd9",
+        "beeline-v1-southcentral-worker-d6f6d95b55a7"
+      ]
+    },
+    {
+      "divisionId": "southeast",
+      "jobs": 81,
+      "workersAvailable": 12,
+      "serviceHours": 73.83333333333333,
+      "qualificationCoverageLowerBound": 5,
+      "qualificationAndServiceLowerBound": 7,
+      "enumeratedSubsets": 4095,
+      "forcedWorkers": [
+        "beeline-v1-southeast-worker-0ab32353c7ca",
+        "beeline-v1-southeast-worker-382322ff83e9",
+        "beeline-v1-southeast-worker-4f2fdc056df1",
+        "beeline-v1-southeast-worker-618ddd1105ca"
+      ]
+    }
+  ],
+  "staffLowerBoundForFullCoverage": 18,
+  "proof": "Every full-coverage plan must choose a subset covering every job's exact eligibility and sufficient total service capacity. Enumerating all crew subsets proves the minimum cardinality satisfying these necessary conditions. Divisions cannot share crews, so bounds add.",
+  "limitations": "Travel, waiting and joint time-window scheduling are relaxed; this is a staff lower bound, not a feasible plan or proof of route optimality.",
+  "checkedAt": "2026-09-18T10:26:06.362122+00:00"
+}

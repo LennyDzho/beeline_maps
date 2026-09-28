@@ -1,0 +1,174 @@
+{
+  "solver": "pyvrp",
+  "test": "T01",
+  "timestamp": "2026-09-17T13:42:12.172549+00:00",
+  "budget": 2.0,
+  "component": "COMMON_INTEGRATION",
+  "solverExecuted": false,
+  "status": "PASS",
+  "evidence": {
+    "inputProblem": {
+      "workers": [
+        {
+          "id": "w",
+          "divisionId": "d",
+          "skills": [
+            "local"
+          ],
+          "transportMode": "car",
+          "shiftStart": 32400,
+          "shiftEnd": 64800,
+          "availableAt": 32400,
+          "startLocationId": "s",
+          "startCoordinates": {
+            "lat": 55.7,
+            "lon": 37.6
+          },
+          "qualifications": [],
+          "equipment": []
+        }
+      ],
+      "jobs": [
+        {
+          "id": "j",
+          "divisionId": "d",
+          "requiredSkill": "local",
+          "requiredTransportMode": null,
+          "locationId": "j",
+          "coordinates": {
+            "lat": 55.8,
+            "lon": 37.7
+          },
+          "windowStart": 36000,
+          "windowEnd": 43200,
+          "releaseTime": 32400,
+          "serviceDuration": 2400,
+          "isEmergency": false,
+          "requiredQualifications": [],
+          "requiredEquipment": []
+        }
+      ],
+      "travelTimeMatrices": {
+        "car": {
+          "s": {
+            "s": 0,
+            "j": 1200,
+            "k": 1200
+          },
+          "j": {
+            "s": 1200,
+            "j": 0,
+            "k": 1200
+          },
+          "k": {
+            "s": 1200,
+            "j": 1200,
+            "k": 0
+          }
+        }
+      },
+      "distanceMatrices": {
+        "car": {
+          "s": {
+            "s": 0,
+            "j": 1200,
+            "k": 1200
+          },
+          "j": {
+            "s": 1200,
+            "j": 0,
+            "k": 1200
+          },
+          "k": {
+            "s": 1200,
+            "j": 1200,
+            "k": 0
+          }
+        }
+      },
+      "matrixVersion": "fixed-test",
+      "fixedActivities": [],
+      "protectedActivities": [],
+      "eventAt": null,
+      "previousSolution": null,
+      "id": "regression",
+      "datasetVersion": "controlled-v1"
+    },
+    "providedPlan": {
+      "status": "FEASIBLE",
+      "routes": [
+        {
+          "workerId": "w",
+          "startLocationId": "s",
+          "departure": 33600,
+          "visits": [
+            {
+              "jobId": "j",
+              "start": 36000,
+              "finish": 38400
+            }
+          ]
+        }
+      ],
+      "unassigned": []
+    },
+    "metrics": {
+      "status": "FEASIBLE",
+      "eligibleForComparison": true,
+      "hardViolations": 0,
+      "H01Violations": 0,
+      "H02Violations": 0,
+      "H03Violations": 0,
+      "H04Violations": 0,
+      "H05Violations": 0,
+      "H06Violations": 0,
+      "H07Violations": 0,
+      "H08Violations": 0,
+      "H09Violations": 0,
+      "H10Violations": 0,
+      "H11Violations": 0,
+      "H12Violations": 0,
+      "jobsTotal": 1,
+      "served": 1,
+      "unassigned": 0,
+      "servedPercent": 100.0,
+      "workersUsed": 1,
+      "remainingDayWorkersUsed": 1,
+      "committedJobs": 0,
+      "wholeDayServed": 1,
+      "distanceScope": "initial-plan",
+      "distanceMetres": 1200,
+      "distanceKm": 1.2,
+      "travelMinutes": 20.0,
+      "waitingMinutes": 20.0,
+      "serviceMinutes": 40.0,
+      "emergencyTotal": 0,
+      "emergencyServed": 0,
+      "emergencyUnassigned": 0,
+      "emergencies": [],
+      "meanResponseDelay": null,
+      "medianResponseDelay": null,
+      "maxResponseDelay": null,
+      "meanCompletionDelay": null,
+      "maxCompletionDelay": null,
+      "reassignments": null,
+      "workerChanges": null,
+      "orderChanges": null,
+      "scheduleChanges": null,
+      "removedAssignments": null,
+      "newWorkersActivated": null,
+      "maxScheduleShiftMinutes": null,
+      "routeMetrics": [
+        {
+          "workerId": "w",
+          "distanceMetres": 1200,
+          "travelSeconds": 1200,
+          "waitingSeconds": 1200,
+          "serviceSeconds": 2400
+        }
+      ],
+      "validationTimeMs": 0.05330000203684904
+    },
+    "note": "Known arrival 09:40 is checked by the shared metrics; solvers may otherwise choose a later departure"
+  }
+}

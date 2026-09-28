@@ -1,0 +1,115 @@
+{
+  "id": "20260917T125851",
+  "status": "COMPLETE",
+  "createdAt": "2026-09-17T12:58:51.835334+00:00",
+  "configuration": {
+    "solvers": [
+      "ortools_routing",
+      "pyvrp",
+      "vroom",
+      "jsprit",
+      "timefold",
+      "alns",
+      "cpsat",
+      "scip",
+      "cbc",
+      "choco"
+    ],
+    "budgets": [
+      1.0,
+      5.0
+    ],
+    "seeds": [
+      1
+    ],
+    "scopes": [
+      "all"
+    ]
+  },
+  "total": 20,
+  "completed": 20,
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "runs": [
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-1-a0b930d7332d1061.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-1-22b981541cc09729.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-1-80bc3607a6043c4e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-1-be0782c976a1e6dd.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-1-801ca483bcda0621.json",
+      "status": "RUNTIME_ERROR"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-1-b9ebda39c9117a20.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cpsat-all-1s-1-3094715606c8da48.json",
+      "status": "NO_SOLUTION_FOUND"
+    },
+    {
+      "path": "results\\raw\\baseline-scip-all-1s-1-e265910f7eb3294f.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cbc-all-1s-1-8bfd04ccea6b58d0.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-choco-all-1s-1-8f1e0252405f00dd.json",
+      "status": "NO_SOLUTION_FOUND"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-1-537ecd286930a6a0.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-1-c4bcfee306301534.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-1-64dccbed643ecf02.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-1-131b7dfb9afee036.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-1-8683878af2c8786e.json",
+      "status": "RUNTIME_ERROR"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-1-362a2d5f936abea1.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cpsat-all-5s-1-1a4becc03c01c53d.json",
+      "status": "NO_SOLUTION_FOUND"
+    },
+    {
+      "path": "results\\raw\\baseline-scip-all-5s-1-3b4f26a2bb39e108.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cbc-all-5s-1-9b483f8a497215a5.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-choco-all-5s-1-684058a99e0f4090.json",
+      "status": "NO_SOLUTION_FOUND"
+    }
+  ],
+  "updatedAt": "2026-09-17T13:01:39.522149+00:00"
+}

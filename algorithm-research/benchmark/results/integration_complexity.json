@@ -1,0 +1,365 @@
+[
+  {
+    "solver": "ortools_routing",
+    "adapterLOC": 487,
+    "LOCByFile": {
+      "adapters\\ortools_routing.py": 105,
+      "adapters\\ortools_routing_extended.py": 146,
+      "adapters\\linear_reference.py": 236
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 10,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job",
+      "fixed worker and exact visit times",
+      "unchanged committed history",
+      "current location and next availability"
+    ],
+    "customOperatorsCount": 0,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 3,
+    "workarounds": [
+      "VehicleVar domain instead of unsupported Windows SWIG Span argument",
+      "Open dummy sink",
+      "Proven integer dominance weights"
+    ],
+    "nativeFeatureCount": 9,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 2,
+    "externalDependencies": "Python virtual environment and native wheels",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "Маршрутный CP-поиск: параллельная вставка и Guided Local Search. Отдельный расширенный адаптер задаёт задержки аварий через временные переменные и использует штатный warm start. Использованный параметр seed не подтверждает прямого управления случайностью локального поиска Routing."
+  },
+  {
+    "solver": "vroom",
+    "adapterLOC": 306,
+    "LOCByFile": {
+      "adapters\\vroom.py": 70,
+      "adapters\\linear_reference.py": 236
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 7,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job"
+    ],
+    "customOperatorsCount": 0,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 3,
+    "workarounds": [
+      "Windows uint32 I buffer cast",
+      "One job skill encodes complete conjunctive eligibility",
+      "Fixed activation cost bounded over whole distance; 32-bit API guards"
+    ],
+    "nativeFeatureCount": 12,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 6,
+    "externalDependencies": "Python virtual environment and native wheels",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "Локальная официальная обёртка pyvroom. Используются матрица стоимости, приоритеты и стоимость открытия маршрута. Сумма моментов начала выбранных аварий не является документированным входным критерием. Эквивалентные аварийные политики и защита действий не реализованы; service_at в режиме проверки готового плана не приравнивается к защите визита во время поиска."
+  },
+  {
+    "solver": "jsprit",
+    "adapterLOC": 205,
+    "LOCByFile": {
+      "adapters\\jsprit.py": 3,
+      "adapters\\java_bridge.py": 30,
+      "adapters\\java\\src\\main\\java\\research\\Bridge.java": 75,
+      "adapters\\java\\src\\main\\java\\research\\JspritAdapter.java": 97
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 7,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job"
+    ],
+    "customOperatorsCount": 0,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 4,
+    "workarounds": [
+      "Full-route hard insertion feasibility",
+      "Constant empty-route activation cost replaces progressive default",
+      "Exact objective includes bounded omission penalty",
+      "Null-vehicle callback uses shared car profile"
+    ],
+    "nativeFeatureCount": 11,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 5,
+    "externalDependencies": "Portable Java 21 + Maven jars",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "Поиск с разрушением и восстановлением маршрутов, собственным критерием и проверками вставки. Для защиты действий и реакции аварий потребуется отдельная логика вставки с учётом времени и ограничения удаления визитов. Проверена только статическая политика PRIMARY."
+  },
+  {
+    "solver": "pyvrp",
+    "adapterLOC": 81,
+    "LOCByFile": {
+      "adapters\\pyvrp.py": 81
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 7,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job"
+    ],
+    "customOperatorsCount": 0,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 5,
+    "workarounds": [
+      "Zero-capacity eligibility dimension per worker",
+      "Rescaled artificial loads for default penalty range",
+      "Open dummy depot",
+      "Unreachable arc sentinels exceed feasible bounds",
+      "Dominating prizes and activation costs"
+    ],
+    "nativeFeatureCount": 11,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 5,
+    "externalDependencies": "Python virtual environment and native wheels",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "В версии 0.14 используется Iterated Local Search. Совместимость выражена через математические ограничения загрузки; они не добавляют реального ограничения грузоподъёмности. CostEvaluator имеет фиксированную структуру в скомпилированном ядре: для точной аварийной цели потребуется отдельно проверенное моделирование или расширение ядра. Динамический адаптер не реализован."
+  },
+  {
+    "solver": "timefold",
+    "adapterLOC": 355,
+    "LOCByFile": {
+      "adapters\\timefold.py": 3,
+      "adapters\\timefold_extended.py": 29,
+      "adapters\\java_bridge.py": 30,
+      "adapters\\java\\src\\main\\java\\research\\Bridge.java": 75,
+      "adapters\\java\\src\\main\\java\\research\\TimefoldAdapter.java": 77,
+      "adapters\\java\\src\\main\\java\\research\\ExtendedBridge.java": 141
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 10,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job",
+      "fixed worker and exact visit times",
+      "unchanged committed history",
+      "current location and next availability"
+    ],
+    "customOperatorsCount": 0,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 3,
+    "workarounds": [
+      "EasyScoreCalculator recomputes schedules",
+      "Protected anchors explicitly checked in hard score",
+      "SLF4J 1.7 transitive exclusion"
+    ],
+    "nativeFeatureCount": 7,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 1,
+    "externalDependencies": "Portable Java 21 + Maven jars",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "Community 2.6.0: списки назначений и BendableScore. Все ограничения предметной области вычисляет наш Java-калькулятор оценки. Инкрементальный расчёт и специальные ходы ещё не оптимизированы. Коммерческие функции многопоточного и разделённого поиска не используются."
+  },
+  {
+    "solver": "cpsat",
+    "adapterLOC": 239,
+    "LOCByFile": {
+      "adapters\\cpsat.py": 3,
+      "adapters\\linear_reference.py": 236
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 7,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job"
+    ],
+    "customOperatorsCount": 0,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 3,
+    "workarounds": [
+      "Common arc-flow routing formulation",
+      "Tight bounded big-M time rows",
+      "Proven scalar hierarchy"
+    ],
+    "nativeFeatureCount": 4,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 5,
+    "externalDependencies": "Python virtual environment and native wheels",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "Универсальный целочисленный CP/SAT-эталон, один поисковый поток. Постановка выражается точно, но скорость сильно зависит от потоковой маршрутной формулировки. Динамическая модель не реализована."
+  },
+  {
+    "solver": "choco",
+    "adapterLOC": 214,
+    "LOCByFile": {
+      "adapters\\choco.py": 3,
+      "adapters\\java_bridge.py": 30,
+      "adapters\\java\\src\\main\\java\\research\\Bridge.java": 75,
+      "adapters\\java\\src\\main\\java\\research\\ChocoAdapter.java": 106
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 7,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job"
+    ],
+    "customOperatorsCount": 0,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 3,
+    "workarounds": [
+      "Common arc-flow CP formulation",
+      "Sequential proved lexicographic stages",
+      "Table substitution disabled to avoid huge-domain bitsets"
+    ],
+    "nativeFeatureCount": 3,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 6,
+    "externalDependencies": "Portable Java 21 + Maven jars",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "Потоковая CP-модель с условными временными ограничениями. Три последовательных этапа: неназначенные заявки, штат, пробег; общий бюджет времени. OPTIMAL возвращается только после доказательства всех этапов. Выбранная стратегия поиска не использует seed; динамический адаптер не реализован."
+  },
+  {
+    "solver": "alns",
+    "adapterLOC": 543,
+    "LOCByFile": {
+      "adapters\\alns.py": 150,
+      "adapters\\alns_extended.py": 157,
+      "adapters\\linear_reference.py": 236
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 10,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job",
+      "fixed worker and exact visit times",
+      "unchanged committed history",
+      "current location and next availability"
+    ],
+    "customOperatorsCount": 4,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 3,
+    "workarounds": [
+      "Custom feasible route state and earliest scheduling",
+      "Python integer hierarchy for emergency policies",
+      "Protected initial-state construction and repair"
+    ],
+    "nativeFeatureCount": 3,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 1,
+    "externalDependencies": "Python virtual environment and native wheels",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "Это каркас поиска, а не готовый TRSP-решатель. Расписание, совместимость, целевые функции и операторы разрушения/восстановления реализованы в этом исследовании. Поддержка собственного планировщика и операторов составляет существенную часть стоимости внедрения."
+  },
+  {
+    "solver": "scip",
+    "adapterLOC": 239,
+    "LOCByFile": {
+      "adapters\\scip.py": 3,
+      "adapters\\linear_reference.py": 236
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 7,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job"
+    ],
+    "customOperatorsCount": 0,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 3,
+    "workarounds": [
+      "Common arc-flow routing formulation",
+      "Tight bounded big-M time rows",
+      "Exact-integer-range scalar for double objective"
+    ],
+    "nativeFeatureCount": 4,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 5,
+    "externalDependencies": "Python virtual environment and native wheels",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "Универсальный CIP/MIP-эталон через PySCIPOpt, установленное ядро 10.0.2. Проверяются доказательства на малых экземплярах и сохраняются границы. Динамическая модель не реализована."
+  },
+  {
+    "solver": "cbc",
+    "adapterLOC": 239,
+    "LOCByFile": {
+      "adapters\\cbc.py": 3,
+      "adapters\\linear_reference.py": 236
+    },
+    "LOCDefinition": "Nonempty physical lines excluding pure # or // comments; shared code included in each affected adapter, so do not sum across methods",
+    "customConstraintCount": 7,
+    "customConstraintGroups": [
+      "same division",
+      "BK and all HD plus resources",
+      "transport match",
+      "start window and release",
+      "shift finish",
+      "sequence travel",
+      "at most one worker per job"
+    ],
+    "customOperatorsCount": 0,
+    "customOperatorsNote": "ALNS has two destroy and two repair families; native solver operators are not our custom code",
+    "workaroundCount": 5,
+    "workarounds": [
+      "Common arc-flow routing formulation",
+      "Tight bounded big-M time rows",
+      "Exact-integer-range scalar for double objective",
+      "Explicit native MPS CLI plus watchdog",
+      "Cgl preprocessing disabled after observed crash"
+    ],
+    "nativeFeatureCount": 4,
+    "unsupportedFeatureCount": 0,
+    "notCheckedFeatureCount": 5,
+    "externalDependencies": "Python wheel + official CBC binary",
+    "solverForkRequiredForImplementedScope": false,
+    "cloudRequired": false,
+    "implementationNotes": "Универсальный MILP-эталон, официальный бинарник CBC 2.10.13, один основной поток и ограничение CPU-времени. Допустимый incumbent на лимите получает FEASIBLE, даже если PuLP сообщает Optimal/solution found. Динамическая модель не реализована."
+  }
+]

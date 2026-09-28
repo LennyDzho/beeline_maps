@@ -1,0 +1,38 @@
+{
+  "solver": "cpsat",
+  "dataset": "synthetic-strict-hd-1000",
+  "policy": "PRIMARY",
+  "timeLimitSec": 15.0,
+  "seed": 1,
+  "timestamp": "2026-09-18T09:06:42.215005+00:00",
+  "datasetVersion": "aa246041d2cf5731051cd72aa3871b9266f6d2c0ba01a4285558aed35e15236e",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "cbc3e90cea59be4701e3a8fe073a0e3afbbafbc42c032ccb0ae57f0ed9f26dca",
+  "adapterVersion": "338af6f0b9d19bee2a7cd30bf3c8528418799d67d0c9f4d8fc16d88fcef1c95d",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 1000,
+    "workersTotal": 175,
+    "locationCount": 204
+  },
+  "status": "RESOURCE_LIMIT",
+  "solution": null,
+  "metrics": null,
+  "exitCode": 15,
+  "logFile": "C:\\Users\\vadim\\Documents\\MMI - проект\\algorithm-research\\benchmark\\.cache\\campaign\\1789722297028329000\\worker.log",
+  "resources": {
+    "processWallTimeMs": 105013.65559999977,
+    "peakMemoryMb": 2173.99609375,
+    "cpuTimeSampledMs": 98921.875,
+    "sampleCount": 1589,
+    "samplingIntervalMs": 50,
+    "memoryGuardMiB": 6144,
+    "terminationReason": "PROCESS_WALL_WATCHDOG",
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "1000",
+  "experimentStage": "SYNTHETIC_SCALING",
+  "sourceDatasetVersion": "f6159e9e18b37f8c5797043ba58d636bc5f35a73eb7d274531466b83c3734f23",
+  "scenarioFile": "datasets/scaling-hd-v2/1000.json"
+}

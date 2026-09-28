@@ -1,0 +1,43 @@
+{
+  "solver": "vroom",
+  "dataset": "synthetic-strict-hd-500",
+  "policy": "PRIMARY",
+  "timeLimitSec": 15.0,
+  "seed": 1,
+  "timestamp": "2026-09-18T08:56:10.983835+00:00",
+  "datasetVersion": "22686b39cbc2c929a2cbbd6de70d1aa4ca2ba950312fed417f809774a83daf79",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "2b656220a772971dda10cd68e0ed785335c87a32ef0dd8e5782995538483da64",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 500,
+    "workersTotal": 88,
+    "locationCount": 197
+  },
+  "solverVersion": "pyvroom-1.15.2",
+  "adapterVersion": "0a1de939bf9711b04d7c0c603464e994d96df4d7dd08a628d21cf6f6910f0420",
+  "validatorVersion": "0c61d8c1df227c32250aa273409ac70e1620bb479543a14b5ecac19bed86786a",
+  "metricsVersion": "e861c7dfa0aaba64959d594b8f8610d547a02a8ac890ff348cbe00246ff0f62e",
+  "status": "RUNTIME_ERROR",
+  "solution": null,
+  "metrics": null,
+  "error": {
+    "type": "ValueError",
+    "message": "VROOM user/scaled cost would overflow; cannot preserve objective safely"
+  },
+  "resources": {
+    "processWallTimeMs": 1896.6520000003584,
+    "peakMemoryMb": 85.9453125,
+    "cpuTimeSampledMs": 1593.75,
+    "sampleCount": 27,
+    "samplingIntervalMs": 50,
+    "memoryGuardMiB": 6144,
+    "terminationReason": null,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "500",
+  "experimentStage": "SYNTHETIC_SCALING",
+  "sourceDatasetVersion": "f6159e9e18b37f8c5797043ba58d636bc5f35a73eb7d274531466b83c3734f23",
+  "scenarioFile": "datasets/scaling-hd-v2/500.json"
+}

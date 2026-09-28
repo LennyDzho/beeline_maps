@@ -1,0 +1,831 @@
+{
+  "id": "20260918T091955",
+  "status": "STOPPED_BY_USER_SCOPE_CHANGE",
+  "createdAt": "2026-09-18T09:19:55.288705+00:00",
+  "configuration": {
+    "solvers": [
+      "ortools_routing",
+      "vroom",
+      "jsprit",
+      "pyvrp",
+      "timefold",
+      "alns"
+    ],
+    "budgets": [
+      1.0,
+      5.0,
+      15.0,
+      60.0,
+      300.0
+    ],
+    "seeds": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "scopes": [
+      "all"
+    ]
+  },
+  "total": 270,
+  "completed": 197,
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "runs": [
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-2-7ef11c0865a4e32e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-2-bc9f10400b6e2a10.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-2-71fd022117077715.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-2-3f89f01ac0d1735f.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-2-55c909fd961823f9.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-2-5149ae02b8998a80.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-3-727ebc95dd1208ca.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-3-36b70d6c3067e29e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-3-c6d7e4f2df43fe6b.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-3-b5f9ec36cfa74b75.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-3-cd9500d49fad9835.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-3-2c30cf052556969a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-4-6ce5b2cfbb2bff6f.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-4-13b6c37df94e8722.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-4-a3751d5c19f1dab2.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-4-4e01c2781e8403d9.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-4-a5b1ff1d8c6f8524.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-4-fa1e9d3d7d33e49e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-5-68e132e38351fdfd.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-5-20bed28fa51e7595.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-5-6d998d70bea20344.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-5-0469719fc6abceef.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-5-b9bdba3bcff19896.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-5-99b97961c54f7abe.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-6-9560cd5eaadfad27.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-6-b7e2ec86b30fdc3d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-6-a25deee366a5d363.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-6-7558fc752c4c8b1f.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-6-2845b69d7cb3c151.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-6-5c892b6b1966a786.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-7-2ecab77a39854fa6.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-7-55d21b48408d2049.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-7-3f3c87b9068dbd9c.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-7-d759b2a2ee318f8d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-7-bbbc633608c4c5be.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-7-7d7346d08598f1dd.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-8-921eba6d636e58b8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-8-6468373240cbe617.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-8-a866733ddc2d28ef.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-8-c3d1855170ce28b0.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-8-eeb8a7894c11394d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-8-9ef19bb3af80c631.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-9-16d11f468406cdda.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-9-a2ed1f6772968014.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-9-30ef59e32a1b37a3.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-9-64b08a2abd083ee0.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-9-cc636afd0ed4ff7c.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-9-efe16951adee7bd9.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-1s-10-fc47c3482060c904.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-1s-10-99204074b86d8984.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-1s-10-6979dbf2f6c1b20d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-1s-10-88b119324ae98179.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-1s-10-c4b47e5ec0e69c0d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-1s-10-aa180f8157074b27.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-2-31a59f05293747ca.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-2-5358fd1ee86acc22.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-2-034e4a15ef4a695d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-2-6f0ea9f48729928d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-2-637a8c269ac9dac7.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-2-288683683604f834.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-3-ed8d5ae778e716fa.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-3-bee5953f4496f058.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-3-872fe5a7f457887c.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-3-806155cf99e643d1.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-3-9cc39079f31f832c.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-3-a0f6fa46fb1977dc.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-4-5270f18bff7884a6.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-4-e8e415193a11f192.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-4-4888d5365ab5791e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-4-1cf50f8ac2d9fbf7.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-4-51fa2b922bb9e0e2.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-4-4a6864679b8a5249.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-5-bcb6eff2196c7495.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-5-8d2d60316ae3b40d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-5-fb7120c278a7c6aa.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-5-726d4d45a5bac43e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-5-01c4db88643951fa.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-5-6dbb6f65f6f30bef.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-6-c0b35790b4d29113.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-6-750b4aac1a61c107.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-6-b6670e249ff91e97.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-6-0b5b35f7a8bc2626.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-6-d86518310749928b.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-6-019b7c09d0e360c4.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-7-f8550c60bbcff2cf.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-7-ebe90c4238d116f4.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-7-0ddb1d2903a34a5a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-7-14e4c0d9089a9b46.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-7-2ac672e2beb75bab.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-7-7b6dfef9a709d100.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-8-5be7dc7c9e6cc4ab.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-8-6d1f370e40656fdd.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-8-efce4dfd622ae323.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-8-59742488c2056a34.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-8-8beec6cf40eadacb.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-8-9c526371f3bab9d5.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-9-ba277ea51b784937.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-9-d7403733de0f72bc.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-9-e1de3fb55ab73640.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-9-bf675f9063653c8b.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-9-f9638bb4e4825689.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-9-2b22eecc599948b8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-5s-10-178df7662b5cacfe.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-5s-10-570afd16c1e550e8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-5s-10-ba4174dce7a6fc0b.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-5s-10-51c365d945438ff4.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-5s-10-5ae35ac6a204b02a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-5s-10-5fee5c2699c7faed.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-2-ee2cc66b13613448.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-2-a0d5315fa4b2b89e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-2-7ece3267a2b13ed0.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-2-00500edc48e4c6bb.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-2-626db556095ef764.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-2-b1174741f55245b4.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-3-8fc5d09337f76cb1.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-3-3479e036c88a143f.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-3-479f15283ddd8bd4.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-3-684a03cae3ff2b3e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-3-a6eeffc554ca6dcd.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-3-93de487d7aa13aa6.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-4-570c2a7ad5714d4a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-4-181137f09428b9a9.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-4-82e6bbf7780920d1.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-4-1a03abd9f336f54b.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-4-b51535a87c8b87ee.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-4-87cc273eb4e38972.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-5-8c212abb1ce1a43a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-5-54134aa6a18a6895.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-5-e1cc9871ca2d0790.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-5-23e20a9a618a1752.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-5-15aa39a24a4e88a5.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-5-ea35b9b9a0b06ab8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-6-e286f499fb9187e8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-6-5a139a11ce441f53.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-6-a3297e5c39f44635.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-6-9b76dd48fc71b919.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-6-e3fa60b3b9ac5403.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-6-d0280b3a7418001a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-7-2dc3ac97a48a86e6.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-7-67360016703ad6fe.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-7-7a6319a3d9d2200e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-7-7f860ed7fe083e62.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-7-f109d1f42597621a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-7-4c750137d9e8b33b.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-8-e3e2d25dc85d207c.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-8-14d792d9325ddea5.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-8-2286403d59cb6921.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-8-c2f9d1794172c52d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-8-c76fa63113bd8bd7.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-8-6337ee1dd73803e8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-9-e36a1c747cc483fc.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-9-dce6c4abd6c27e9e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-9-db317a1a26c47ed0.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-9-95a6612cdbaf468e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-9-66e0811b1e4c439b.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-9-58f3806e5dfc32cd.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-10-5be7d3b1a727f7d4.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-10-eaa82308f5579745.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-10-61cedceca6d32738.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-10-67177a91135d6284.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-10-98fd4578986919eb.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-10-ad82eaa55b8bb8b5.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-60s-2-34be7bb774a5e5e8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-60s-2-5b6e0cab3013b7de.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-60s-2-1bc64828fa84f049.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-60s-2-6537ee8e7a5ba73d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-60s-2-975ac28ed1ad60d5.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-60s-2-ef11210cf7bce05e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-60s-3-7abd672a65c2b986.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-60s-3-68392569fb2452a8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-60s-3-4cfcaf87c9b19073.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-60s-3-35d198c68e7ad560.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-60s-3-5619a3ae843d453a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-60s-3-905c8af2038249e0.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-60s-4-ab09fda1e7dda953.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-60s-4-2af8627b968a73f2.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-60s-4-9aa08b02165732ca.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-60s-4-5d2f2d9cc1d996ef.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-60s-4-84deaa6aece1c85d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-60s-4-ada324b7e0980ce8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-60s-5-1ae27dc789a5e6c7.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-60s-5-8c9ad34392149754.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-60s-5-f8b949cf4d3b259e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-60s-5-5b42546174811d11.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-60s-5-33542699df6ddbd1.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-60s-5-5b0378af6bdc265c.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-60s-6-929707dcfb62980a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-60s-6-696929431b8df236.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-60s-6-9f713bd6203d5eb5.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-60s-6-d930fdf80022e273.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-60s-6-1f174cf5622fca6a.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-60s-6-1358169a11b8e649.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-60s-7-3510347c28534f47.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-60s-7-e6e5eeec0c5a4573.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-60s-7-439303ec62ddc23f.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-60s-7-bf62ceb9f633dc66.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-60s-7-16a92e3ff757dc99.json",
+      "status": "FEASIBLE"
+    }
+  ],
+  "executionOrderRule": "Budgets ascending as requested; methods shuffled per seed with fixed ordering seed 20260918; serial execution",
+  "updatedAt": "2026-09-18T10:16:34.525708+00:00"
+}

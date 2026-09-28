@@ -1,0 +1,74 @@
+{
+  "solver": "choco",
+  "dataset": "beeline-car-no-breaks-v1-declared-geography:exact-15",
+  "policy": "PRIMARY",
+  "timeLimitSec": 5.0,
+  "seed": 1,
+  "timestamp": "2026-09-17T13:04:06.631151+00:00",
+  "datasetVersion": "65c2548387a84e0cbd8a11c19238b1fce7775d216741fccd7ac722a0f7cd5711",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "3476b1a5d6097883056edcfc8e3ebf857cb254540c0e612254a69fd33d73470b",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 15,
+    "workersTotal": 35,
+    "locationCount": 18
+  },
+  "solverVersion": "6.0.1",
+  "adapterVersion": "d906f4ec5e2fe58b7c0c3f56f3882474b4d5131d548c7322deb22e7709f36e07",
+  "status": "NO_SOLUTION_FOUND",
+  "solution": {
+    "status": "NO_SOLUTION_FOUND",
+    "routes": [],
+    "unassigned": [
+      "beeline-v1-east-job-7939",
+      "beeline-v1-east-job-50104",
+      "beeline-v1-east-job-10245",
+      "beeline-v1-southeast-job-23094",
+      "beeline-v1-southeast-job-63577",
+      "beeline-v1-southeast-job-20055",
+      "beeline-v1-southcentral-job-90709",
+      "beeline-v1-southeast-job-84466",
+      "beeline-v1-southcentral-job-13203",
+      "beeline-v1-southeast-job-13404",
+      "beeline-v1-east-job-30769",
+      "beeline-v1-southcentral-job-86864",
+      "beeline-v1-southcentral-job-95501",
+      "beeline-v1-southcentral-job-87819",
+      "beeline-v1-southeast-job-13583"
+    ],
+    "solverVersion": "6.0.1",
+    "rawDiagnostics": {
+      "seedScope": "Deterministic single-thread search; seed is repetition ID only",
+      "lexicographicStages": [
+        {
+          "level": 0,
+          "proven": false,
+          "nodes": 39178
+        }
+      ],
+      "modelBuildTimeMs": 317.8534,
+      "arcVariables": 624,
+      "formulation": "Reified time precedence, positive services eliminate cycles; same budget shared by three exact lexicographic stages",
+      "jvmProtocol": "Fresh JVM per run; startup, model construction and search included in wall time"
+    },
+    "runtime": {
+      "nativeWallTimeMs": 5423.5041,
+      "solverWallTimeMs": 6698.494799999025
+    },
+    "seed": 1
+  },
+  "metrics": null,
+  "resources": {
+    "processWallTimeMs": 7447.467499998311,
+    "peakMemoryMb": 175.94921875,
+    "cpuTimeSampledMs": 9015.625,
+    "sampleCount": 55,
+    "samplingIntervalMs": 50,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "exact-15",
+  "experimentStage": "STATIC_PRIMARY_FRESH_PROCESS",
+  "campaignId": "20260917T130308"
+}

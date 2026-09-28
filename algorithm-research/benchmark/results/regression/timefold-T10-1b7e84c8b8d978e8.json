@@ -1,0 +1,236 @@
+{
+  "solver": "timefold",
+  "test": "T10",
+  "timestamp": "2026-09-18T05:51:03.485059+00:00",
+  "budget": 2.0,
+  "component": "SOLVER_ADAPTER",
+  "solverExecuted": true,
+  "status": "PASS",
+  "reason": null,
+  "inputProblem": {
+    "workers": [
+      {
+        "id": "w",
+        "divisionId": "d",
+        "skills": [
+          "local"
+        ],
+        "transportMode": "car",
+        "shiftStart": 32400,
+        "shiftEnd": 64800,
+        "availableAt": 32400,
+        "startLocationId": "s",
+        "startCoordinates": {
+          "lat": 55.7,
+          "lon": 37.6
+        },
+        "qualifications": [],
+        "equipment": []
+      }
+    ],
+    "jobs": [
+      {
+        "id": "j",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 36000,
+        "windowEnd": 43200,
+        "releaseTime": 32400,
+        "serviceDuration": 2400,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "k",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "k",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 36000,
+        "windowEnd": 43200,
+        "releaseTime": 32400,
+        "serviceDuration": 2400,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      }
+    ],
+    "travelTimeMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 1200,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "distanceMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 1200,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "matrixVersion": "fixed-test",
+    "fixedActivities": [],
+    "protectedActivities": [],
+    "eventAt": null,
+    "previousSolution": null,
+    "id": "regression-T10",
+    "datasetVersion": "controlled-v1"
+  },
+  "expected": {
+    "served": 2,
+    "workersUsed": 1
+  },
+  "record": {
+    "solver": "timefold",
+    "dataset": "regression-T10",
+    "policy": "PRIMARY",
+    "timeLimitSec": 2.0,
+    "seed": 1,
+    "timestamp": "2026-09-18T05:51:03.486069+00:00",
+    "datasetVersion": "controlled-v1",
+    "matrixVersion": "fixed-test",
+    "problemFingerprint": "dedff6cfb6881af04069c47dce431d615586da8b4d08057911f57ca5f99d508c",
+    "preflight": {
+      "status": "READY",
+      "issues": [],
+      "jobsTotal": 2,
+      "workersTotal": 1,
+      "locationCount": 3
+    },
+    "solverVersion": "2.6.0",
+    "adapterVersion": "0af1862a10bec66d3cf0fc94d3a66a3c74022c8b040347638c078e0acd6e4cfd",
+    "validatorVersion": "0c61d8c1df227c32250aa273409ac70e1620bb479543a14b5ecac19bed86786a",
+    "metricsVersion": "e861c7dfa0aaba64959d594b8f8610d547a02a8ac890ff348cbe00246ff0f62e",
+    "status": "FEASIBLE",
+    "solution": {
+      "status": "FEASIBLE",
+      "routes": [
+        {
+          "visits": [
+            {
+              "start": 36000,
+              "jobId": "k",
+              "finish": 38400
+            },
+            {
+              "start": 39600,
+              "jobId": "j",
+              "finish": 42000
+            }
+          ],
+          "departure": 32400,
+          "startLocationId": "s",
+          "workerId": "w"
+        }
+      ],
+      "unassigned": [],
+      "solverVersion": "2.6.0",
+      "solverObjective": "[0]hard/[0/-1/-2400]soft",
+      "rawDiagnostics": {
+        "implementation": "Community Edition; list variables allow unassigned jobs; earliest feasible schedule evaluated from every ordered route; generic easy score calculator",
+        "nativeScore": "[0]hard/[0/-1/-2400]soft",
+        "scoreModel": "1 hard feasibility level; 3 lexicographic soft levels: coverage, workers, distance",
+        "jvmProtocol": "Fresh JVM per run; startup, model construction and search included in wall time"
+      },
+      "runtime": {
+        "nativeWallTimeMs": 3212.3116,
+        "solverWallTimeMs": 4217.296099999885
+      },
+      "seed": 1,
+      "unassignedExplanations": []
+    },
+    "metrics": {
+      "status": "FEASIBLE",
+      "eligibleForComparison": true,
+      "hardViolations": 0,
+      "H01Violations": 0,
+      "H02Violations": 0,
+      "H03Violations": 0,
+      "H04Violations": 0,
+      "H05Violations": 0,
+      "H06Violations": 0,
+      "H07Violations": 0,
+      "H08Violations": 0,
+      "H09Violations": 0,
+      "H10Violations": 0,
+      "H11Violations": 0,
+      "H12Violations": 0,
+      "jobsTotal": 2,
+      "served": 2,
+      "unassigned": 0,
+      "servedPercent": 100.0,
+      "workersUsed": 1,
+      "remainingDayWorkersUsed": 1,
+      "committedJobs": 0,
+      "wholeDayServed": 2,
+      "distanceScope": "initial-plan",
+      "distanceMetres": 2400,
+      "distanceKm": 2.4,
+      "travelMinutes": 40.0,
+      "waitingMinutes": 40.0,
+      "serviceMinutes": 80.0,
+      "emergencyTotal": 0,
+      "emergencyServed": 0,
+      "emergencyUnassigned": 0,
+      "emergencies": [],
+      "meanResponseDelay": null,
+      "medianResponseDelay": null,
+      "maxResponseDelay": null,
+      "meanCompletionDelay": null,
+      "maxCompletionDelay": null,
+      "reassignments": null,
+      "workerChanges": null,
+      "orderChanges": null,
+      "scheduleChanges": null,
+      "removedAssignments": null,
+      "newWorkersActivated": null,
+      "maxScheduleShiftMinutes": null,
+      "routeMetrics": [
+        {
+          "workerId": "w",
+          "distanceMetres": 2400,
+          "travelSeconds": 2400,
+          "waitingSeconds": 2400,
+          "serviceSeconds": 4800
+        }
+      ],
+      "validationTimeMs": 0.09160000013253011
+    }
+  }
+}

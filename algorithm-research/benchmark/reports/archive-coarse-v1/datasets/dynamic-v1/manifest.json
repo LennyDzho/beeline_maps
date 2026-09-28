@@ -1,0 +1,82 @@
+{
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "eventAt": 39600,
+  "scenarios": [
+    {
+      "scenario": "new_emergency",
+      "jobsRemaining": 174,
+      "committedActivities": 30,
+      "protectedVisits": 3,
+      "fixedVisits": 0,
+      "problemFingerprint": "f18e5c4fea3ad4d6a868c6c85393b78957319362f070b7adf471d8018844c4ef",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 174,
+        "workersTotal": 35,
+        "locationCount": 195
+      }
+    },
+    {
+      "scenario": "cancellation",
+      "jobsRemaining": 172,
+      "committedActivities": 30,
+      "protectedVisits": 3,
+      "fixedVisits": 0,
+      "problemFingerprint": "a4779d38d569bd64dc3edc3fccfb04e3bfa7aea69b792a35e793f3b4e33ef215",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 172,
+        "workersTotal": 35,
+        "locationCount": 194
+      }
+    },
+    {
+      "scenario": "worker_unavailability",
+      "jobsRemaining": 173,
+      "committedActivities": 30,
+      "protectedVisits": 3,
+      "fixedVisits": 0,
+      "problemFingerprint": "cef356faf88de92e4161a0c7b42cacd0262acd5ee616613ccafe63736f5dae57",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 173,
+        "workersTotal": 35,
+        "locationCount": 195
+      }
+    },
+    {
+      "scenario": "manual_assignment",
+      "jobsRemaining": 173,
+      "committedActivities": 30,
+      "protectedVisits": 3,
+      "fixedVisits": 1,
+      "problemFingerprint": "689ba3d70da016450ecbd5fd7375d39117187e04d89157bba2be925685581d8a",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 173,
+        "workersTotal": 35,
+        "locationCount": 195
+      }
+    },
+    {
+      "scenario": "manual_time",
+      "jobsRemaining": 173,
+      "committedActivities": 30,
+      "protectedVisits": 3,
+      "fixedVisits": 1,
+      "problemFingerprint": "5ed6535381e1a2267359c2dbdb284e576a97bf8213a02adbd350cb69a7556edb",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 173,
+        "workersTotal": 35,
+        "locationCount": 195
+      }
+    }
+  ],
+  "note": "Synthetic events on one immutable prior plan. All solvers must receive identical per-event inputs, including current locations and next availability."
+}

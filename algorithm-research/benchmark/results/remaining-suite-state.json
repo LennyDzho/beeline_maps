@@ -1,0 +1,134 @@
+{
+  "problemFingerprint": "cdd9fa715c2d332c485b3d9006c0ad5a20531203ede76f229daed5bc89aebac6",
+  "stages": {
+    "quality-regression-more-time": {
+      "status": "COMPLETE",
+      "script": "run_regression_matrix.py",
+      "arguments": [
+        "--solvers",
+        "cbc",
+        "scip",
+        "choco",
+        "--tests",
+        "T07",
+        "T08",
+        "--budget",
+        "15"
+      ],
+      "startedAt": "2026-09-18T08:44:18.882284+00:00",
+      "exitCode": 0,
+      "finishedAt": "2026-09-18T08:45:47.263787+00:00"
+    },
+    "exact-all-methods": {
+      "status": "COMPLETE",
+      "script": "run_campaign.py",
+      "arguments": [
+        "--solvers",
+        "ortools_routing",
+        "vroom",
+        "jsprit",
+        "pyvrp",
+        "timefold",
+        "cpsat",
+        "choco",
+        "alns",
+        "scip",
+        "cbc",
+        "--budgets",
+        "15",
+        "--scopes",
+        "exact-5",
+        "exact-10",
+        "exact-15",
+        "exact-20"
+      ],
+      "startedAt": "2026-09-18T08:45:47.267746+00:00",
+      "exitCode": 0,
+      "finishedAt": "2026-09-18T08:53:45.735881+00:00"
+    },
+    "exact-proof-20": {
+      "status": "COMPLETE",
+      "script": "run_campaign.py",
+      "arguments": [
+        "--solvers",
+        "cpsat",
+        "scip",
+        "cbc",
+        "choco",
+        "--budgets",
+        "60",
+        "--scopes",
+        "exact-20"
+      ],
+      "startedAt": "2026-09-18T08:53:45.740008+00:00",
+      "exitCode": 0,
+      "finishedAt": "2026-09-18T08:55:53.275827+00:00"
+    },
+    "scale-controls": {
+      "status": "COMPLETE",
+      "script": "run_scaling_cases.py",
+      "arguments": [
+        "--solvers",
+        "ortools_routing",
+        "vroom",
+        "jsprit",
+        "pyvrp",
+        "timefold",
+        "cpsat",
+        "choco",
+        "alns",
+        "scip",
+        "cbc",
+        "--budgets",
+        "15"
+      ],
+      "startedAt": "2026-09-18T08:55:53.278971+00:00",
+      "exitCode": 0,
+      "finishedAt": "2026-09-18T09:11:06.789341+00:00"
+    },
+    "report-after-broad": {
+      "status": "COMPLETE",
+      "script": "preflight_report.py",
+      "arguments": [],
+      "startedAt": "2026-09-18T09:18:51.141180+00:00",
+      "exitCode": 0,
+      "finishedAt": "2026-09-18T09:19:55.052549+00:00"
+    },
+    "primary-repeats": {
+      "status": "PARTIAL_RETAINED",
+      "script": "run_campaign.py",
+      "arguments": [
+        "--solvers",
+        "ortools_routing",
+        "vroom",
+        "jsprit",
+        "pyvrp",
+        "timefold",
+        "alns",
+        "--budgets",
+        "1",
+        "5",
+        "15",
+        "60",
+        "300",
+        "--seeds",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "--scopes",
+        "all"
+      ],
+      "startedAt": "2026-09-18T09:19:55.055551+00:00",
+      "stoppedAt": "2026-09-18T10:16:34.525708+00:00"
+    }
+  },
+  "status": "STOPPED_BY_USER_SCOPE_CHANGE",
+  "updatedAt": "2026-09-18T10:16:34.525708+00:00",
+  "scopeChange": "No further repeated solver runs; completed evidence retained for final analysis."
+}

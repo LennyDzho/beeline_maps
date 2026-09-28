@@ -1,0 +1,293 @@
+{
+  "solver": "timefold",
+  "test": "T16",
+  "timestamp": "2026-09-17T13:36:53.774167+00:00",
+  "budget": 2.0,
+  "component": "SOLVER_ADAPTER",
+  "solverExecuted": true,
+  "status": "PASS",
+  "reason": null,
+  "inputProblem": {
+    "workers": [
+      {
+        "id": "w",
+        "divisionId": "d",
+        "skills": [
+          "local"
+        ],
+        "transportMode": "car",
+        "shiftStart": 32400,
+        "shiftEnd": 64800,
+        "availableAt": 38400,
+        "startLocationId": "j",
+        "startCoordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "qualifications": [],
+        "equipment": [],
+        "officeLocationId": "s",
+        "currentLocationId": "j"
+      }
+    ],
+    "jobs": [
+      {
+        "id": "k",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "k",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 0,
+        "windowEnd": 86399,
+        "releaseTime": 34200,
+        "serviceDuration": 2400,
+        "isEmergency": true,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      }
+    ],
+    "travelTimeMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 1200,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "distanceMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 1200,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "matrixVersion": "fixed-test",
+    "fixedActivities": [],
+    "protectedActivities": [],
+    "eventAt": 34200,
+    "previousSolution": {
+      "status": "FEASIBLE",
+      "routes": [
+        {
+          "workerId": "w",
+          "startLocationId": "s",
+          "departure": 33600,
+          "visits": [
+            {
+              "jobId": "j",
+              "start": 36000,
+              "finish": 38400
+            }
+          ]
+        }
+      ],
+      "unassigned": []
+    },
+    "id": "regression-T16",
+    "datasetVersion": "controlled-v1",
+    "pastActivities": [
+      {
+        "jobId": "j",
+        "start": 36000,
+        "finish": 38400,
+        "workerId": "w",
+        "stateAtEvent": "en_route",
+        "travelFromLocationId": "s",
+        "travelDeparture": 33600,
+        "arrival": 34800,
+        "locationId": "j",
+        "immutable": true
+      }
+    ],
+    "snapshotProvenance": {
+      "eventAt": 34200,
+      "initialProblemFingerprint": "be82ff7215d32ad2043f957a3871033cf79535ccb1f5ed4035f5dc3940fe2f30",
+      "previousSolutionFingerprint": "b7fd8e5f55a666495860101760834141b03660d59b4be2dee0aa6e67b6a76211",
+      "committedJobIds": [
+        "j"
+      ],
+      "travelTimingConvention": "Leave previous service immediately; any remaining waiting occurs at next destination, as in common metrics",
+      "pastActivitiesMeaning": "Immutable committed prefix: completed services and any already-started travel/service; some committed finishes are after eventAt"
+    }
+  },
+  "expected": {
+    "served": 1,
+    "startNotBefore": 39600
+  },
+  "record": {
+    "solver": "timefold",
+    "dataset": "regression-T16",
+    "policy": "POLICY_FAST_RESPONSE",
+    "timeLimitSec": 2.0,
+    "seed": 1,
+    "timestamp": "2026-09-17T13:36:53.774167+00:00",
+    "datasetVersion": "controlled-v1",
+    "matrixVersion": "fixed-test",
+    "problemFingerprint": "cd647779aaa6d47afdb67d9bb7e281b9ed2eb1838d4a4215ab365b8e90e1c229",
+    "preflight": {
+      "status": "READY",
+      "issues": [],
+      "jobsTotal": 1,
+      "workersTotal": 1,
+      "locationCount": 2
+    },
+    "solverVersion": "2.6.0",
+    "adapterVersion": "8d250ed43457e16bf066f55ee1850510402ae8c4d4a6deb6157b105ce528248d",
+    "validatorVersion": "b0a03024ea0065985d7c8d00dc191449dd573324e21f053e2f0a1d912dfbe20d",
+    "metricsVersion": "e861c7dfa0aaba64959d594b8f8610d547a02a8ac890ff348cbe00246ff0f62e",
+    "status": "FEASIBLE",
+    "solution": {
+      "status": "FEASIBLE",
+      "routes": [
+        {
+          "departure": 38400,
+          "startLocationId": "j",
+          "workerId": "w",
+          "visits": [
+            {
+              "jobId": "k",
+              "finish": 42000,
+              "start": 39600
+            }
+          ]
+        }
+      ],
+      "unassigned": [],
+      "solverVersion": "2.6.0",
+      "pastActivities": [
+        {
+          "jobId": "j",
+          "start": 36000,
+          "finish": 38400,
+          "workerId": "w",
+          "stateAtEvent": "en_route",
+          "travelFromLocationId": "s",
+          "travelDeparture": 33600,
+          "arrival": 34800,
+          "locationId": "j",
+          "immutable": true
+        }
+      ],
+      "seed": 1,
+      "solverObjective": "[0]hard/[0/0/-5400/-1/-1200]soft",
+      "runtime": {
+        "nativeWallTimeMs": 1144.1608,
+        "solverWallTimeMs": 1530.913500002498
+      },
+      "rawDiagnostics": {
+        "variant": "protected-policy-list-model",
+        "scoreModel": "One hard feasibility level; five exact lexicographic long levels; protected visits mandatory at exact worker/time",
+        "initialAssigned": 0,
+        "protectedCount": 0,
+        "nativeScore": "[0]hard/[0/0/-5400/-1/-1200]soft",
+        "warmStartRequested": true
+      },
+      "unassignedExplanations": [],
+      "changeLog": [
+        {
+          "jobId": "k",
+          "before": null,
+          "after": {
+            "jobId": "k",
+            "finish": 42000,
+            "start": 39600,
+            "workerId": "w"
+          },
+          "firstAssignment": true,
+          "reason": null
+        }
+      ]
+    },
+    "metrics": {
+      "status": "FEASIBLE",
+      "eligibleForComparison": true,
+      "hardViolations": 0,
+      "H01Violations": 0,
+      "H02Violations": 0,
+      "H03Violations": 0,
+      "H04Violations": 0,
+      "H05Violations": 0,
+      "H06Violations": 0,
+      "H07Violations": 0,
+      "H08Violations": 0,
+      "H09Violations": 0,
+      "H10Violations": 0,
+      "H11Violations": 0,
+      "H12Violations": 0,
+      "jobsTotal": 1,
+      "served": 1,
+      "unassigned": 0,
+      "servedPercent": 100.0,
+      "workersUsed": 1,
+      "remainingDayWorkersUsed": 1,
+      "committedJobs": 1,
+      "wholeDayServed": 2,
+      "distanceScope": "remaining-day",
+      "distanceMetres": 1200,
+      "distanceKm": 1.2,
+      "travelMinutes": 20.0,
+      "waitingMinutes": 0.0,
+      "serviceMinutes": 40.0,
+      "emergencyTotal": 1,
+      "emergencyServed": 1,
+      "emergencyUnassigned": 0,
+      "emergencies": [
+        {
+          "jobId": "k",
+          "served": true,
+          "responseDelaySeconds": 5400,
+          "completionDelaySeconds": 7800
+        }
+      ],
+      "meanResponseDelay": 90.0,
+      "medianResponseDelay": 90.0,
+      "maxResponseDelay": 90.0,
+      "meanCompletionDelay": 130.0,
+      "maxCompletionDelay": 130.0,
+      "reassignments": 0,
+      "workerChanges": 0,
+      "orderChanges": 0,
+      "scheduleChanges": 0,
+      "removedAssignments": 0,
+      "newWorkersActivated": 0,
+      "maxScheduleShiftMinutes": 0,
+      "routeMetrics": [
+        {
+          "workerId": "w",
+          "distanceMetres": 1200,
+          "travelSeconds": 1200,
+          "waitingSeconds": 0,
+          "serviceSeconds": 2400
+        }
+      ],
+      "validationTimeMs": 0.07619999814778566
+    }
+  }
+}

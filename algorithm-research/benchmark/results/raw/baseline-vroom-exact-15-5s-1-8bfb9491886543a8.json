@@ -1,0 +1,247 @@
+{
+  "solver": "vroom",
+  "dataset": "beeline-car-no-breaks-v1-declared-geography:exact-15",
+  "policy": "PRIMARY",
+  "timeLimitSec": 5.0,
+  "seed": 1,
+  "timestamp": "2026-09-17T13:03:51.949893+00:00",
+  "datasetVersion": "65c2548387a84e0cbd8a11c19238b1fce7775d216741fccd7ac722a0f7cd5711",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "3476b1a5d6097883056edcfc8e3ebf857cb254540c0e612254a69fd33d73470b",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 15,
+    "workersTotal": 35,
+    "locationCount": 18
+  },
+  "solverVersion": "pyvroom-1.15.2",
+  "adapterVersion": "7efb0276744e0adb3cdd33a9837be2afa41163fbe82e12498e3d99fb5c495326",
+  "status": "FEASIBLE",
+  "solution": {
+    "status": "FEASIBLE",
+    "routes": [
+      {
+        "workerId": "beeline-v1-east-worker-1309fd3aab80",
+        "startLocationId": "office:east",
+        "departure": 45555,
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-7939",
+            "start": 45957,
+            "finish": 50157
+          },
+          {
+            "jobId": "beeline-v1-east-job-10245",
+            "start": 50400,
+            "finish": 54600
+          },
+          {
+            "jobId": "beeline-v1-east-job-30769",
+            "start": 54904,
+            "finish": 59104
+          },
+          {
+            "jobId": "beeline-v1-east-job-50104",
+            "start": 64800,
+            "finish": 69000
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-5ee3aec28035",
+        "startLocationId": "office:southeast",
+        "departure": 49578,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-20055",
+            "start": 50400,
+            "finish": 52200
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-13583",
+            "start": 53815,
+            "finish": 55615
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-84466",
+            "start": 64800,
+            "finish": 69000
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-58ada240a610",
+        "startLocationId": "office:southeast",
+        "departure": 41807,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-63577",
+            "start": 43200,
+            "finish": 45000
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-23094",
+            "start": 49062,
+            "finish": 53262
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-13404",
+            "start": 72000,
+            "finish": 73200
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-1fa581dc6d48",
+        "startLocationId": "office:southcentral",
+        "departure": 54694,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southcentral-job-13203",
+            "start": 55076,
+            "finish": 56876
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-87819",
+            "start": 57600,
+            "finish": 59400
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-86864",
+            "start": 60173,
+            "finish": 61973
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-90709",
+            "start": 62702,
+            "finish": 64502
+          },
+          {
+            "jobId": "beeline-v1-southcentral-job-95501",
+            "start": 72000,
+            "finish": 73800
+          }
+        ]
+      }
+    ],
+    "unassigned": [],
+    "seed": 1,
+    "solverVersion": "pyvroom-1.15.2",
+    "bindingVersion": "1.15.2",
+    "solverObjective": 7291295,
+    "runtime": {
+      "solverWallTimeMs": 33.0653999990318,
+      "modelBuildTimeMs": 6.217099999048514
+    },
+    "rawDiagnostics": {
+      "nativeSummary": {
+        "cost": 7291295,
+        "routes": 4,
+        "unassigned": 0,
+        "setup": 0,
+        "service": 40800,
+        "duration": 13380,
+        "waiting_time": 39186,
+        "priority": 15,
+        "distance": 211651,
+        "violations": [],
+        "computing_times": {
+          "loading": 5,
+          "solving": 17,
+          "routing": 0
+        }
+      },
+      "fixedVehicleCost": 1769911,
+      "distanceUpperBoundMetres": 1769910,
+      "seedScope": "No random seed exposed by binding; repeat ID only",
+      "objective": "Equal positive priority maximizes count, then fixed activation plus exact distance costs"
+    }
+  },
+  "metrics": {
+    "status": "FEASIBLE",
+    "eligibleForComparison": true,
+    "hardViolations": 0,
+    "H01Violations": 0,
+    "H02Violations": 0,
+    "H03Violations": 0,
+    "H04Violations": 0,
+    "H05Violations": 0,
+    "H06Violations": 0,
+    "H07Violations": 0,
+    "H08Violations": 0,
+    "H09Violations": 0,
+    "H10Violations": 0,
+    "H11Violations": 0,
+    "H12Violations": 0,
+    "jobsTotal": 15,
+    "served": 15,
+    "unassigned": 0,
+    "servedPercent": 100.0,
+    "workersUsed": 4,
+    "remainingDayWorkersUsed": 4,
+    "distanceMetres": 211651,
+    "distanceKm": 211.651,
+    "travelMinutes": 223.0,
+    "waitingMinutes": 653.1,
+    "serviceMinutes": 680.0,
+    "emergencyTotal": 0,
+    "emergencyServed": 0,
+    "emergencyUnassigned": 0,
+    "emergencies": [],
+    "meanResponseDelay": null,
+    "medianResponseDelay": null,
+    "maxResponseDelay": null,
+    "meanCompletionDelay": null,
+    "maxCompletionDelay": null,
+    "reassignments": null,
+    "workerChanges": null,
+    "orderChanges": null,
+    "scheduleChanges": null,
+    "removedAssignments": null,
+    "newWorkersActivated": null,
+    "maxScheduleShiftMinutes": null,
+    "routeMetrics": [
+      {
+        "workerId": "beeline-v1-east-worker-1309fd3aab80",
+        "distanceMetres": 10228,
+        "travelSeconds": 1152,
+        "waitingSeconds": 5493,
+        "serviceSeconds": 16800
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-5ee3aec28035",
+        "distanceMetres": 62430,
+        "travelSeconds": 3950,
+        "waitingSeconds": 7672,
+        "serviceSeconds": 7800
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-58ada240a610",
+        "distanceMetres": 108361,
+        "travelSeconds": 5571,
+        "waitingSeconds": 18622,
+        "serviceSeconds": 7200
+      },
+      {
+        "workerId": "beeline-v1-southcentral-worker-1fa581dc6d48",
+        "distanceMetres": 30632,
+        "travelSeconds": 2707,
+        "waitingSeconds": 7399,
+        "serviceSeconds": 9000
+      }
+    ],
+    "validationTimeMs": 0.2310999989276752
+  },
+  "resources": {
+    "processWallTimeMs": 1170.2770000010787,
+    "peakMemoryMb": 87.51953125,
+    "cpuTimeSampledMs": 1015.625,
+    "sampleCount": 18,
+    "samplingIntervalMs": 50,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "exact-15",
+  "experimentStage": "STATIC_PRIMARY_FRESH_PROCESS",
+  "campaignId": "20260917T130308"
+}

@@ -1,0 +1,754 @@
+[
+  {
+    "solver": "alns",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-alns-exact-10-15s-1-be46edeed1c90802.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "alns",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-alns-exact-15-15s-1-9058076cf443da97.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "alns",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-alns-exact-20-15s-1-4d92a8456eb3f5a9.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "alns",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-alns-exact-5-15s-1-936d4925b7eaa6da.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "cbc",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "cbc",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "cbc",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "cbc",
+    "scope": "exact-20",
+    "timeLimitSec": 60.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "cbc",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "choco",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-choco-exact-10-15s-1-bdb641dee4d1418f.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": false,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 3,
+    "extraDistanceKmAtSameCoverageAndStaff": null
+  },
+  {
+    "solver": "choco",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "NO_SOLUTION_FOUND",
+    "rawFile": "results/raw/baseline-choco-exact-15-15s-1-7b0e62983c183dbb.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": null,
+    "missedJobsVsOptimum": null,
+    "extraWorkersAtSameCoverage": null,
+    "extraDistanceKmAtSameCoverageAndStaff": null
+  },
+  {
+    "solver": "choco",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "NO_SOLUTION_FOUND",
+    "rawFile": "results/raw/baseline-choco-exact-20-15s-1-0574b3627a67969a.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": null,
+    "missedJobsVsOptimum": null,
+    "extraWorkersAtSameCoverage": null,
+    "extraDistanceKmAtSameCoverageAndStaff": null
+  },
+  {
+    "solver": "choco",
+    "scope": "exact-20",
+    "timeLimitSec": 60.0,
+    "seed": 1,
+    "status": "NO_SOLUTION_FOUND",
+    "rawFile": "results/raw/baseline-choco-exact-20-60s-1-0b6e8dafed2ecf6d.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": null,
+    "missedJobsVsOptimum": null,
+    "extraWorkersAtSameCoverage": null,
+    "extraDistanceKmAtSameCoverageAndStaff": null
+  },
+  {
+    "solver": "choco",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-choco-exact-5-15s-1-03b4a47217942c0e.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": false,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 2.51
+  },
+  {
+    "solver": "cpsat",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "cpsat",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-cpsat-exact-15-15s-1-8bf05f9b9ff68d6d.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "cpsat",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-cpsat-exact-20-15s-1-d2d1cd021c78bbb8.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": false,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 1,
+    "extraDistanceKmAtSameCoverageAndStaff": null
+  },
+  {
+    "solver": "cpsat",
+    "scope": "exact-20",
+    "timeLimitSec": 60.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-cpsat-exact-20-60s-1-2f0b17f34cd330f5.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "cpsat",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "jsprit",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-jsprit-exact-10-15s-1-49f76fb9549f7c7d.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "jsprit",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-jsprit-exact-15-15s-1-9db769c341c2252b.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "jsprit",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-jsprit-exact-20-15s-1-f00ca70a6a2783e1.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "jsprit",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-jsprit-exact-5-15s-1-f84f0cfb7bbe4853.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "ortools_routing",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-ortools_routing-exact-10-15s-1-fd5b02946469456f.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "ortools_routing",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-ortools_routing-exact-15-15s-1-010e2d02dbb6b4e1.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "ortools_routing",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-ortools_routing-exact-20-15s-1-e7036b4fb3d40133.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "ortools_routing",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-ortools_routing-exact-5-15s-1-ce64b24d5d7a5a11.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "pyvrp",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-pyvrp-exact-10-15s-1-5cb9c997cf69790b.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "pyvrp",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-pyvrp-exact-15-15s-1-3c1a02ea8af5b237.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "pyvrp",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-pyvrp-exact-20-15s-1-d4865d807821b11e.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "pyvrp",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-pyvrp-exact-5-15s-1-a8a52bdd959cfdab.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "scip",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "scip",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "scip",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "scip",
+    "scope": "exact-20",
+    "timeLimitSec": 60.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "scip",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "OPTIMAL",
+    "rawFile": "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "timefold",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-timefold-exact-10-15s-1-2c3b81627325b878.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "timefold",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-timefold-exact-15-15s-1-36c9e2e8b7a8b93e.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": false,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 1,
+    "extraDistanceKmAtSameCoverageAndStaff": null
+  },
+  {
+    "solver": "timefold",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-timefold-exact-20-15s-1-d44a76ab0e2b1084.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": false,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 1,
+    "extraDistanceKmAtSameCoverageAndStaff": null
+  },
+  {
+    "solver": "timefold",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-timefold-exact-5-15s-1-3f6dba276811cb65.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "vroom",
+    "scope": "exact-10",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-vroom-exact-10-15s-1-d3955b9d45c447a7.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "results/raw/baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "results/raw/baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "vroom",
+    "scope": "exact-15",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-vroom-exact-15-15s-1-0d425b3c1c99aa82.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "results/raw/baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "vroom",
+    "scope": "exact-20",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-vroom-exact-20-15s-1-9d442e74630c1903.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "results/raw/baseline-cbc-exact-20-60s-1-05434cddd9e4c3e3.json",
+      "results/raw/baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "results/raw/baseline-scip-exact-20-60s-1-ca49572a6dfbeecc.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  },
+  {
+    "solver": "vroom",
+    "scope": "exact-5",
+    "timeLimitSec": 15.0,
+    "seed": 1,
+    "status": "FEASIBLE",
+    "rawFile": "results/raw/baseline-vroom-exact-5-15s-1-e8ad0f2e2bef3f13.json",
+    "referenceRawFiles": [
+      "results/raw/baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "results/raw/baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "results/raw/baseline-scip-exact-5-15s-1-8c201c28aa59664a.json"
+    ],
+    "matchesProvedOptimum": true,
+    "missedJobsVsOptimum": 0,
+    "extraWorkersAtSameCoverage": 0,
+    "extraDistanceKmAtSameCoverageAndStaff": 0.0
+  }
+]

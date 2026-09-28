@@ -1,0 +1,114 @@
+{
+  "checkedAt": "2026-09-18T10:26:06.398795+00:00",
+  "problemFingerprint": "cdd9fa715c2d332c485b3d9006c0ad5a20531203ede76f229daed5bc89aebac6",
+  "scenario": "beeline-car-no-breaks-v2-strict-hd",
+  "geocodingAssumptions": [
+    "office:east",
+    "office:southeast",
+    "beeline-v1-southeast-job-98998",
+    "beeline-v1-southeast-job-51774",
+    "beeline-v1-southeast-job-90915",
+    "beeline-v1-southeast-job-45243",
+    "beeline-v1-southeast-job-1287",
+    "beeline-v1-southcentral-job-66376"
+  ],
+  "common": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 203,
+    "workersTotal": 35,
+    "locationCount": 206
+  },
+  "solvers": [
+    {
+      "solver": "ortools_routing",
+      "name": "OR-Tools Routing",
+      "family": "specialized_routing",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "IMPLEMENTED",
+      "dynamicAdapterStatus": "IMPLEMENTED"
+    },
+    {
+      "solver": "vroom",
+      "name": "VROOM",
+      "family": "specialized_routing",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "NOT_IMPLEMENTED",
+      "dynamicAdapterStatus": "NOT_IMPLEMENTED"
+    },
+    {
+      "solver": "jsprit",
+      "name": "jsprit",
+      "family": "specialized_routing",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "NOT_IMPLEMENTED",
+      "dynamicAdapterStatus": "NOT_IMPLEMENTED"
+    },
+    {
+      "solver": "pyvrp",
+      "name": "PyVRP",
+      "family": "specialized_routing",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "NOT_IMPLEMENTED",
+      "dynamicAdapterStatus": "NOT_IMPLEMENTED"
+    },
+    {
+      "solver": "timefold",
+      "name": "Timefold Solver Community",
+      "family": "constraint_planning",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "IMPLEMENTED",
+      "dynamicAdapterStatus": "IMPLEMENTED"
+    },
+    {
+      "solver": "cpsat",
+      "name": "OR-Tools CP-SAT",
+      "family": "constraint_planning",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "NOT_IMPLEMENTED",
+      "dynamicAdapterStatus": "NOT_IMPLEMENTED"
+    },
+    {
+      "solver": "choco",
+      "name": "Choco Solver",
+      "family": "constraint_planning",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "NOT_IMPLEMENTED",
+      "dynamicAdapterStatus": "NOT_IMPLEMENTED"
+    },
+    {
+      "solver": "alns",
+      "name": "ALNS",
+      "family": "metaheuristic",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "IMPLEMENTED",
+      "dynamicAdapterStatus": "IMPLEMENTED"
+    },
+    {
+      "solver": "scip",
+      "name": "SCIP",
+      "family": "mip_cip",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "NOT_IMPLEMENTED",
+      "dynamicAdapterStatus": "NOT_IMPLEMENTED"
+    },
+    {
+      "solver": "cbc",
+      "name": "CBC",
+      "family": "mip_cip",
+      "dataStatus": "READY",
+      "primaryAdapterStatus": "SMALL_TESTS_PASSED",
+      "emergencyAdapterStatus": "NOT_IMPLEMENTED",
+      "dynamicAdapterStatus": "NOT_IMPLEMENTED"
+    }
+  ]
+}

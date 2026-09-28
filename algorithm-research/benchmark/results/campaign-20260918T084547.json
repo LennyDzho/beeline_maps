@@ -1,0 +1,198 @@
+{
+  "id": "20260918T084547",
+  "status": "COMPLETE",
+  "createdAt": "2026-09-18T08:45:47.698072+00:00",
+  "configuration": {
+    "solvers": [
+      "ortools_routing",
+      "vroom",
+      "jsprit",
+      "pyvrp",
+      "timefold",
+      "cpsat",
+      "choco",
+      "alns",
+      "scip",
+      "cbc"
+    ],
+    "budgets": [
+      15.0
+    ],
+    "seeds": [
+      1
+    ],
+    "scopes": [
+      "exact-5",
+      "exact-10",
+      "exact-15",
+      "exact-20"
+    ]
+  },
+  "total": 40,
+  "completed": 40,
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "runs": [
+    {
+      "path": "results\\raw\\baseline-vroom-exact-5-15s-1-e8ad0f2e2bef3f13.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-exact-5-15s-1-936d4925b7eaa6da.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cpsat-exact-5-15s-1-ef69ccb28ebb5c99.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-choco-exact-5-15s-1-03b4a47217942c0e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-scip-exact-5-15s-1-8c201c28aa59664a.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-exact-5-15s-1-a8a52bdd959cfdab.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cbc-exact-5-15s-1-8a1eba753b848106.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-exact-5-15s-1-ce64b24d5d7a5a11.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-exact-5-15s-1-f84f0cfb7bbe4853.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-exact-5-15s-1-3f6dba276811cb65.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-exact-10-15s-1-49f76fb9549f7c7d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-exact-10-15s-1-5cb9c997cf69790b.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-exact-10-15s-1-be46edeed1c90802.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-exact-10-15s-1-2c3b81627325b878.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-scip-exact-10-15s-1-c9f1d58f3cbccda9.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-choco-exact-10-15s-1-bdb641dee4d1418f.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-exact-10-15s-1-fd5b02946469456f.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cbc-exact-10-15s-1-590475b7cc79a944.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-exact-10-15s-1-d3955b9d45c447a7.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cpsat-exact-10-15s-1-45a4aa45a25b3f04.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-exact-15-15s-1-0d425b3c1c99aa82.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-exact-15-15s-1-010e2d02dbb6b4e1.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-choco-exact-15-15s-1-7b0e62983c183dbb.json",
+      "status": "NO_SOLUTION_FOUND"
+    },
+    {
+      "path": "results\\raw\\baseline-cbc-exact-15-15s-1-038040518229a662.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-exact-15-15s-1-9058076cf443da97.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cpsat-exact-15-15s-1-8bf05f9b9ff68d6d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-scip-exact-15-15s-1-ef993ff693b14cb5.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-exact-15-15s-1-3c1a02ea8af5b237.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-exact-15-15s-1-36c9e2e8b7a8b93e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-exact-15-15s-1-9db769c341c2252b.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-exact-20-15s-1-d4865d807821b11e.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-exact-20-15s-1-f00ca70a6a2783e1.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-ortools_routing-exact-20-15s-1-e7036b4fb3d40133.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-choco-exact-20-15s-1-0574b3627a67969a.json",
+      "status": "NO_SOLUTION_FOUND"
+    },
+    {
+      "path": "results\\raw\\baseline-cpsat-exact-20-15s-1-d2d1cd021c78bbb8.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cbc-exact-20-15s-1-e210bc66dbbc766c.json",
+      "status": "OPTIMAL"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-exact-20-15s-1-d44a76ab0e2b1084.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-exact-20-15s-1-9d442e74630c1903.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-exact-20-15s-1-4d92a8456eb3f5a9.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-scip-exact-20-15s-1-0423c76335dde999.json",
+      "status": "OPTIMAL"
+    }
+  ],
+  "executionOrderRule": "Budgets ascending as requested; methods shuffled per seed with fixed ordering seed 20260918; serial execution",
+  "updatedAt": "2026-09-18T08:53:45.688442+00:00"
+}

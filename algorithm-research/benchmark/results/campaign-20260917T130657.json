@@ -1,0 +1,74 @@
+{
+  "id": "20260917T130657",
+  "status": "COMPLETE",
+  "createdAt": "2026-09-17T13:06:57.566586+00:00",
+  "configuration": {
+    "solvers": [
+      "ortools_routing",
+      "pyvrp",
+      "vroom",
+      "jsprit",
+      "timefold",
+      "alns",
+      "cpsat",
+      "scip",
+      "cbc",
+      "choco"
+    ],
+    "budgets": [
+      15.0
+    ],
+    "seeds": [
+      1
+    ],
+    "scopes": [
+      "all"
+    ]
+  },
+  "total": 10,
+  "completed": 10,
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "runs": [
+    {
+      "path": "results\\raw\\baseline-ortools_routing-all-15s-1-326ad23543872278.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-pyvrp-all-15s-1-2bbf3e91386f3a6c.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-vroom-all-15s-1-5db5dfa144189795.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-jsprit-all-15s-1-6d8f5bff7d40a534.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-timefold-all-15s-1-c32bd62c7ebaeaf2.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-alns-all-15s-1-6f2994e807f6643d.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cpsat-all-15s-1-3b04de16d8d89882.json",
+      "status": "NO_SOLUTION_FOUND"
+    },
+    {
+      "path": "results\\raw\\baseline-scip-all-15s-1-a6cb2a9e19741f97.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-cbc-all-15s-1-ba35f5e5f8d5195f.json",
+      "status": "FEASIBLE"
+    },
+    {
+      "path": "results\\raw\\baseline-choco-all-15s-1-c1f618a0a06adb28.json",
+      "status": "NO_SOLUTION_FOUND"
+    }
+  ],
+  "updatedAt": "2026-09-17T13:10:20.112834+00:00"
+}

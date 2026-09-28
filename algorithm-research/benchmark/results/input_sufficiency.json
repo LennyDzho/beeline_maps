@@ -1,0 +1,125 @@
+{
+  "checkedAt": "2026-09-18T06:03:47.071803+00:00",
+  "scope": "Presence, consistency and adapter encoding; not confirmation of synthetic assumptions or uncertain real addresses",
+  "declaredAssumptions": [
+    "09:00–22:00 synthetic shift",
+    "All initial jobs known 09:00",
+    "Static car road snapshot, no traffic",
+    "Seven ambiguous building addresses resolved by declared model choices",
+    "HD competencies inferred from historic assignments, including cancelled rows; no evidence of universal competency outside observed types"
+  ],
+  "records": [
+    {
+      "file": "datasets\\problem.json",
+      "problemFingerprint": "cdd9fa715c2d332c485b3d9006c0ad5a20531203ede76f229daed5bc89aebac6",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 203,
+        "workersTotal": 35,
+        "locationCount": 206
+      },
+      "jobsImpossibleEvenWithZeroTravel": [],
+      "optimisticCoverageUpperBound": 203
+    },
+    {
+      "file": "datasets\\dynamic-hd-v2\\cancellation.json",
+      "problemFingerprint": "0c2bb30f8632ca825202717060e471357d19ee6ae289415b5c366001814643a1",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 173,
+        "workersTotal": 35,
+        "locationCount": 195
+      },
+      "jobsImpossibleEvenWithZeroTravel": [],
+      "optimisticCoverageUpperBound": 173
+    },
+    {
+      "file": "datasets\\dynamic-hd-v2\\manual_assignment.json",
+      "problemFingerprint": "89ebe7ee44a1b4cb90823da99b46f0362c9c1a7c69f484eedd870c8817d61b89",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 174,
+        "workersTotal": 35,
+        "locationCount": 196
+      },
+      "jobsImpossibleEvenWithZeroTravel": [],
+      "optimisticCoverageUpperBound": 174
+    },
+    {
+      "file": "datasets\\dynamic-hd-v2\\manual_time.json",
+      "problemFingerprint": "09e509309aca888a291ae51491412fee8cac09a782d3f51e32f31201d6fa1319",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 174,
+        "workersTotal": 35,
+        "locationCount": 196
+      },
+      "jobsImpossibleEvenWithZeroTravel": [],
+      "optimisticCoverageUpperBound": 174
+    },
+    {
+      "file": "datasets\\dynamic-hd-v2\\new_emergency.json",
+      "problemFingerprint": "925ce5a0e22ee70f35f1d5c895f203a2e20086875d31281065cc10cc476a6921",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 175,
+        "workersTotal": 35,
+        "locationCount": 196
+      },
+      "jobsImpossibleEvenWithZeroTravel": [],
+      "optimisticCoverageUpperBound": 175
+    },
+    {
+      "file": "datasets\\dynamic-hd-v2\\worker_unavailability.json",
+      "problemFingerprint": "b1bfe111004048ed8f0d59f31e41f531b6e0f6c5250c6096438996286839dfe1",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 174,
+        "workersTotal": 35,
+        "locationCount": 196
+      },
+      "jobsImpossibleEvenWithZeroTravel": [
+        {
+          "jobId": "beeline-v1-southcentral-job-26845",
+          "qualifiedWorkerIds": [
+            "beeline-v1-southcentral-worker-8548747c209e"
+          ],
+          "proof": "Even with zero travel no qualified worker can start within window/release/availability and finish service inside shift"
+        }
+      ],
+      "optimisticCoverageUpperBound": 173
+    },
+    {
+      "file": "datasets\\scaling-hd-v2\\1000.json",
+      "problemFingerprint": "cbc3e90cea59be4701e3a8fe073a0e3afbbafbc42c032ccb0ae57f0ed9f26dca",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 1000,
+        "workersTotal": 175,
+        "locationCount": 204
+      },
+      "jobsImpossibleEvenWithZeroTravel": [],
+      "optimisticCoverageUpperBound": 1000
+    },
+    {
+      "file": "datasets\\scaling-hd-v2\\500.json",
+      "problemFingerprint": "2b656220a772971dda10cd68e0ed785335c87a32ef0dd8e5782995538483da64",
+      "preflight": {
+        "status": "READY",
+        "issues": [],
+        "jobsTotal": 500,
+        "workersTotal": 88,
+        "locationCount": 197
+      },
+      "jobsImpossibleEvenWithZeroTravel": [],
+      "optimisticCoverageUpperBound": 500
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "solver": "timefold",
+  "dataset": "beeline-car-no-breaks-v1-declared-geography:all",
+  "policy": "PRIMARY",
+  "timeLimitSec": 5.0,
+  "seed": 1,
+  "timestamp": "2026-09-17T13:00:37.361285+00:00",
+  "datasetVersion": "65c2548387a84e0cbd8a11c19238b1fce7775d216741fccd7ac722a0f7cd5711",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "f9101e111bc2b76f11e91eeaa8059d366dff7e05026dc991fdc39a20a7970e9f",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 203,
+    "workersTotal": 35,
+    "locationCount": 206
+  },
+  "solverVersion": "2.6.0",
+  "adapterVersion": "ec903199538e06a75479830f24105911e3a03dab8b83c4329580188deaa384b3",
+  "status": "RUNTIME_ERROR",
+  "solution": null,
+  "metrics": null,
+  "error": {
+    "type": "RuntimeError",
+    "message": "timefold exit 1; native log: C:\\Users\\vadim\\Documents\\MMI - проект\\algorithm-research\\benchmark\\.cache\\timefold\\1789650037406378200\\native.log"
+  },
+  "resources": {
+    "processWallTimeMs": 6849.894099999801,
+    "peakMemoryMb": 184.40234375,
+    "cpuTimeSampledMs": 9875.0,
+    "sampleCount": 97,
+    "samplingIntervalMs": 50,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "all",
+  "experimentStage": "STATIC_PRIMARY_FRESH_PROCESS",
+  "campaignId": "20260917T125851"
+}

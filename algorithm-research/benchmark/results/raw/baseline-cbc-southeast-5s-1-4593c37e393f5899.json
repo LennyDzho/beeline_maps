@@ -1,0 +1,28 @@
+{
+  "solver": "cbc",
+  "dataset": "beeline-car-no-breaks-v1-declared-geography:southeast",
+  "policy": "PRIMARY",
+  "timeLimitSec": 5,
+  "seed": 1,
+  "timestamp": "2026-09-17T10:39:08.167815+00:00",
+  "datasetVersion": "65c2548387a84e0cbd8a11c19238b1fce7775d216741fccd7ac722a0f7cd5711",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "82dc540f5d60e7be4993b5f663819301c36112c654af14e178f26e06c83d9591",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 81,
+    "workersTotal": 12,
+    "locationCount": 82
+  },
+  "adapterVersion": "42e8b8bf8a194302a5bbe18d5e2e4cc101b3188ab9dcc383363ce91415e5d41e",
+  "status": "RUNTIME_ERROR",
+  "solution": null,
+  "metrics": null,
+  "error": {
+    "type": "RuntimeError",
+    "message": "CBC failed; retained native log: C:\\Users\\vadim\\Documents\\MMI - проект\\algorithm-research\\benchmark\\.cache\\cbc\\1789641550659296800\\cbc.log; PulpSolverError"
+  },
+  "scope": "southeast",
+  "experimentStage": "STATIC_BASELINE_NOT_FINAL_COMPARISON"
+}

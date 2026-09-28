@@ -1,0 +1,3506 @@
+{
+  "solver": "timefold",
+  "dataset": "synthetic-strict-hd-500",
+  "policy": "PRIMARY",
+  "timeLimitSec": 15.0,
+  "seed": 1,
+  "timestamp": "2026-09-18T08:57:47.617067+00:00",
+  "datasetVersion": "22686b39cbc2c929a2cbbd6de70d1aa4ca2ba950312fed417f809774a83daf79",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "2b656220a772971dda10cd68e0ed785335c87a32ef0dd8e5782995538483da64",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 500,
+    "workersTotal": 88,
+    "locationCount": 197
+  },
+  "solverVersion": "2.6.0",
+  "adapterVersion": "0af1862a10bec66d3cf0fc94d3a66a3c74022c8b040347638c078e0acd6e4cfd",
+  "validatorVersion": "0c61d8c1df227c32250aa273409ac70e1620bb479543a14b5ecac19bed86786a",
+  "metricsVersion": "e861c7dfa0aaba64959d594b8f8610d547a02a8ac890ff348cbe00246ff0f62e",
+  "status": "FEASIBLE",
+  "solution": {
+    "status": "FEASIBLE",
+    "routes": [
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0000",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0016",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0014",
+            "finish": 42329,
+            "start": 40529
+          },
+          {
+            "jobId": "scale-500-east-job-0005",
+            "finish": 44129,
+            "start": 42329
+          },
+          {
+            "jobId": "scale-500-east-job-0003",
+            "finish": 46706,
+            "start": 44906
+          },
+          {
+            "jobId": "scale-500-east-job-0010",
+            "finish": 48506,
+            "start": 46706
+          },
+          {
+            "jobId": "scale-500-east-job-0008",
+            "finish": 51306,
+            "start": 49506
+          },
+          {
+            "jobId": "scale-500-east-job-0000",
+            "finish": 55732,
+            "start": 51532
+          },
+          {
+            "jobId": "scale-500-east-job-0121",
+            "finish": 59932,
+            "start": 55732
+          },
+          {
+            "jobId": "scale-500-east-job-0067",
+            "finish": 66600,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-east-job-0017",
+            "finish": 69154,
+            "start": 67354
+          },
+          {
+            "jobId": "scale-500-east-job-0002",
+            "finish": 70954,
+            "start": 69154
+          },
+          {
+            "jobId": "scale-500-east-job-0006",
+            "finish": 76200,
+            "start": 72000
+          },
+          {
+            "jobId": "scale-500-east-job-0012",
+            "finish": 79062,
+            "start": 77262
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0001",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0062",
+            "finish": 40800,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0029",
+            "finish": 45000,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-east-job-0068",
+            "finish": 47388,
+            "start": 45588
+          },
+          {
+            "jobId": "scale-500-east-job-0060",
+            "finish": 49887,
+            "start": 48087
+          },
+          {
+            "jobId": "scale-500-east-job-0053",
+            "finish": 55200,
+            "start": 50400
+          },
+          {
+            "jobId": "scale-500-east-job-0046",
+            "finish": 56729,
+            "start": 55529
+          },
+          {
+            "jobId": "scale-500-east-job-0033",
+            "finish": 57929,
+            "start": 56729
+          },
+          {
+            "jobId": "scale-500-east-job-0019",
+            "finish": 63436,
+            "start": 58636
+          },
+          {
+            "jobId": "scale-500-east-job-0013",
+            "finish": 69367,
+            "start": 64567
+          },
+          {
+            "jobId": "scale-500-east-job-0059",
+            "finish": 70668,
+            "start": 69468
+          },
+          {
+            "jobId": "scale-500-east-job-0054",
+            "finish": 71868,
+            "start": 70668
+          },
+          {
+            "jobId": "scale-500-east-job-0015",
+            "finish": 73068,
+            "start": 71868
+          },
+          {
+            "jobId": "scale-500-east-job-0105",
+            "finish": 74956,
+            "start": 73156
+          },
+          {
+            "jobId": "scale-500-east-job-0035",
+            "finish": 76156,
+            "start": 74956
+          },
+          {
+            "jobId": "scale-500-east-job-0030",
+            "finish": 77956,
+            "start": 76156
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0002",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0036",
+            "finish": 37200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0128",
+            "finish": 52200,
+            "start": 50400
+          },
+          {
+            "jobId": "scale-500-east-job-0001",
+            "finish": 59400,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-east-job-0161",
+            "finish": 61200,
+            "start": 59400
+          },
+          {
+            "jobId": "scale-500-east-job-0131",
+            "finish": 63000,
+            "start": 61200
+          },
+          {
+            "jobId": "scale-500-east-job-0031",
+            "finish": 66000,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-east-job-0146",
+            "finish": 67200,
+            "start": 66000
+          },
+          {
+            "jobId": "scale-500-east-job-0051",
+            "finish": 69489,
+            "start": 67689
+          },
+          {
+            "jobId": "scale-500-east-job-0049",
+            "finish": 71289,
+            "start": 69489
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0003",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0162",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0158",
+            "finish": 44400,
+            "start": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0153",
+            "finish": 48784,
+            "start": 44584
+          },
+          {
+            "jobId": "scale-500-east-job-0160",
+            "finish": 53114,
+            "start": 48914
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0004",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0058",
+            "finish": 37329,
+            "start": 32529
+          },
+          {
+            "jobId": "scale-500-east-job-0011",
+            "finish": 42129,
+            "start": 37329
+          },
+          {
+            "jobId": "scale-500-east-job-0151",
+            "finish": 47400,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-east-job-0139",
+            "finish": 52050,
+            "start": 47850
+          },
+          {
+            "jobId": "scale-500-east-job-0097",
+            "finish": 56321,
+            "start": 52121
+          },
+          {
+            "jobId": "scale-500-east-job-0018",
+            "finish": 61800,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-east-job-0050",
+            "finish": 67710,
+            "start": 62910
+          },
+          {
+            "jobId": "scale-500-east-job-0034",
+            "finish": 72665,
+            "start": 68465
+          },
+          {
+            "jobId": "scale-500-east-job-0009",
+            "finish": 78165,
+            "start": 73365
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0006",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0024",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0023",
+            "finish": 42695,
+            "start": 40895
+          },
+          {
+            "jobId": "scale-500-east-job-0126",
+            "finish": 47587,
+            "start": 43387
+          },
+          {
+            "jobId": "scale-500-east-job-0057",
+            "finish": 54600,
+            "start": 50400
+          },
+          {
+            "jobId": "scale-500-east-job-0040",
+            "finish": 56675,
+            "start": 54875
+          },
+          {
+            "jobId": "scale-500-east-job-0099",
+            "finish": 58475,
+            "start": 56675
+          },
+          {
+            "jobId": "scale-500-east-job-0096",
+            "finish": 62974,
+            "start": 58774
+          },
+          {
+            "jobId": "scale-500-east-job-0095",
+            "finish": 67174,
+            "start": 62974
+          },
+          {
+            "jobId": "scale-500-east-job-0085",
+            "finish": 69707,
+            "start": 67907
+          },
+          {
+            "jobId": "scale-500-east-job-0154",
+            "finish": 71507,
+            "start": 69707
+          },
+          {
+            "jobId": "scale-500-east-job-0114",
+            "finish": 73582,
+            "start": 71782
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0007",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0107",
+            "finish": 37800,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0106",
+            "finish": 42232,
+            "start": 38032
+          },
+          {
+            "jobId": "scale-500-east-job-0122",
+            "finish": 47400,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-east-job-0116",
+            "finish": 51960,
+            "start": 47760
+          },
+          {
+            "jobId": "scale-500-east-job-0120",
+            "finish": 56556,
+            "start": 52356
+          },
+          {
+            "jobId": "scale-500-east-job-0100",
+            "finish": 58631,
+            "start": 56831
+          },
+          {
+            "jobId": "scale-500-east-job-0144",
+            "finish": 63022,
+            "start": 58822
+          },
+          {
+            "jobId": "scale-500-east-job-0149",
+            "finish": 67502,
+            "start": 63302
+          },
+          {
+            "jobId": "scale-500-east-job-0136",
+            "finish": 76200,
+            "start": 72000
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0008",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0020",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0007",
+            "finish": 41899,
+            "start": 40699
+          },
+          {
+            "jobId": "scale-500-east-job-0021",
+            "finish": 46591,
+            "start": 42391
+          },
+          {
+            "jobId": "scale-500-east-job-0117",
+            "finish": 48533,
+            "start": 46733
+          },
+          {
+            "jobId": "scale-500-east-job-0042",
+            "finish": 53143,
+            "start": 48943
+          },
+          {
+            "jobId": "scale-500-east-job-0134",
+            "finish": 58086,
+            "start": 53886
+          },
+          {
+            "jobId": "scale-500-east-job-0102",
+            "finish": 63029,
+            "start": 58829
+          },
+          {
+            "jobId": "scale-500-east-job-0074",
+            "finish": 67229,
+            "start": 63029
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0009",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0025",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0032",
+            "finish": 44715,
+            "start": 40515
+          },
+          {
+            "jobId": "scale-500-east-job-0026",
+            "finish": 49393,
+            "start": 45193
+          },
+          {
+            "jobId": "scale-500-east-job-0028",
+            "finish": 54297,
+            "start": 50097
+          },
+          {
+            "jobId": "scale-500-east-job-0072",
+            "finish": 58568,
+            "start": 54368
+          },
+          {
+            "jobId": "scale-500-east-job-0063",
+            "finish": 62936,
+            "start": 58736
+          },
+          {
+            "jobId": "scale-500-east-job-0083",
+            "finish": 67416,
+            "start": 63216
+          },
+          {
+            "jobId": "scale-500-east-job-0022",
+            "finish": 69398,
+            "start": 67598
+          },
+          {
+            "jobId": "scale-500-east-job-0004",
+            "finish": 71198,
+            "start": 69398
+          },
+          {
+            "jobId": "scale-500-east-job-0094",
+            "finish": 72998,
+            "start": 71198
+          },
+          {
+            "jobId": "scale-500-east-job-0075",
+            "finish": 77567,
+            "start": 73367
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0010",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0044",
+            "finish": 62400,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-east-job-0039",
+            "finish": 67200,
+            "start": 62400
+          },
+          {
+            "jobId": "scale-500-east-job-0078",
+            "finish": 73247,
+            "start": 68447
+          },
+          {
+            "jobId": "scale-500-east-job-0071",
+            "finish": 78047,
+            "start": 73247
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0011",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0090",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0104",
+            "finish": 44628,
+            "start": 40428
+          },
+          {
+            "jobId": "scale-500-east-job-0101",
+            "finish": 46857,
+            "start": 45057
+          },
+          {
+            "jobId": "scale-500-east-job-0080",
+            "finish": 51837,
+            "start": 47637
+          },
+          {
+            "jobId": "scale-500-east-job-0077",
+            "finish": 56632,
+            "start": 52432
+          },
+          {
+            "jobId": "scale-500-east-job-0076",
+            "finish": 62400,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-east-job-0079",
+            "finish": 68329,
+            "start": 63529
+          },
+          {
+            "jobId": "scale-500-east-job-0148",
+            "finish": 72801,
+            "start": 68601
+          },
+          {
+            "jobId": "scale-500-east-job-0125",
+            "finish": 77338,
+            "start": 73138
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0012",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0130",
+            "finish": 37800,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0052",
+            "finish": 39600,
+            "start": 37800
+          },
+          {
+            "jobId": "scale-500-east-job-0038",
+            "finish": 41400,
+            "start": 39600
+          },
+          {
+            "jobId": "scale-500-east-job-0027",
+            "finish": 43200,
+            "start": 41400
+          },
+          {
+            "jobId": "scale-500-east-job-0041",
+            "finish": 45238,
+            "start": 43438
+          },
+          {
+            "jobId": "scale-500-east-job-0056",
+            "finish": 49997,
+            "start": 45797
+          },
+          {
+            "jobId": "scale-500-east-job-0045",
+            "finish": 54197,
+            "start": 49997
+          },
+          {
+            "jobId": "scale-500-east-job-0123",
+            "finish": 56377,
+            "start": 54577
+          },
+          {
+            "jobId": "scale-500-east-job-0118",
+            "finish": 60869,
+            "start": 56669
+          },
+          {
+            "jobId": "scale-500-east-job-0070",
+            "finish": 69000,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-east-job-0082",
+            "finish": 73392,
+            "start": 69192
+          },
+          {
+            "jobId": "scale-500-east-job-0048",
+            "finish": 77769,
+            "start": 73569
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0013",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0092",
+            "finish": 45000,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-east-job-0088",
+            "finish": 46800,
+            "start": 45000
+          },
+          {
+            "jobId": "scale-500-east-job-0086",
+            "finish": 62400,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-east-job-0084",
+            "finish": 67200,
+            "start": 62400
+          },
+          {
+            "jobId": "scale-500-east-job-0115",
+            "finish": 68501,
+            "start": 67301
+          },
+          {
+            "jobId": "scale-500-east-job-0127",
+            "finish": 70981,
+            "start": 69181
+          },
+          {
+            "jobId": "scale-500-east-job-0147",
+            "finish": 73238,
+            "start": 71438
+          },
+          {
+            "jobId": "scale-500-east-job-0132",
+            "finish": 75454,
+            "start": 73654
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0018",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0157",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0137",
+            "finish": 47400,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-east-job-0142",
+            "finish": 49760,
+            "start": 47960
+          },
+          {
+            "jobId": "scale-500-east-job-0156",
+            "finish": 54600,
+            "start": 50400
+          },
+          {
+            "jobId": "scale-500-east-job-0141",
+            "finish": 56594,
+            "start": 54794
+          },
+          {
+            "jobId": "scale-500-east-job-0140",
+            "finish": 61055,
+            "start": 56855
+          },
+          {
+            "jobId": "scale-500-east-job-0159",
+            "finish": 69000,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-east-job-0138",
+            "finish": 76200,
+            "start": 72000
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0020",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0043",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0037",
+            "finish": 42255,
+            "start": 41055
+          },
+          {
+            "jobId": "scale-500-east-job-0047",
+            "finish": 46947,
+            "start": 42747
+          },
+          {
+            "jobId": "scale-500-east-job-0089",
+            "finish": 48889,
+            "start": 47089
+          },
+          {
+            "jobId": "scale-500-east-job-0061",
+            "finish": 53148,
+            "start": 48948
+          },
+          {
+            "jobId": "scale-500-east-job-0119",
+            "finish": 54650,
+            "start": 53450
+          },
+          {
+            "jobId": "scale-500-east-job-0081",
+            "finish": 55850,
+            "start": 54650
+          },
+          {
+            "jobId": "scale-500-east-job-0065",
+            "finish": 69000,
+            "start": 64800
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0021",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0069",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0066",
+            "finish": 44400,
+            "start": 40200
+          },
+          {
+            "jobId": "scale-500-east-job-0093",
+            "finish": 48657,
+            "start": 44457
+          },
+          {
+            "jobId": "scale-500-east-job-0055",
+            "finish": 53079,
+            "start": 48879
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0022",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0155",
+            "finish": 40800,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0087",
+            "finish": 62400,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-east-job-0091",
+            "finish": 68266,
+            "start": 63466
+          },
+          {
+            "jobId": "scale-500-east-job-0150",
+            "finish": 73125,
+            "start": 68325
+          },
+          {
+            "jobId": "scale-500-east-job-0103",
+            "finish": 77925,
+            "start": 73125
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0023",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0108",
+            "finish": 47400,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-east-job-0145",
+            "finish": 51808,
+            "start": 47608
+          },
+          {
+            "jobId": "scale-500-east-job-0133",
+            "finish": 56173,
+            "start": 51973
+          },
+          {
+            "jobId": "scale-500-east-job-0098",
+            "finish": 62400,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-east-job-0124",
+            "finish": 68266,
+            "start": 63466
+          },
+          {
+            "jobId": "scale-500-east-job-0109",
+            "finish": 73415,
+            "start": 69215
+          },
+          {
+            "jobId": "scale-500-east-job-0112",
+            "finish": 77792,
+            "start": 73592
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0024",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0111",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-east-job-0110",
+            "finish": 42550,
+            "start": 40750
+          },
+          {
+            "jobId": "scale-500-east-job-0129",
+            "finish": 47400,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-east-job-0113",
+            "finish": 49608,
+            "start": 47808
+          },
+          {
+            "jobId": "scale-500-east-job-0135",
+            "finish": 54364,
+            "start": 50164
+          },
+          {
+            "jobId": "scale-500-east-job-0152",
+            "finish": 58947,
+            "start": 54747
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:east",
+        "workerId": "scale-500-east-worker-0025",
+        "visits": [
+          {
+            "jobId": "scale-500-east-job-0143",
+            "finish": 62400,
+            "start": 57600
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0000",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0009",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0019",
+            "finish": 45430,
+            "start": 41230
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0000",
+            "finish": 50215,
+            "start": 46015
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0011",
+            "finish": 54415,
+            "start": 50215
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0010",
+            "finish": 57092,
+            "start": 55292
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0012",
+            "finish": 62167,
+            "start": 57967
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0017",
+            "finish": 64496,
+            "start": 62696
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0006",
+            "finish": 69040,
+            "start": 64840
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0014",
+            "finish": 73240,
+            "start": 69040
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0022",
+            "finish": 77876,
+            "start": 73676
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0001",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0126",
+            "finish": 37800,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0067",
+            "finish": 42586,
+            "start": 38386
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0039",
+            "finish": 47064,
+            "start": 42864
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0055",
+            "finish": 54600,
+            "start": 50400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0050",
+            "finish": 58800,
+            "start": 54600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0079",
+            "finish": 63216,
+            "start": 59016
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0058",
+            "finish": 65685,
+            "start": 63885
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0033",
+            "finish": 68166,
+            "start": 66366
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0023",
+            "finish": 69966,
+            "start": 68166
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0029",
+            "finish": 74725,
+            "start": 70525
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0002",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0053",
+            "finish": 37800,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0048",
+            "finish": 39600,
+            "start": 37800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0018",
+            "finish": 47400,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0052",
+            "finish": 49393,
+            "start": 47593
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0060",
+            "finish": 51793,
+            "start": 49993
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0008",
+            "finish": 57561,
+            "start": 52761
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0016",
+            "finish": 62126,
+            "start": 57926
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0077",
+            "finish": 66600,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0069",
+            "finish": 71656,
+            "start": 67456
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0021",
+            "finish": 75856,
+            "start": 71656
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0056",
+            "finish": 77884,
+            "start": 76084
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0003",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0042",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0020",
+            "finish": 44626,
+            "start": 40426
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0062",
+            "finish": 49036,
+            "start": 44836
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0038",
+            "finish": 53236,
+            "start": 49036
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0024",
+            "finish": 76200,
+            "start": 72000
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0004",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0057",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0051",
+            "finish": 44626,
+            "start": 40426
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0128",
+            "finish": 61800,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0117",
+            "finish": 66600,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0059",
+            "finish": 73800,
+            "start": 72000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0064",
+            "finish": 76112,
+            "start": 74312
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0083",
+            "finish": 78598,
+            "start": 76798
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0005",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0007",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0004",
+            "finish": 44400,
+            "start": 40200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0028",
+            "finish": 46820,
+            "start": 45020
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0026",
+            "finish": 49372,
+            "start": 47572
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0013",
+            "finish": 54600,
+            "start": 50400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0005",
+            "finish": 58800,
+            "start": 54600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0003",
+            "finish": 61084,
+            "start": 59284
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0001",
+            "finish": 62884,
+            "start": 61084
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0037",
+            "finish": 64684,
+            "start": 62884
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0027",
+            "finish": 66783,
+            "start": 64983
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0015",
+            "finish": 71622,
+            "start": 67422
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0002",
+            "finish": 75822,
+            "start": 71622
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0007",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0111",
+            "finish": 37800,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0081",
+            "finish": 40414,
+            "start": 38614
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0036",
+            "finish": 42214,
+            "start": 40414
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0118",
+            "finish": 44014,
+            "start": 42214
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0065",
+            "finish": 48464,
+            "start": 44264
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0043",
+            "finish": 52664,
+            "start": 48464
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0035",
+            "finish": 54680,
+            "start": 52880
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0098",
+            "finish": 56480,
+            "start": 54680
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0034",
+            "finish": 61800,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0040",
+            "finish": 66000,
+            "start": 61800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0045",
+            "finish": 70670,
+            "start": 66470
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0030",
+            "finish": 73028,
+            "start": 71228
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0073",
+            "finish": 77602,
+            "start": 73402
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0009",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0114",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0105",
+            "finish": 45079,
+            "start": 40879
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0071",
+            "finish": 49864,
+            "start": 45664
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0070",
+            "finish": 54394,
+            "start": 50194
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0049",
+            "finish": 61800,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0047",
+            "finish": 64385,
+            "start": 62585
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0066",
+            "finish": 69000,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0054",
+            "finish": 73668,
+            "start": 69468
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0130",
+            "finish": 76039,
+            "start": 74239
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0125",
+            "finish": 77839,
+            "start": 76039
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0011",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0090",
+            "finish": 47400,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0072",
+            "finish": 51841,
+            "start": 47641
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0063",
+            "finish": 54518,
+            "start": 52718
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0044",
+            "finish": 56318,
+            "start": 54518
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0046",
+            "finish": 61800,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0041",
+            "finish": 64129,
+            "start": 62329
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0089",
+            "finish": 65929,
+            "start": 64129
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0032",
+            "finish": 67899,
+            "start": 66099
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0120",
+            "finish": 69699,
+            "start": 67899
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0068",
+            "finish": 71499,
+            "start": 69699
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0025",
+            "finish": 73200,
+            "start": 72000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0031",
+            "finish": 78172,
+            "start": 73972
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0012",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0108",
+            "finish": 59400,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0102",
+            "finish": 61200,
+            "start": 59400
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0113",
+            "finish": 63694,
+            "start": 61894
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0112",
+            "finish": 68617,
+            "start": 64417
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0109",
+            "finish": 71161,
+            "start": 69361
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0119",
+            "finish": 75947,
+            "start": 71747
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0014",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0085",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0061",
+            "finish": 44626,
+            "start": 40426
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0110",
+            "finish": 48976,
+            "start": 44776
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0100",
+            "finish": 54441,
+            "start": 50241
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0107",
+            "finish": 61800,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0106",
+            "finish": 66614,
+            "start": 62414
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0103",
+            "finish": 71390,
+            "start": 67190
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0076",
+            "finish": 76200,
+            "start": 72000
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0016",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0101",
+            "finish": 37800,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0095",
+            "finish": 42647,
+            "start": 38447
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0093",
+            "finish": 45202,
+            "start": 43402
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0088",
+            "finish": 50098,
+            "start": 45898
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0080",
+            "finish": 54298,
+            "start": 50098
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0074",
+            "finish": 59400,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0097",
+            "finish": 64068,
+            "start": 59868
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0082",
+            "finish": 69000,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0087",
+            "finish": 71714,
+            "start": 69914
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0115",
+            "finish": 73949,
+            "start": 72149
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0096",
+            "finish": 78875,
+            "start": 74675
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0018",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0133",
+            "finish": 40200,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0121",
+            "finish": 66600,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0131",
+            "finish": 71632,
+            "start": 67432
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0129",
+            "finish": 73800,
+            "start": 72000
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0022",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0124",
+            "finish": 37800,
+            "start": 36000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0135",
+            "finish": 42762,
+            "start": 38562
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0104",
+            "finish": 47781,
+            "start": 43581
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0091",
+            "finish": 52345,
+            "start": 48145
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0086",
+            "finish": 57008,
+            "start": 52808
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0092",
+            "finish": 61800,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0084",
+            "finish": 63761,
+            "start": 61961
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0099",
+            "finish": 68189,
+            "start": 63989
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0075",
+            "finish": 73200,
+            "start": 72000
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0094",
+            "finish": 74400,
+            "start": 73200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0078",
+            "finish": 78825,
+            "start": 74625
+          }
+        ]
+      },
+      {
+        "departure": 32400,
+        "startLocationId": "office:southcentral",
+        "workerId": "scale-500-southcentral-worker-0023",
+        "visits": [
+          {
+            "jobId": "scale-500-southcentral-job-0123",
+            "finish": 47400,
+            "start": 43200
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0134",
+            "finish": 51872,
+            "start": 47672
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0127",
+            "finish": 59400,
+            "start": 57600
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0116",
+            "finish": 61929,
+            "start": 60129
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0136",
+            "finish": 63729,
+            "start": 61929
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0137",
+            "finish": 66600,
+            "start": 64800
+          },
+          {
+            "jobId": "scale-500-southcentral-job-0132",
+            "finish": 71359,
+            "start": 67159
+          }
+        ]
+      }
+    ],
+    "unassigned": [
+      "scale-500-east-job-0064",
+      "scale-500-east-job-0073",
+      "scale-500-southcentral-job-0122",
+      "scale-500-southeast-job-0000",
+      "scale-500-southeast-job-0001",
+      "scale-500-southeast-job-0002",
+      "scale-500-southeast-job-0003",
+      "scale-500-southeast-job-0004",
+      "scale-500-southeast-job-0005",
+      "scale-500-southeast-job-0006",
+      "scale-500-southeast-job-0007",
+      "scale-500-southeast-job-0008",
+      "scale-500-southeast-job-0009",
+      "scale-500-southeast-job-0010",
+      "scale-500-southeast-job-0011",
+      "scale-500-southeast-job-0012",
+      "scale-500-southeast-job-0013",
+      "scale-500-southeast-job-0014",
+      "scale-500-southeast-job-0015",
+      "scale-500-southeast-job-0016",
+      "scale-500-southeast-job-0017",
+      "scale-500-southeast-job-0018",
+      "scale-500-southeast-job-0019",
+      "scale-500-southeast-job-0020",
+      "scale-500-southeast-job-0021",
+      "scale-500-southeast-job-0022",
+      "scale-500-southeast-job-0023",
+      "scale-500-southeast-job-0024",
+      "scale-500-southeast-job-0025",
+      "scale-500-southeast-job-0026",
+      "scale-500-southeast-job-0027",
+      "scale-500-southeast-job-0028",
+      "scale-500-southeast-job-0029",
+      "scale-500-southeast-job-0030",
+      "scale-500-southeast-job-0031",
+      "scale-500-southeast-job-0032",
+      "scale-500-southeast-job-0033",
+      "scale-500-southeast-job-0034",
+      "scale-500-southeast-job-0035",
+      "scale-500-southeast-job-0036",
+      "scale-500-southeast-job-0037",
+      "scale-500-southeast-job-0038",
+      "scale-500-southeast-job-0039",
+      "scale-500-southeast-job-0040",
+      "scale-500-southeast-job-0041",
+      "scale-500-southeast-job-0042",
+      "scale-500-southeast-job-0043",
+      "scale-500-southeast-job-0044",
+      "scale-500-southeast-job-0045",
+      "scale-500-southeast-job-0046",
+      "scale-500-southeast-job-0047",
+      "scale-500-southeast-job-0048",
+      "scale-500-southeast-job-0049",
+      "scale-500-southeast-job-0050",
+      "scale-500-southeast-job-0051",
+      "scale-500-southeast-job-0052",
+      "scale-500-southeast-job-0053",
+      "scale-500-southeast-job-0054",
+      "scale-500-southeast-job-0055",
+      "scale-500-southeast-job-0056",
+      "scale-500-southeast-job-0057",
+      "scale-500-southeast-job-0058",
+      "scale-500-southeast-job-0059",
+      "scale-500-southeast-job-0060",
+      "scale-500-southeast-job-0061",
+      "scale-500-southeast-job-0062",
+      "scale-500-southeast-job-0063",
+      "scale-500-southeast-job-0064",
+      "scale-500-southeast-job-0065",
+      "scale-500-southeast-job-0066",
+      "scale-500-southeast-job-0067",
+      "scale-500-southeast-job-0068",
+      "scale-500-southeast-job-0069",
+      "scale-500-southeast-job-0070",
+      "scale-500-southeast-job-0071",
+      "scale-500-southeast-job-0072",
+      "scale-500-southeast-job-0073",
+      "scale-500-southeast-job-0074",
+      "scale-500-southeast-job-0075",
+      "scale-500-southeast-job-0076",
+      "scale-500-southeast-job-0077",
+      "scale-500-southeast-job-0078",
+      "scale-500-southeast-job-0079",
+      "scale-500-southeast-job-0080",
+      "scale-500-southeast-job-0081",
+      "scale-500-southeast-job-0082",
+      "scale-500-southeast-job-0083",
+      "scale-500-southeast-job-0084",
+      "scale-500-southeast-job-0085",
+      "scale-500-southeast-job-0086",
+      "scale-500-southeast-job-0087",
+      "scale-500-southeast-job-0088",
+      "scale-500-southeast-job-0089",
+      "scale-500-southeast-job-0090",
+      "scale-500-southeast-job-0091",
+      "scale-500-southeast-job-0092",
+      "scale-500-southeast-job-0093",
+      "scale-500-southeast-job-0094",
+      "scale-500-southeast-job-0095",
+      "scale-500-southeast-job-0096",
+      "scale-500-southeast-job-0097",
+      "scale-500-southeast-job-0098",
+      "scale-500-southeast-job-0099",
+      "scale-500-southeast-job-0100",
+      "scale-500-southeast-job-0101",
+      "scale-500-southeast-job-0102",
+      "scale-500-southeast-job-0103",
+      "scale-500-southeast-job-0104",
+      "scale-500-southeast-job-0105",
+      "scale-500-southeast-job-0106",
+      "scale-500-southeast-job-0107",
+      "scale-500-southeast-job-0108",
+      "scale-500-southeast-job-0109",
+      "scale-500-southeast-job-0110",
+      "scale-500-southeast-job-0111",
+      "scale-500-southeast-job-0112",
+      "scale-500-southeast-job-0113",
+      "scale-500-southeast-job-0114",
+      "scale-500-southeast-job-0115",
+      "scale-500-southeast-job-0116",
+      "scale-500-southeast-job-0117",
+      "scale-500-southeast-job-0118",
+      "scale-500-southeast-job-0119",
+      "scale-500-southeast-job-0120",
+      "scale-500-southeast-job-0121",
+      "scale-500-southeast-job-0122",
+      "scale-500-southeast-job-0123",
+      "scale-500-southeast-job-0124",
+      "scale-500-southeast-job-0125",
+      "scale-500-southeast-job-0126",
+      "scale-500-southeast-job-0127",
+      "scale-500-southeast-job-0128",
+      "scale-500-southeast-job-0129",
+      "scale-500-southeast-job-0130",
+      "scale-500-southeast-job-0131",
+      "scale-500-southeast-job-0132",
+      "scale-500-southeast-job-0133",
+      "scale-500-southeast-job-0134",
+      "scale-500-southeast-job-0135",
+      "scale-500-southeast-job-0136",
+      "scale-500-southeast-job-0137",
+      "scale-500-southeast-job-0138",
+      "scale-500-southeast-job-0139",
+      "scale-500-southeast-job-0140",
+      "scale-500-southeast-job-0141",
+      "scale-500-southeast-job-0142",
+      "scale-500-southeast-job-0143",
+      "scale-500-southeast-job-0144",
+      "scale-500-southeast-job-0145",
+      "scale-500-southeast-job-0146",
+      "scale-500-southeast-job-0147",
+      "scale-500-southeast-job-0148",
+      "scale-500-southeast-job-0149",
+      "scale-500-southeast-job-0150",
+      "scale-500-southeast-job-0151",
+      "scale-500-southeast-job-0152",
+      "scale-500-southeast-job-0153",
+      "scale-500-southeast-job-0154",
+      "scale-500-southeast-job-0155",
+      "scale-500-southeast-job-0156",
+      "scale-500-southeast-job-0157",
+      "scale-500-southeast-job-0158",
+      "scale-500-southeast-job-0159",
+      "scale-500-southeast-job-0160",
+      "scale-500-southeast-job-0161",
+      "scale-500-southeast-job-0162",
+      "scale-500-southeast-job-0163",
+      "scale-500-southeast-job-0164",
+      "scale-500-southeast-job-0165",
+      "scale-500-southeast-job-0166",
+      "scale-500-southeast-job-0167",
+      "scale-500-southeast-job-0168",
+      "scale-500-southeast-job-0169",
+      "scale-500-southeast-job-0170",
+      "scale-500-southeast-job-0171",
+      "scale-500-southeast-job-0172",
+      "scale-500-southeast-job-0173",
+      "scale-500-southeast-job-0174",
+      "scale-500-southeast-job-0175",
+      "scale-500-southeast-job-0176",
+      "scale-500-southeast-job-0177",
+      "scale-500-southeast-job-0178",
+      "scale-500-southeast-job-0179",
+      "scale-500-southeast-job-0180",
+      "scale-500-southeast-job-0181",
+      "scale-500-southeast-job-0182",
+      "scale-500-southeast-job-0183",
+      "scale-500-southeast-job-0184",
+      "scale-500-southeast-job-0185",
+      "scale-500-southeast-job-0186",
+      "scale-500-southeast-job-0187",
+      "scale-500-southeast-job-0188",
+      "scale-500-southeast-job-0189",
+      "scale-500-southeast-job-0190",
+      "scale-500-southeast-job-0191",
+      "scale-500-southeast-job-0192",
+      "scale-500-southeast-job-0193",
+      "scale-500-southeast-job-0194",
+      "scale-500-southeast-job-0195",
+      "scale-500-southeast-job-0196",
+      "scale-500-southeast-job-0197",
+      "scale-500-southeast-job-0198"
+    ],
+    "solverVersion": "2.6.0",
+    "solverObjective": "[0]hard/[-202/-35/-1258956]soft",
+    "rawDiagnostics": {
+      "scoreModel": "1 hard feasibility level; 3 lexicographic soft levels: coverage, workers, distance",
+      "implementation": "Community Edition; list variables allow unassigned jobs; earliest feasible schedule evaluated from every ordered route; generic easy score calculator",
+      "nativeScore": "[0]hard/[-202/-35/-1258956]soft",
+      "jvmProtocol": "Fresh JVM per run; startup, model construction and search included in wall time"
+    },
+    "runtime": {
+      "nativeWallTimeMs": 16571.7696,
+      "solverWallTimeMs": 17602.377700000034
+    },
+    "seed": 1,
+    "unassignedExplanations": [
+      {
+        "jobId": "scale-500-east-job-0064",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0073",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0122",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0000",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0001",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0002",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0003",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0004",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0005",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0006",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0007",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0008",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0009",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0010",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0011",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0012",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0013",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0014",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0015",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0016",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0017",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0018",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0019",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0020",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0021",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0022",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0023",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0024",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0025",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0026",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0027",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0028",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0029",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0030",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0031",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0032",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0033",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0034",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0035",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0036",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0037",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0038",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0039",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0040",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0041",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0042",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0043",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0044",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0045",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0046",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0047",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0048",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0049",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0050",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0051",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0052",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0053",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0054",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0055",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0056",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0057",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0058",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0059",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0060",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0061",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0062",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0063",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0064",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0065",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0066",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0067",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0068",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0069",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0070",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0071",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0072",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0073",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0074",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0075",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0076",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0077",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0078",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0079",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0080",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0081",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0082",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0083",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0084",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0085",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0086",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0087",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0088",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0089",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0090",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0091",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0092",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0093",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0094",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0095",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0096",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0097",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0098",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0099",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0100",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0101",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0102",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0103",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0104",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0105",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0106",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0107",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0108",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0109",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0110",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0111",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0112",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0113",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0114",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0115",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0116",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0117",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0118",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0119",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0120",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0121",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0122",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0123",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0124",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0125",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0126",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0127",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0128",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0129",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0130",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0131",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0132",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0133",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0134",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0135",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0136",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0137",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0138",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0139",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0140",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0141",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0142",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0143",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0144",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0145",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0146",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0147",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0148",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0149",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0150",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0151",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0152",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0153",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0154",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0155",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0156",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0157",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0158",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0159",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0160",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0161",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0162",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0163",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0164",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0165",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0166",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0167",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0168",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0169",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0170",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0171",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0172",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0173",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0174",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0175",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0176",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0177",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0178",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0179",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0180",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0181",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0182",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0183",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0184",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0185",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0186",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0187",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0188",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0189",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0190",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0191",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0192",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0193",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0194",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0195",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0196",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0197",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0198",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      }
+    ]
+  },
+  "metrics": {
+    "status": "FEASIBLE",
+    "eligibleForComparison": true,
+    "hardViolations": 0,
+    "H01Violations": 0,
+    "H02Violations": 0,
+    "H03Violations": 0,
+    "H04Violations": 0,
+    "H05Violations": 0,
+    "H06Violations": 0,
+    "H07Violations": 0,
+    "H08Violations": 0,
+    "H09Violations": 0,
+    "H10Violations": 0,
+    "H11Violations": 0,
+    "H12Violations": 0,
+    "jobsTotal": 500,
+    "served": 298,
+    "unassigned": 202,
+    "servedPercent": 59.6,
+    "workersUsed": 35,
+    "remainingDayWorkersUsed": 35,
+    "committedJobs": 0,
+    "wholeDayServed": 298,
+    "distanceScope": "initial-plan",
+    "distanceMetres": 1258956,
+    "distanceKm": 1258.956,
+    "travelMinutes": 1970.6333333333334,
+    "waitingMinutes": 6200.016666666666,
+    "serviceMinutes": 16060.0,
+    "emergencyTotal": 34,
+    "emergencyServed": 8,
+    "emergencyUnassigned": 26,
+    "emergencies": [
+      {
+        "jobId": "scale-500-east-job-0009",
+        "served": true,
+        "responseDelaySeconds": 40965,
+        "completionDelaySeconds": 45765
+      },
+      {
+        "jobId": "scale-500-east-job-0011",
+        "served": true,
+        "responseDelaySeconds": 4929,
+        "completionDelaySeconds": 9729
+      },
+      {
+        "jobId": "scale-500-east-job-0050",
+        "served": true,
+        "responseDelaySeconds": 30510,
+        "completionDelaySeconds": 35310
+      },
+      {
+        "jobId": "scale-500-east-job-0058",
+        "served": true,
+        "responseDelaySeconds": 129,
+        "completionDelaySeconds": 4929
+      },
+      {
+        "jobId": "scale-500-east-job-0071",
+        "served": true,
+        "responseDelaySeconds": 40847,
+        "completionDelaySeconds": 45647
+      },
+      {
+        "jobId": "scale-500-east-job-0078",
+        "served": true,
+        "responseDelaySeconds": 36047,
+        "completionDelaySeconds": 40847
+      },
+      {
+        "jobId": "scale-500-east-job-0103",
+        "served": true,
+        "responseDelaySeconds": 40725,
+        "completionDelaySeconds": 45525
+      },
+      {
+        "jobId": "scale-500-east-job-0150",
+        "served": true,
+        "responseDelaySeconds": 35925,
+        "completionDelaySeconds": 40725
+      },
+      {
+        "jobId": "scale-500-southeast-job-0004",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0008",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0014",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0028",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0035",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0036",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0044",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0049",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0054",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0062",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0093",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0094",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0103",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0109",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0111",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0121",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0125",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0152",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0156",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0158",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0165",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0167",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0168",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0174",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0185",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0195",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      }
+    ],
+    "meanResponseDelay": 479.32708333333335,
+    "medianResponseDelay": 599.7666666666667,
+    "maxResponseDelay": 682.75,
+    "meanCompletionDelay": 559.3270833333333,
+    "maxCompletionDelay": 762.75,
+    "reassignments": null,
+    "workerChanges": null,
+    "orderChanges": null,
+    "scheduleChanges": null,
+    "removedAssignments": null,
+    "newWorkersActivated": null,
+    "maxScheduleShiftMinutes": null,
+    "routeMetrics": [
+      {
+        "workerId": "scale-500-east-worker-0000",
+        "distanceMetres": 58010,
+        "travelSeconds": 5334,
+        "waitingSeconds": 8328,
+        "serviceSeconds": 33000
+      },
+      {
+        "workerId": "scale-500-east-worker-0001",
+        "distanceMetres": 47829,
+        "travelSeconds": 4686,
+        "waitingSeconds": 5470,
+        "serviceSeconds": 35400
+      },
+      {
+        "workerId": "scale-500-east-worker-0002",
+        "distanceMetres": 23129,
+        "travelSeconds": 2146,
+        "waitingSeconds": 22343,
+        "serviceSeconds": 14400
+      },
+      {
+        "workerId": "scale-500-east-worker-0003",
+        "distanceMetres": 12304,
+        "travelSeconds": 1130,
+        "waitingSeconds": 2784,
+        "serviceSeconds": 16800
+      },
+      {
+        "workerId": "scale-500-east-worker-0004",
+        "distanceMetres": 42598,
+        "travelSeconds": 3875,
+        "waitingSeconds": 1690,
+        "serviceSeconds": 40200
+      },
+      {
+        "workerId": "scale-500-east-worker-0006",
+        "distanceMetres": 47466,
+        "travelSeconds": 4364,
+        "waitingSeconds": 5018,
+        "serviceSeconds": 31800
+      },
+      {
+        "workerId": "scale-500-east-worker-0007",
+        "distanceMetres": 25875,
+        "travelSeconds": 2569,
+        "waitingSeconds": 8231,
+        "serviceSeconds": 33000
+      },
+      {
+        "workerId": "scale-500-east-worker-0008",
+        "distanceMetres": 41364,
+        "travelSeconds": 3975,
+        "waitingSeconds": 2654,
+        "serviceSeconds": 28200
+      },
+      {
+        "workerId": "scale-500-east-worker-0009",
+        "distanceMetres": 30157,
+        "travelSeconds": 3251,
+        "waitingSeconds": 2916,
+        "serviceSeconds": 39000
+      },
+      {
+        "workerId": "scale-500-east-worker-0010",
+        "distanceMetres": 19404,
+        "travelSeconds": 1650,
+        "waitingSeconds": 24797,
+        "serviceSeconds": 19200
+      },
+      {
+        "workerId": "scale-500-east-worker-0011",
+        "distanceMetres": 63288,
+        "travelSeconds": 5291,
+        "waitingSeconds": 3047,
+        "serviceSeconds": 36600
+      },
+      {
+        "workerId": "scale-500-east-worker-0012",
+        "distanceMetres": 22968,
+        "travelSeconds": 2354,
+        "waitingSeconds": 7015,
+        "serviceSeconds": 36000
+      },
+      {
+        "workerId": "scale-500-east-worker-0013",
+        "distanceMetres": 25331,
+        "travelSeconds": 2561,
+        "waitingSeconds": 20693,
+        "serviceSeconds": 19800
+      },
+      {
+        "workerId": "scale-500-east-worker-0018",
+        "distanceMetres": 24908,
+        "travelSeconds": 2614,
+        "waitingSeconds": 12386,
+        "serviceSeconds": 28800
+      },
+      {
+        "workerId": "scale-500-east-worker-0020",
+        "distanceMetres": 23421,
+        "travelSeconds": 2383,
+        "waitingSeconds": 12017,
+        "serviceSeconds": 22200
+      },
+      {
+        "workerId": "scale-500-east-worker-0021",
+        "distanceMetres": 10129,
+        "travelSeconds": 963,
+        "waitingSeconds": 2916,
+        "serviceSeconds": 16800
+      },
+      {
+        "workerId": "scale-500-east-worker-0022",
+        "distanceMetres": 20055,
+        "travelSeconds": 1724,
+        "waitingSeconds": 19801,
+        "serviceSeconds": 24000
+      },
+      {
+        "workerId": "scale-500-east-worker-0023",
+        "distanceMetres": 38668,
+        "travelSeconds": 3462,
+        "waitingSeconds": 11330,
+        "serviceSeconds": 30600
+      },
+      {
+        "workerId": "scale-500-east-worker-0024",
+        "distanceMetres": 36175,
+        "travelSeconds": 3213,
+        "waitingSeconds": 2934,
+        "serviceSeconds": 20400
+      },
+      {
+        "workerId": "scale-500-east-worker-0025",
+        "distanceMetres": 14881,
+        "travelSeconds": 1192,
+        "waitingSeconds": 24008,
+        "serviceSeconds": 4800
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0000",
+        "distanceMetres": 54398,
+        "travelSeconds": 5206,
+        "waitingSeconds": 3070,
+        "serviceSeconds": 37200
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0001",
+        "distanceMetres": 47165,
+        "travelSeconds": 4295,
+        "waitingSeconds": 5630,
+        "serviceSeconds": 32400
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0002",
+        "distanceMetres": 40361,
+        "travelSeconds": 3891,
+        "waitingSeconds": 9193,
+        "serviceSeconds": 32400
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0003",
+        "distanceMetres": 11356,
+        "travelSeconds": 1257,
+        "waitingSeconds": 21543,
+        "serviceSeconds": 21000
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0004",
+        "distanceMetres": 56947,
+        "travelSeconds": 5018,
+        "waitingSeconds": 21380,
+        "serviceSeconds": 19800
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0005",
+        "distanceMetres": 41292,
+        "travelSeconds": 4094,
+        "waitingSeconds": 3328,
+        "serviceSeconds": 36000
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0007",
+        "distanceMetres": 45947,
+        "travelSeconds": 4257,
+        "waitingSeconds": 3145,
+        "serviceSeconds": 37800
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0009",
+        "distanceMetres": 56115,
+        "travelSeconds": 5145,
+        "waitingSeconds": 5494,
+        "serviceSeconds": 34800
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0011",
+        "distanceMetres": 41277,
+        "travelSeconds": 4094,
+        "waitingSeconds": 11078,
+        "serviceSeconds": 30600
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0012",
+        "distanceMetres": 31272,
+        "travelSeconds": 2971,
+        "waitingSeconds": 24976,
+        "serviceSeconds": 15600
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0014",
+        "distanceMetres": 48257,
+        "travelSeconds": 4309,
+        "waitingSeconds": 5891,
+        "serviceSeconds": 33600
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0016",
+        "distanceMetres": 66538,
+        "travelSeconds": 6084,
+        "waitingSeconds": 6191,
+        "serviceSeconds": 34200
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0018",
+        "distanceMetres": 19349,
+        "travelSeconds": 1841,
+        "waitingSeconds": 27559,
+        "serviceSeconds": 12000
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0022",
+        "distanceMetres": 36403,
+        "travelSeconds": 3919,
+        "waitingSeconds": 7106,
+        "serviceSeconds": 35400
+      },
+      {
+        "workerId": "scale-500-southcentral-worker-0023",
+        "distanceMetres": 34319,
+        "travelSeconds": 3120,
+        "waitingSeconds": 16039,
+        "serviceSeconds": 19800
+      }
+    ],
+    "validationTimeMs": 5.7884999996531405
+  },
+  "resources": {
+    "processWallTimeMs": 18173.23789999955,
+    "peakMemoryMb": 206.18359375,
+    "cpuTimeSampledMs": 22906.25,
+    "sampleCount": 261,
+    "samplingIntervalMs": 50,
+    "memoryGuardMiB": 6144,
+    "terminationReason": null,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "500",
+  "experimentStage": "SYNTHETIC_SCALING",
+  "sourceDatasetVersion": "f6159e9e18b37f8c5797043ba58d636bc5f35a73eb7d274531466b83c3734f23",
+  "scenarioFile": "datasets/scaling-hd-v2/500.json"
+}

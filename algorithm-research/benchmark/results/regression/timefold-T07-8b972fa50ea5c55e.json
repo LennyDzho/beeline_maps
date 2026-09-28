@@ -1,0 +1,438 @@
+{
+  "solver": "timefold",
+  "test": "T07",
+  "timestamp": "2026-09-18T05:50:54.029895+00:00",
+  "budget": 2.0,
+  "component": "SOLVER_ADAPTER",
+  "solverExecuted": true,
+  "status": "PASS",
+  "reason": null,
+  "inputProblem": {
+    "workers": [
+      {
+        "id": "worker-0",
+        "divisionId": "d",
+        "skills": [
+          "local"
+        ],
+        "transportMode": "car",
+        "shiftStart": 32400,
+        "shiftEnd": 46800,
+        "availableAt": 32400,
+        "startLocationId": "s",
+        "startCoordinates": {
+          "lat": 55.7,
+          "lon": 37.6
+        },
+        "qualifications": [],
+        "equipment": []
+      },
+      {
+        "id": "worker-1",
+        "divisionId": "d",
+        "skills": [
+          "local"
+        ],
+        "transportMode": "car",
+        "shiftStart": 32400,
+        "shiftEnd": 43200,
+        "availableAt": 32400,
+        "startLocationId": "s",
+        "startCoordinates": {
+          "lat": 55.7,
+          "lon": 37.6
+        },
+        "qualifications": [],
+        "equipment": []
+      },
+      {
+        "id": "worker-2",
+        "divisionId": "d",
+        "skills": [
+          "local"
+        ],
+        "transportMode": "car",
+        "shiftStart": 32400,
+        "shiftEnd": 36000,
+        "availableAt": 32400,
+        "startLocationId": "s",
+        "startCoordinates": {
+          "lat": 55.7,
+          "lon": 37.6
+        },
+        "qualifications": [],
+        "equipment": []
+      }
+    ],
+    "jobs": [
+      {
+        "id": "job-0",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 32400,
+        "windowEnd": 46800,
+        "releaseTime": 32400,
+        "serviceDuration": 3600,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "job-1",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 32400,
+        "windowEnd": 46800,
+        "releaseTime": 32400,
+        "serviceDuration": 3600,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "job-2",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 32400,
+        "windowEnd": 46800,
+        "releaseTime": 32400,
+        "serviceDuration": 3600,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "job-3",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 32400,
+        "windowEnd": 46800,
+        "releaseTime": 32400,
+        "serviceDuration": 3600,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "job-4",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 32400,
+        "windowEnd": 46800,
+        "releaseTime": 32400,
+        "serviceDuration": 3600,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "job-5",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 32400,
+        "windowEnd": 46800,
+        "releaseTime": 32400,
+        "serviceDuration": 3600,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "job-6",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 32400,
+        "windowEnd": 46800,
+        "releaseTime": 32400,
+        "serviceDuration": 3600,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      },
+      {
+        "id": "job-7",
+        "divisionId": "d",
+        "requiredSkill": "local",
+        "requiredTransportMode": null,
+        "locationId": "j",
+        "coordinates": {
+          "lat": 55.8,
+          "lon": 37.7
+        },
+        "windowStart": 32400,
+        "windowEnd": 46800,
+        "releaseTime": 32400,
+        "serviceDuration": 3600,
+        "isEmergency": false,
+        "requiredQualifications": [],
+        "requiredEquipment": []
+      }
+    ],
+    "travelTimeMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 0,
+          "k": 0
+        },
+        "j": {
+          "s": 0,
+          "j": 0,
+          "k": 0
+        },
+        "k": {
+          "s": 0,
+          "j": 0,
+          "k": 0
+        }
+      }
+    },
+    "distanceMatrices": {
+      "car": {
+        "s": {
+          "s": 0,
+          "j": 1200,
+          "k": 1200
+        },
+        "j": {
+          "s": 1200,
+          "j": 0,
+          "k": 1200
+        },
+        "k": {
+          "s": 1200,
+          "j": 1200,
+          "k": 0
+        }
+      }
+    },
+    "matrixVersion": "fixed-test",
+    "fixedActivities": [],
+    "protectedActivities": [],
+    "eventAt": null,
+    "previousSolution": null,
+    "id": "regression-T07",
+    "datasetVersion": "controlled-v1"
+  },
+  "expected": {
+    "served": 8,
+    "workersUsed": 3
+  },
+  "record": {
+    "solver": "timefold",
+    "dataset": "regression-T07",
+    "policy": "PRIMARY",
+    "timeLimitSec": 2.0,
+    "seed": 1,
+    "timestamp": "2026-09-18T05:50:54.030409+00:00",
+    "datasetVersion": "controlled-v1",
+    "matrixVersion": "fixed-test",
+    "problemFingerprint": "f492765582dd5c4f6542563ba929faa1556ddc45e449b57bcdf880006153f6e6",
+    "preflight": {
+      "status": "READY",
+      "issues": [],
+      "jobsTotal": 8,
+      "workersTotal": 3,
+      "locationCount": 2
+    },
+    "solverVersion": "2.6.0",
+    "adapterVersion": "0af1862a10bec66d3cf0fc94d3a66a3c74022c8b040347638c078e0acd6e4cfd",
+    "validatorVersion": "0c61d8c1df227c32250aa273409ac70e1620bb479543a14b5ecac19bed86786a",
+    "metricsVersion": "e861c7dfa0aaba64959d594b8f8610d547a02a8ac890ff348cbe00246ff0f62e",
+    "status": "FEASIBLE",
+    "solution": {
+      "status": "FEASIBLE",
+      "routes": [
+        {
+          "departure": 32400,
+          "startLocationId": "s",
+          "workerId": "worker-0",
+          "visits": [
+            {
+              "jobId": "job-3",
+              "finish": 36000,
+              "start": 32400
+            },
+            {
+              "jobId": "job-2",
+              "finish": 39600,
+              "start": 36000
+            },
+            {
+              "jobId": "job-1",
+              "finish": 43200,
+              "start": 39600
+            },
+            {
+              "jobId": "job-0",
+              "finish": 46800,
+              "start": 43200
+            }
+          ]
+        },
+        {
+          "departure": 32400,
+          "startLocationId": "s",
+          "workerId": "worker-1",
+          "visits": [
+            {
+              "jobId": "job-6",
+              "finish": 36000,
+              "start": 32400
+            },
+            {
+              "jobId": "job-5",
+              "finish": 39600,
+              "start": 36000
+            },
+            {
+              "jobId": "job-4",
+              "finish": 43200,
+              "start": 39600
+            }
+          ]
+        },
+        {
+          "departure": 32400,
+          "startLocationId": "s",
+          "workerId": "worker-2",
+          "visits": [
+            {
+              "jobId": "job-7",
+              "finish": 36000,
+              "start": 32400
+            }
+          ]
+        }
+      ],
+      "unassigned": [],
+      "solverVersion": "2.6.0",
+      "solverObjective": "[0]hard/[0/-3/-3600]soft",
+      "rawDiagnostics": {
+        "scoreModel": "1 hard feasibility level; 3 lexicographic soft levels: coverage, workers, distance",
+        "implementation": "Community Edition; list variables allow unassigned jobs; earliest feasible schedule evaluated from every ordered route; generic easy score calculator",
+        "nativeScore": "[0]hard/[0/-3/-3600]soft",
+        "jvmProtocol": "Fresh JVM per run; startup, model construction and search included in wall time"
+      },
+      "runtime": {
+        "nativeWallTimeMs": 3236.3603,
+        "solverWallTimeMs": 3668.803399999888
+      },
+      "seed": 1,
+      "unassignedExplanations": []
+    },
+    "metrics": {
+      "status": "FEASIBLE",
+      "eligibleForComparison": true,
+      "hardViolations": 0,
+      "H01Violations": 0,
+      "H02Violations": 0,
+      "H03Violations": 0,
+      "H04Violations": 0,
+      "H05Violations": 0,
+      "H06Violations": 0,
+      "H07Violations": 0,
+      "H08Violations": 0,
+      "H09Violations": 0,
+      "H10Violations": 0,
+      "H11Violations": 0,
+      "H12Violations": 0,
+      "jobsTotal": 8,
+      "served": 8,
+      "unassigned": 0,
+      "servedPercent": 100.0,
+      "workersUsed": 3,
+      "remainingDayWorkersUsed": 3,
+      "committedJobs": 0,
+      "wholeDayServed": 8,
+      "distanceScope": "initial-plan",
+      "distanceMetres": 3600,
+      "distanceKm": 3.6,
+      "travelMinutes": 0.0,
+      "waitingMinutes": 0.0,
+      "serviceMinutes": 480.0,
+      "emergencyTotal": 0,
+      "emergencyServed": 0,
+      "emergencyUnassigned": 0,
+      "emergencies": [],
+      "meanResponseDelay": null,
+      "medianResponseDelay": null,
+      "maxResponseDelay": null,
+      "meanCompletionDelay": null,
+      "maxCompletionDelay": null,
+      "reassignments": null,
+      "workerChanges": null,
+      "orderChanges": null,
+      "scheduleChanges": null,
+      "removedAssignments": null,
+      "newWorkersActivated": null,
+      "maxScheduleShiftMinutes": null,
+      "routeMetrics": [
+        {
+          "workerId": "worker-0",
+          "distanceMetres": 1200,
+          "travelSeconds": 0,
+          "waitingSeconds": 0,
+          "serviceSeconds": 14400
+        },
+        {
+          "workerId": "worker-1",
+          "distanceMetres": 1200,
+          "travelSeconds": 0,
+          "waitingSeconds": 0,
+          "serviceSeconds": 10800
+        },
+        {
+          "workerId": "worker-2",
+          "distanceMetres": 1200,
+          "travelSeconds": 0,
+          "waitingSeconds": 0,
+          "serviceSeconds": 3600
+        }
+      ],
+      "validationTimeMs": 0.14919999989615462
+    }
+  }
+}

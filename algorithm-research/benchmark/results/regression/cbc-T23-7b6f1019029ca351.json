@@ -1,0 +1,101 @@
+{
+  "solver": "cbc",
+  "test": "T23",
+  "timestamp": "2026-09-18T05:52:41.587588+00:00",
+  "budget": 2.0,
+  "component": "COMMON_INTEGRATION",
+  "solverExecuted": false,
+  "status": "PASS",
+  "evidence": {
+    "before": {
+      "a": {
+        "version": 1,
+        "plan": {
+          "status": "FEASIBLE",
+          "routes": [
+            {
+              "workerId": "w",
+              "startLocationId": "s",
+              "departure": 33600,
+              "visits": [
+                {
+                  "jobId": "j",
+                  "start": 36000,
+                  "finish": 38400
+                }
+              ]
+            }
+          ],
+          "unassigned": []
+        }
+      },
+      "b": {
+        "version": 2,
+        "plan": {
+          "status": "FEASIBLE",
+          "routes": [
+            {
+              "workerId": "w",
+              "startLocationId": "s",
+              "departure": 33600,
+              "visits": [
+                {
+                  "jobId": "j",
+                  "start": 36000,
+                  "finish": 38400
+                }
+              ]
+            }
+          ],
+          "unassigned": []
+        }
+      }
+    },
+    "afterRejectedPublication": {
+      "a": {
+        "version": 1,
+        "plan": {
+          "status": "FEASIBLE",
+          "routes": [
+            {
+              "workerId": "w",
+              "startLocationId": "s",
+              "departure": 33600,
+              "visits": [
+                {
+                  "jobId": "j",
+                  "start": 36000,
+                  "finish": 38400
+                }
+              ]
+            }
+          ],
+          "unassigned": []
+        }
+      },
+      "b": {
+        "version": 2,
+        "plan": {
+          "status": "FEASIBLE",
+          "routes": [
+            {
+              "workerId": "w",
+              "startLocationId": "s",
+              "departure": 33600,
+              "visits": [
+                {
+                  "jobId": "j",
+                  "start": 36000,
+                  "finish": 38400
+                }
+              ]
+            }
+          ],
+          "unassigned": []
+        }
+      }
+    },
+    "atomicRollback": true,
+    "storage": "isolated SQLite :memory:"
+  }
+}

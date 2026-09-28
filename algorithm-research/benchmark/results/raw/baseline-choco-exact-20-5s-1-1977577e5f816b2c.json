@@ -1,0 +1,79 @@
+{
+  "solver": "choco",
+  "dataset": "beeline-car-no-breaks-v1-declared-geography:exact-20",
+  "policy": "PRIMARY",
+  "timeLimitSec": 5.0,
+  "seed": 1,
+  "timestamp": "2026-09-17T13:04:35.074119+00:00",
+  "datasetVersion": "65c2548387a84e0cbd8a11c19238b1fce7775d216741fccd7ac722a0f7cd5711",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "2977d86d8a7951c036bbc12fe4a48b90c2f3f68fad3798b7689962c0c846b6d8",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 20,
+    "workersTotal": 35,
+    "locationCount": 23
+  },
+  "solverVersion": "6.0.1",
+  "adapterVersion": "d906f4ec5e2fe58b7c0c3f56f3882474b4d5131d548c7322deb22e7709f36e07",
+  "status": "NO_SOLUTION_FOUND",
+  "solution": {
+    "status": "NO_SOLUTION_FOUND",
+    "routes": [],
+    "unassigned": [
+      "beeline-v1-east-job-7939",
+      "beeline-v1-east-job-50104",
+      "beeline-v1-east-job-10245",
+      "beeline-v1-southeast-job-23094",
+      "beeline-v1-southeast-job-63577",
+      "beeline-v1-southeast-job-20055",
+      "beeline-v1-southcentral-job-90709",
+      "beeline-v1-southeast-job-84466",
+      "beeline-v1-southcentral-job-13203",
+      "beeline-v1-southeast-job-13404",
+      "beeline-v1-east-job-30769",
+      "beeline-v1-southcentral-job-86864",
+      "beeline-v1-southcentral-job-95501",
+      "beeline-v1-southcentral-job-87819",
+      "beeline-v1-southeast-job-13583",
+      "beeline-v1-southcentral-job-75881",
+      "beeline-v1-southcentral-job-35265",
+      "beeline-v1-southcentral-job-24132",
+      "beeline-v1-southeast-job-75745",
+      "beeline-v1-southcentral-job-18023"
+    ],
+    "solverVersion": "6.0.1",
+    "rawDiagnostics": {
+      "formulation": "Reified time precedence, positive services eliminate cycles; same budget shared by three exact lexicographic stages",
+      "arcVariables": 993,
+      "modelBuildTimeMs": 790.0138,
+      "lexicographicStages": [
+        {
+          "level": 0,
+          "proven": false,
+          "nodes": 19928
+        }
+      ],
+      "seedScope": "Deterministic single-thread search; seed is repetition ID only",
+      "jvmProtocol": "Fresh JVM per run; startup, model construction and search included in wall time"
+    },
+    "runtime": {
+      "nativeWallTimeMs": 5804.033,
+      "solverWallTimeMs": 8044.632500001171
+    },
+    "seed": 1
+  },
+  "metrics": null,
+  "resources": {
+    "processWallTimeMs": 9513.803600002575,
+    "peakMemoryMb": 151.79296875,
+    "cpuTimeSampledMs": 7218.75,
+    "sampleCount": 66,
+    "samplingIntervalMs": 50,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "exact-20",
+  "experimentStage": "STATIC_PRIMARY_FRESH_PROCESS",
+  "campaignId": "20260917T130308"
+}

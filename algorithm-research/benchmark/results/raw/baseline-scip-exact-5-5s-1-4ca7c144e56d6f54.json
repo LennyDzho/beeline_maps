@@ -1,0 +1,150 @@
+{
+  "solver": "scip",
+  "dataset": "beeline-car-no-breaks-v1-declared-geography:exact-5",
+  "policy": "PRIMARY",
+  "timeLimitSec": 5.0,
+  "seed": 1,
+  "timestamp": "2026-09-17T10:47:03.500973+00:00",
+  "datasetVersion": "65c2548387a84e0cbd8a11c19238b1fce7775d216741fccd7ac722a0f7cd5711",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "aef46adb932423c9240d12a0d27294d59936c819180aa8daac5cf97364cbd80d",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 5,
+    "workersTotal": 35,
+    "locationCount": 8
+  },
+  "adapterVersion": "92813620b4ac1665ba4db57815c8d8721de8456255821c3c2761d158c3554d60",
+  "status": "OPTIMAL",
+  "solution": {
+    "seed": 1,
+    "solverVersion": "10.0.2",
+    "solverObjective": 1296616.0,
+    "runtime": {
+      "solverWallTimeMs": 194.48609999926703,
+      "modelBuildTimeMs": 160.1157000004605,
+      "searchTimeMs": 34.36220000003232
+    },
+    "bestBound": 1296616.0,
+    "optimalityGap": 0.0,
+    "rawDiagnostics": {
+      "nativeStatus": "optimal",
+      "weights": [
+        21238956,
+        589971,
+        1
+      ],
+      "arcVariables": 161,
+      "distanceUpperBoundMetres": 589970,
+      "boundScale": "native proven scalar; never compare across solvers",
+      "initialSolution": "trivial empty feasible plan, not another optimizer's output"
+    },
+    "status": "OPTIMAL",
+    "routes": [
+      {
+        "workerId": "beeline-v1-east-worker-1309fd3aab80",
+        "startLocationId": "office:east",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "beeline-v1-east-job-7939",
+            "start": 43200,
+            "finish": 47400
+          },
+          {
+            "jobId": "beeline-v1-east-job-10245",
+            "start": 47643,
+            "finish": 51843
+          },
+          {
+            "jobId": "beeline-v1-east-job-50104",
+            "start": 64800,
+            "finish": 69000
+          }
+        ]
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-bca5c115aea1",
+        "startLocationId": "office:southeast",
+        "departure": 32400,
+        "visits": [
+          {
+            "jobId": "beeline-v1-southeast-job-63577",
+            "start": 36000,
+            "finish": 37800
+          },
+          {
+            "jobId": "beeline-v1-southeast-job-23094",
+            "start": 50400,
+            "finish": 54600
+          }
+        ]
+      }
+    ],
+    "unassigned": []
+  },
+  "metrics": {
+    "status": "OPTIMAL",
+    "eligibleForComparison": true,
+    "hardViolations": 0,
+    "H01Violations": 0,
+    "H02Violations": 0,
+    "H03Violations": 0,
+    "H04Violations": 0,
+    "H05Violations": 0,
+    "H06Violations": 0,
+    "H07Violations": 0,
+    "H08Violations": 0,
+    "H09Violations": 0,
+    "H10Violations": 0,
+    "H11Violations": 0,
+    "H12Violations": 0,
+    "jobsTotal": 5,
+    "served": 5,
+    "unassigned": 0,
+    "servedPercent": 100.0,
+    "workersUsed": 2,
+    "remainingDayWorkersUsed": 2,
+    "distanceMetres": 116674,
+    "distanceKm": 116.674,
+    "travelMinutes": 108.58333333333333,
+    "waitingMinutes": 561.4166666666666,
+    "serviceMinutes": 310.0,
+    "emergencyTotal": 0,
+    "emergencyServed": 0,
+    "emergencyUnassigned": 0,
+    "emergencies": [],
+    "meanResponseDelay": null,
+    "medianResponseDelay": null,
+    "maxResponseDelay": null,
+    "meanCompletionDelay": null,
+    "maxCompletionDelay": null,
+    "reassignments": null,
+    "workerChanges": null,
+    "orderChanges": null,
+    "scheduleChanges": null,
+    "removedAssignments": null,
+    "newWorkersActivated": null,
+    "maxScheduleShiftMinutes": null,
+    "routeMetrics": [
+      {
+        "workerId": "beeline-v1-east-worker-1309fd3aab80",
+        "distanceMetres": 9131,
+        "travelSeconds": 1060,
+        "waitingSeconds": 22940,
+        "serviceSeconds": 12600
+      },
+      {
+        "workerId": "beeline-v1-southeast-worker-bca5c115aea1",
+        "distanceMetres": 107543,
+        "travelSeconds": 5455,
+        "waitingSeconds": 10745,
+        "serviceSeconds": 6000
+      }
+    ],
+    "validationTimeMs": 0.27430000045569614
+  },
+  "scope": "exact-5",
+  "experimentStage": "STATIC_BASELINE_NOT_FINAL_COMPARISON"
+}

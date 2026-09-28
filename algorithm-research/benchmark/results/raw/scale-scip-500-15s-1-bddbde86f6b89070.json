@@ -1,0 +1,3324 @@
+{
+  "solver": "scip",
+  "dataset": "synthetic-strict-hd-500",
+  "policy": "PRIMARY",
+  "timeLimitSec": 15.0,
+  "seed": 1,
+  "timestamp": "2026-09-18T08:59:57.690220+00:00",
+  "datasetVersion": "22686b39cbc2c929a2cbbd6de70d1aa4ca2ba950312fed417f809774a83daf79",
+  "matrixVersion": "ee570c715a0df06f400a3815f8b508637698ad2fa314679ce6539656d9a9cfcf",
+  "problemFingerprint": "2b656220a772971dda10cd68e0ed785335c87a32ef0dd8e5782995538483da64",
+  "preflight": {
+    "status": "READY",
+    "issues": [],
+    "jobsTotal": 500,
+    "workersTotal": 88,
+    "locationCount": 197
+  },
+  "solverVersion": "10.0.2",
+  "adapterVersion": "3f78321ca01a84846439931507cec34f341821bd1ccf2d71e430c1187229fd8d",
+  "validatorVersion": "0c61d8c1df227c32250aa273409ac70e1620bb479543a14b5ecac19bed86786a",
+  "metricsVersion": "e861c7dfa0aaba64959d594b8f8610d547a02a8ac890ff348cbe00246ff0f62e",
+  "status": "FEASIBLE",
+  "solution": {
+    "seed": 1,
+    "solverVersion": "10.0.2",
+    "solverObjective": 2625366544500.0,
+    "runtime": {
+      "solverWallTimeMs": 46504.86079999973,
+      "modelBuildTimeMs": 22123.881299999994,
+      "searchTimeMs": 24380.967600000076
+    },
+    "bestBound": -1e+20,
+    "optimalityGap": null,
+    "rawDiagnostics": {
+      "nativeStatus": "timelimit",
+      "weights": [
+        5250733089,
+        58997001,
+        1
+      ],
+      "arcVariables": 467586,
+      "cbcParameters": null,
+      "cbcLogFile": null,
+      "cbcBoundSource": null,
+      "distanceUpperBoundMetres": 58997000,
+      "boundScale": "native proven scalar; never compare across solvers",
+      "initialSolution": "trivial empty feasible plan, not another optimizer's output"
+    },
+    "status": "FEASIBLE",
+    "routes": [],
+    "unassigned": [
+      "scale-500-east-job-0000",
+      "scale-500-east-job-0001",
+      "scale-500-east-job-0002",
+      "scale-500-east-job-0003",
+      "scale-500-east-job-0004",
+      "scale-500-east-job-0005",
+      "scale-500-east-job-0006",
+      "scale-500-east-job-0007",
+      "scale-500-east-job-0008",
+      "scale-500-east-job-0009",
+      "scale-500-east-job-0010",
+      "scale-500-east-job-0011",
+      "scale-500-east-job-0012",
+      "scale-500-east-job-0013",
+      "scale-500-east-job-0014",
+      "scale-500-east-job-0015",
+      "scale-500-east-job-0016",
+      "scale-500-east-job-0017",
+      "scale-500-east-job-0018",
+      "scale-500-east-job-0019",
+      "scale-500-east-job-0020",
+      "scale-500-east-job-0021",
+      "scale-500-east-job-0022",
+      "scale-500-east-job-0023",
+      "scale-500-east-job-0024",
+      "scale-500-east-job-0025",
+      "scale-500-east-job-0026",
+      "scale-500-east-job-0027",
+      "scale-500-east-job-0028",
+      "scale-500-east-job-0029",
+      "scale-500-east-job-0030",
+      "scale-500-east-job-0031",
+      "scale-500-east-job-0032",
+      "scale-500-east-job-0033",
+      "scale-500-east-job-0034",
+      "scale-500-east-job-0035",
+      "scale-500-east-job-0036",
+      "scale-500-east-job-0037",
+      "scale-500-east-job-0038",
+      "scale-500-east-job-0039",
+      "scale-500-east-job-0040",
+      "scale-500-east-job-0041",
+      "scale-500-east-job-0042",
+      "scale-500-east-job-0043",
+      "scale-500-east-job-0044",
+      "scale-500-east-job-0045",
+      "scale-500-east-job-0046",
+      "scale-500-east-job-0047",
+      "scale-500-east-job-0048",
+      "scale-500-east-job-0049",
+      "scale-500-east-job-0050",
+      "scale-500-east-job-0051",
+      "scale-500-east-job-0052",
+      "scale-500-east-job-0053",
+      "scale-500-east-job-0054",
+      "scale-500-east-job-0055",
+      "scale-500-east-job-0056",
+      "scale-500-east-job-0057",
+      "scale-500-east-job-0058",
+      "scale-500-east-job-0059",
+      "scale-500-east-job-0060",
+      "scale-500-east-job-0061",
+      "scale-500-east-job-0062",
+      "scale-500-east-job-0063",
+      "scale-500-east-job-0064",
+      "scale-500-east-job-0065",
+      "scale-500-east-job-0066",
+      "scale-500-east-job-0067",
+      "scale-500-east-job-0068",
+      "scale-500-east-job-0069",
+      "scale-500-east-job-0070",
+      "scale-500-east-job-0071",
+      "scale-500-east-job-0072",
+      "scale-500-east-job-0073",
+      "scale-500-east-job-0074",
+      "scale-500-east-job-0075",
+      "scale-500-east-job-0076",
+      "scale-500-east-job-0077",
+      "scale-500-east-job-0078",
+      "scale-500-east-job-0079",
+      "scale-500-east-job-0080",
+      "scale-500-east-job-0081",
+      "scale-500-east-job-0082",
+      "scale-500-east-job-0083",
+      "scale-500-east-job-0084",
+      "scale-500-east-job-0085",
+      "scale-500-east-job-0086",
+      "scale-500-east-job-0087",
+      "scale-500-east-job-0088",
+      "scale-500-east-job-0089",
+      "scale-500-east-job-0090",
+      "scale-500-east-job-0091",
+      "scale-500-east-job-0092",
+      "scale-500-east-job-0093",
+      "scale-500-east-job-0094",
+      "scale-500-east-job-0095",
+      "scale-500-east-job-0096",
+      "scale-500-east-job-0097",
+      "scale-500-east-job-0098",
+      "scale-500-east-job-0099",
+      "scale-500-east-job-0100",
+      "scale-500-east-job-0101",
+      "scale-500-east-job-0102",
+      "scale-500-east-job-0103",
+      "scale-500-east-job-0104",
+      "scale-500-east-job-0105",
+      "scale-500-east-job-0106",
+      "scale-500-east-job-0107",
+      "scale-500-east-job-0108",
+      "scale-500-east-job-0109",
+      "scale-500-east-job-0110",
+      "scale-500-east-job-0111",
+      "scale-500-east-job-0112",
+      "scale-500-east-job-0113",
+      "scale-500-east-job-0114",
+      "scale-500-east-job-0115",
+      "scale-500-east-job-0116",
+      "scale-500-east-job-0117",
+      "scale-500-east-job-0118",
+      "scale-500-east-job-0119",
+      "scale-500-east-job-0120",
+      "scale-500-east-job-0121",
+      "scale-500-east-job-0122",
+      "scale-500-east-job-0123",
+      "scale-500-east-job-0124",
+      "scale-500-east-job-0125",
+      "scale-500-east-job-0126",
+      "scale-500-east-job-0127",
+      "scale-500-east-job-0128",
+      "scale-500-east-job-0129",
+      "scale-500-east-job-0130",
+      "scale-500-east-job-0131",
+      "scale-500-east-job-0132",
+      "scale-500-east-job-0133",
+      "scale-500-east-job-0134",
+      "scale-500-east-job-0135",
+      "scale-500-east-job-0136",
+      "scale-500-east-job-0137",
+      "scale-500-east-job-0138",
+      "scale-500-east-job-0139",
+      "scale-500-east-job-0140",
+      "scale-500-east-job-0141",
+      "scale-500-east-job-0142",
+      "scale-500-east-job-0143",
+      "scale-500-east-job-0144",
+      "scale-500-east-job-0145",
+      "scale-500-east-job-0146",
+      "scale-500-east-job-0147",
+      "scale-500-east-job-0148",
+      "scale-500-east-job-0149",
+      "scale-500-east-job-0150",
+      "scale-500-east-job-0151",
+      "scale-500-east-job-0152",
+      "scale-500-east-job-0153",
+      "scale-500-east-job-0154",
+      "scale-500-east-job-0155",
+      "scale-500-east-job-0156",
+      "scale-500-east-job-0157",
+      "scale-500-east-job-0158",
+      "scale-500-east-job-0159",
+      "scale-500-east-job-0160",
+      "scale-500-east-job-0161",
+      "scale-500-east-job-0162",
+      "scale-500-southcentral-job-0000",
+      "scale-500-southcentral-job-0001",
+      "scale-500-southcentral-job-0002",
+      "scale-500-southcentral-job-0003",
+      "scale-500-southcentral-job-0004",
+      "scale-500-southcentral-job-0005",
+      "scale-500-southcentral-job-0006",
+      "scale-500-southcentral-job-0007",
+      "scale-500-southcentral-job-0008",
+      "scale-500-southcentral-job-0009",
+      "scale-500-southcentral-job-0010",
+      "scale-500-southcentral-job-0011",
+      "scale-500-southcentral-job-0012",
+      "scale-500-southcentral-job-0013",
+      "scale-500-southcentral-job-0014",
+      "scale-500-southcentral-job-0015",
+      "scale-500-southcentral-job-0016",
+      "scale-500-southcentral-job-0017",
+      "scale-500-southcentral-job-0018",
+      "scale-500-southcentral-job-0019",
+      "scale-500-southcentral-job-0020",
+      "scale-500-southcentral-job-0021",
+      "scale-500-southcentral-job-0022",
+      "scale-500-southcentral-job-0023",
+      "scale-500-southcentral-job-0024",
+      "scale-500-southcentral-job-0025",
+      "scale-500-southcentral-job-0026",
+      "scale-500-southcentral-job-0027",
+      "scale-500-southcentral-job-0028",
+      "scale-500-southcentral-job-0029",
+      "scale-500-southcentral-job-0030",
+      "scale-500-southcentral-job-0031",
+      "scale-500-southcentral-job-0032",
+      "scale-500-southcentral-job-0033",
+      "scale-500-southcentral-job-0034",
+      "scale-500-southcentral-job-0035",
+      "scale-500-southcentral-job-0036",
+      "scale-500-southcentral-job-0037",
+      "scale-500-southcentral-job-0038",
+      "scale-500-southcentral-job-0039",
+      "scale-500-southcentral-job-0040",
+      "scale-500-southcentral-job-0041",
+      "scale-500-southcentral-job-0042",
+      "scale-500-southcentral-job-0043",
+      "scale-500-southcentral-job-0044",
+      "scale-500-southcentral-job-0045",
+      "scale-500-southcentral-job-0046",
+      "scale-500-southcentral-job-0047",
+      "scale-500-southcentral-job-0048",
+      "scale-500-southcentral-job-0049",
+      "scale-500-southcentral-job-0050",
+      "scale-500-southcentral-job-0051",
+      "scale-500-southcentral-job-0052",
+      "scale-500-southcentral-job-0053",
+      "scale-500-southcentral-job-0054",
+      "scale-500-southcentral-job-0055",
+      "scale-500-southcentral-job-0056",
+      "scale-500-southcentral-job-0057",
+      "scale-500-southcentral-job-0058",
+      "scale-500-southcentral-job-0059",
+      "scale-500-southcentral-job-0060",
+      "scale-500-southcentral-job-0061",
+      "scale-500-southcentral-job-0062",
+      "scale-500-southcentral-job-0063",
+      "scale-500-southcentral-job-0064",
+      "scale-500-southcentral-job-0065",
+      "scale-500-southcentral-job-0066",
+      "scale-500-southcentral-job-0067",
+      "scale-500-southcentral-job-0068",
+      "scale-500-southcentral-job-0069",
+      "scale-500-southcentral-job-0070",
+      "scale-500-southcentral-job-0071",
+      "scale-500-southcentral-job-0072",
+      "scale-500-southcentral-job-0073",
+      "scale-500-southcentral-job-0074",
+      "scale-500-southcentral-job-0075",
+      "scale-500-southcentral-job-0076",
+      "scale-500-southcentral-job-0077",
+      "scale-500-southcentral-job-0078",
+      "scale-500-southcentral-job-0079",
+      "scale-500-southcentral-job-0080",
+      "scale-500-southcentral-job-0081",
+      "scale-500-southcentral-job-0082",
+      "scale-500-southcentral-job-0083",
+      "scale-500-southcentral-job-0084",
+      "scale-500-southcentral-job-0085",
+      "scale-500-southcentral-job-0086",
+      "scale-500-southcentral-job-0087",
+      "scale-500-southcentral-job-0088",
+      "scale-500-southcentral-job-0089",
+      "scale-500-southcentral-job-0090",
+      "scale-500-southcentral-job-0091",
+      "scale-500-southcentral-job-0092",
+      "scale-500-southcentral-job-0093",
+      "scale-500-southcentral-job-0094",
+      "scale-500-southcentral-job-0095",
+      "scale-500-southcentral-job-0096",
+      "scale-500-southcentral-job-0097",
+      "scale-500-southcentral-job-0098",
+      "scale-500-southcentral-job-0099",
+      "scale-500-southcentral-job-0100",
+      "scale-500-southcentral-job-0101",
+      "scale-500-southcentral-job-0102",
+      "scale-500-southcentral-job-0103",
+      "scale-500-southcentral-job-0104",
+      "scale-500-southcentral-job-0105",
+      "scale-500-southcentral-job-0106",
+      "scale-500-southcentral-job-0107",
+      "scale-500-southcentral-job-0108",
+      "scale-500-southcentral-job-0109",
+      "scale-500-southcentral-job-0110",
+      "scale-500-southcentral-job-0111",
+      "scale-500-southcentral-job-0112",
+      "scale-500-southcentral-job-0113",
+      "scale-500-southcentral-job-0114",
+      "scale-500-southcentral-job-0115",
+      "scale-500-southcentral-job-0116",
+      "scale-500-southcentral-job-0117",
+      "scale-500-southcentral-job-0118",
+      "scale-500-southcentral-job-0119",
+      "scale-500-southcentral-job-0120",
+      "scale-500-southcentral-job-0121",
+      "scale-500-southcentral-job-0122",
+      "scale-500-southcentral-job-0123",
+      "scale-500-southcentral-job-0124",
+      "scale-500-southcentral-job-0125",
+      "scale-500-southcentral-job-0126",
+      "scale-500-southcentral-job-0127",
+      "scale-500-southcentral-job-0128",
+      "scale-500-southcentral-job-0129",
+      "scale-500-southcentral-job-0130",
+      "scale-500-southcentral-job-0131",
+      "scale-500-southcentral-job-0132",
+      "scale-500-southcentral-job-0133",
+      "scale-500-southcentral-job-0134",
+      "scale-500-southcentral-job-0135",
+      "scale-500-southcentral-job-0136",
+      "scale-500-southcentral-job-0137",
+      "scale-500-southeast-job-0000",
+      "scale-500-southeast-job-0001",
+      "scale-500-southeast-job-0002",
+      "scale-500-southeast-job-0003",
+      "scale-500-southeast-job-0004",
+      "scale-500-southeast-job-0005",
+      "scale-500-southeast-job-0006",
+      "scale-500-southeast-job-0007",
+      "scale-500-southeast-job-0008",
+      "scale-500-southeast-job-0009",
+      "scale-500-southeast-job-0010",
+      "scale-500-southeast-job-0011",
+      "scale-500-southeast-job-0012",
+      "scale-500-southeast-job-0013",
+      "scale-500-southeast-job-0014",
+      "scale-500-southeast-job-0015",
+      "scale-500-southeast-job-0016",
+      "scale-500-southeast-job-0017",
+      "scale-500-southeast-job-0018",
+      "scale-500-southeast-job-0019",
+      "scale-500-southeast-job-0020",
+      "scale-500-southeast-job-0021",
+      "scale-500-southeast-job-0022",
+      "scale-500-southeast-job-0023",
+      "scale-500-southeast-job-0024",
+      "scale-500-southeast-job-0025",
+      "scale-500-southeast-job-0026",
+      "scale-500-southeast-job-0027",
+      "scale-500-southeast-job-0028",
+      "scale-500-southeast-job-0029",
+      "scale-500-southeast-job-0030",
+      "scale-500-southeast-job-0031",
+      "scale-500-southeast-job-0032",
+      "scale-500-southeast-job-0033",
+      "scale-500-southeast-job-0034",
+      "scale-500-southeast-job-0035",
+      "scale-500-southeast-job-0036",
+      "scale-500-southeast-job-0037",
+      "scale-500-southeast-job-0038",
+      "scale-500-southeast-job-0039",
+      "scale-500-southeast-job-0040",
+      "scale-500-southeast-job-0041",
+      "scale-500-southeast-job-0042",
+      "scale-500-southeast-job-0043",
+      "scale-500-southeast-job-0044",
+      "scale-500-southeast-job-0045",
+      "scale-500-southeast-job-0046",
+      "scale-500-southeast-job-0047",
+      "scale-500-southeast-job-0048",
+      "scale-500-southeast-job-0049",
+      "scale-500-southeast-job-0050",
+      "scale-500-southeast-job-0051",
+      "scale-500-southeast-job-0052",
+      "scale-500-southeast-job-0053",
+      "scale-500-southeast-job-0054",
+      "scale-500-southeast-job-0055",
+      "scale-500-southeast-job-0056",
+      "scale-500-southeast-job-0057",
+      "scale-500-southeast-job-0058",
+      "scale-500-southeast-job-0059",
+      "scale-500-southeast-job-0060",
+      "scale-500-southeast-job-0061",
+      "scale-500-southeast-job-0062",
+      "scale-500-southeast-job-0063",
+      "scale-500-southeast-job-0064",
+      "scale-500-southeast-job-0065",
+      "scale-500-southeast-job-0066",
+      "scale-500-southeast-job-0067",
+      "scale-500-southeast-job-0068",
+      "scale-500-southeast-job-0069",
+      "scale-500-southeast-job-0070",
+      "scale-500-southeast-job-0071",
+      "scale-500-southeast-job-0072",
+      "scale-500-southeast-job-0073",
+      "scale-500-southeast-job-0074",
+      "scale-500-southeast-job-0075",
+      "scale-500-southeast-job-0076",
+      "scale-500-southeast-job-0077",
+      "scale-500-southeast-job-0078",
+      "scale-500-southeast-job-0079",
+      "scale-500-southeast-job-0080",
+      "scale-500-southeast-job-0081",
+      "scale-500-southeast-job-0082",
+      "scale-500-southeast-job-0083",
+      "scale-500-southeast-job-0084",
+      "scale-500-southeast-job-0085",
+      "scale-500-southeast-job-0086",
+      "scale-500-southeast-job-0087",
+      "scale-500-southeast-job-0088",
+      "scale-500-southeast-job-0089",
+      "scale-500-southeast-job-0090",
+      "scale-500-southeast-job-0091",
+      "scale-500-southeast-job-0092",
+      "scale-500-southeast-job-0093",
+      "scale-500-southeast-job-0094",
+      "scale-500-southeast-job-0095",
+      "scale-500-southeast-job-0096",
+      "scale-500-southeast-job-0097",
+      "scale-500-southeast-job-0098",
+      "scale-500-southeast-job-0099",
+      "scale-500-southeast-job-0100",
+      "scale-500-southeast-job-0101",
+      "scale-500-southeast-job-0102",
+      "scale-500-southeast-job-0103",
+      "scale-500-southeast-job-0104",
+      "scale-500-southeast-job-0105",
+      "scale-500-southeast-job-0106",
+      "scale-500-southeast-job-0107",
+      "scale-500-southeast-job-0108",
+      "scale-500-southeast-job-0109",
+      "scale-500-southeast-job-0110",
+      "scale-500-southeast-job-0111",
+      "scale-500-southeast-job-0112",
+      "scale-500-southeast-job-0113",
+      "scale-500-southeast-job-0114",
+      "scale-500-southeast-job-0115",
+      "scale-500-southeast-job-0116",
+      "scale-500-southeast-job-0117",
+      "scale-500-southeast-job-0118",
+      "scale-500-southeast-job-0119",
+      "scale-500-southeast-job-0120",
+      "scale-500-southeast-job-0121",
+      "scale-500-southeast-job-0122",
+      "scale-500-southeast-job-0123",
+      "scale-500-southeast-job-0124",
+      "scale-500-southeast-job-0125",
+      "scale-500-southeast-job-0126",
+      "scale-500-southeast-job-0127",
+      "scale-500-southeast-job-0128",
+      "scale-500-southeast-job-0129",
+      "scale-500-southeast-job-0130",
+      "scale-500-southeast-job-0131",
+      "scale-500-southeast-job-0132",
+      "scale-500-southeast-job-0133",
+      "scale-500-southeast-job-0134",
+      "scale-500-southeast-job-0135",
+      "scale-500-southeast-job-0136",
+      "scale-500-southeast-job-0137",
+      "scale-500-southeast-job-0138",
+      "scale-500-southeast-job-0139",
+      "scale-500-southeast-job-0140",
+      "scale-500-southeast-job-0141",
+      "scale-500-southeast-job-0142",
+      "scale-500-southeast-job-0143",
+      "scale-500-southeast-job-0144",
+      "scale-500-southeast-job-0145",
+      "scale-500-southeast-job-0146",
+      "scale-500-southeast-job-0147",
+      "scale-500-southeast-job-0148",
+      "scale-500-southeast-job-0149",
+      "scale-500-southeast-job-0150",
+      "scale-500-southeast-job-0151",
+      "scale-500-southeast-job-0152",
+      "scale-500-southeast-job-0153",
+      "scale-500-southeast-job-0154",
+      "scale-500-southeast-job-0155",
+      "scale-500-southeast-job-0156",
+      "scale-500-southeast-job-0157",
+      "scale-500-southeast-job-0158",
+      "scale-500-southeast-job-0159",
+      "scale-500-southeast-job-0160",
+      "scale-500-southeast-job-0161",
+      "scale-500-southeast-job-0162",
+      "scale-500-southeast-job-0163",
+      "scale-500-southeast-job-0164",
+      "scale-500-southeast-job-0165",
+      "scale-500-southeast-job-0166",
+      "scale-500-southeast-job-0167",
+      "scale-500-southeast-job-0168",
+      "scale-500-southeast-job-0169",
+      "scale-500-southeast-job-0170",
+      "scale-500-southeast-job-0171",
+      "scale-500-southeast-job-0172",
+      "scale-500-southeast-job-0173",
+      "scale-500-southeast-job-0174",
+      "scale-500-southeast-job-0175",
+      "scale-500-southeast-job-0176",
+      "scale-500-southeast-job-0177",
+      "scale-500-southeast-job-0178",
+      "scale-500-southeast-job-0179",
+      "scale-500-southeast-job-0180",
+      "scale-500-southeast-job-0181",
+      "scale-500-southeast-job-0182",
+      "scale-500-southeast-job-0183",
+      "scale-500-southeast-job-0184",
+      "scale-500-southeast-job-0185",
+      "scale-500-southeast-job-0186",
+      "scale-500-southeast-job-0187",
+      "scale-500-southeast-job-0188",
+      "scale-500-southeast-job-0189",
+      "scale-500-southeast-job-0190",
+      "scale-500-southeast-job-0191",
+      "scale-500-southeast-job-0192",
+      "scale-500-southeast-job-0193",
+      "scale-500-southeast-job-0194",
+      "scale-500-southeast-job-0195",
+      "scale-500-southeast-job-0196",
+      "scale-500-southeast-job-0197",
+      "scale-500-southeast-job-0198"
+    ],
+    "unassignedExplanations": [
+      {
+        "jobId": "scale-500-east-job-0000",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0001",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0002",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0003",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0004",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0005",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0006",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0007",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0008",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0009",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0010",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0011",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0012",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0013",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0014",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0015",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0016",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0017",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0018",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0019",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0020",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0021",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0022",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0023",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0024",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0025",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0026",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0027",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0028",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0029",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0030",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0031",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0032",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0033",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0034",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0035",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0036",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0037",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0038",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0039",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0040",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0041",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0042",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0043",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0044",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0045",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0046",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0047",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0048",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0049",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0050",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0051",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0052",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0053",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0054",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0055",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0056",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0057",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0058",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0059",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0060",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0061",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0062",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0063",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0064",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0065",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0066",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0067",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0068",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0069",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0070",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0071",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0072",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0073",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0074",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0075",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0076",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0077",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0078",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0079",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0080",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0081",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0082",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0083",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0084",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0085",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0086",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0087",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0088",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0089",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0090",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0091",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0092",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0093",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0094",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0095",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0096",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0097",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0098",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0099",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0100",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0101",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0102",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0103",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0104",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0105",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0106",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0107",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0108",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0109",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0110",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0111",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0112",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0113",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0114",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0115",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0116",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0117",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0118",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0119",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0120",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0121",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0122",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0123",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0124",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0125",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0126",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0127",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0128",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0129",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0130",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0131",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0132",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0133",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0134",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0135",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0136",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0137",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0138",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0139",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0140",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0141",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0142",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0143",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0144",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0145",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0146",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0147",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0148",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0149",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0150",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0151",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0152",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0153",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0154",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0155",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0156",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0157",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0158",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0159",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0160",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0161",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-east-job-0162",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0000",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0001",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0002",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0003",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0004",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0005",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0006",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0007",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0008",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0009",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0010",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0011",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0012",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0013",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0014",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0015",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0016",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0017",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0018",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0019",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0020",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0021",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0022",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0023",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0024",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0025",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0026",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0027",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0028",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0029",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0030",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0031",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0032",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0033",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0034",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0035",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0036",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0037",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0038",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0039",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0040",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0041",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0042",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0043",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0044",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0045",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0046",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0047",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0048",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0049",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0050",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0051",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0052",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0053",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0054",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0055",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0056",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0057",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0058",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0059",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0060",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0061",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0062",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0063",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0064",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0065",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0066",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0067",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0068",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0069",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0070",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0071",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0072",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0073",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0074",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0075",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0076",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0077",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0078",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0079",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0080",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0081",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0082",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0083",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0084",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0085",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0086",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0087",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0088",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0089",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0090",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0091",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0092",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0093",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0094",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0095",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0096",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0097",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0098",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0099",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0100",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0101",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0102",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0103",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0104",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0105",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0106",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0107",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0108",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0109",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0110",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0111",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0112",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0113",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0114",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0115",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0116",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0117",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0118",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0119",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0120",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0121",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0122",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0123",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0124",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0125",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0126",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0127",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0128",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0129",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0130",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0131",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0132",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0133",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0134",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0135",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0136",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southcentral-job-0137",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0000",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0001",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0002",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0003",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0004",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0005",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0006",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0007",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0008",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0009",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0010",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0011",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0012",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0013",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0014",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0015",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0016",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0017",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0018",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0019",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0020",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0021",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0022",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0023",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0024",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0025",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0026",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0027",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0028",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0029",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0030",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0031",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0032",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0033",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0034",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0035",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0036",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0037",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0038",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0039",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0040",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0041",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0042",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0043",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0044",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0045",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0046",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0047",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0048",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0049",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0050",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0051",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0052",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0053",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0054",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0055",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0056",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0057",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0058",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0059",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0060",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0061",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0062",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0063",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0064",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0065",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0066",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0067",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0068",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0069",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0070",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0071",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0072",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0073",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0074",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0075",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0076",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0077",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0078",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0079",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0080",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0081",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0082",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0083",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0084",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0085",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0086",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0087",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0088",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0089",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0090",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0091",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0092",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0093",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0094",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0095",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0096",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0097",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0098",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0099",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0100",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0101",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0102",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0103",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0104",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0105",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0106",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0107",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0108",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0109",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0110",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0111",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0112",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0113",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0114",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0115",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0116",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0117",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0118",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0119",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0120",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0121",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0122",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0123",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0124",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0125",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0126",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0127",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0128",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0129",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0130",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0131",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0132",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0133",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0134",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0135",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0136",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0137",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0138",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0139",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0140",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0141",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0142",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0143",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0144",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0145",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0146",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0147",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0148",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0149",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0150",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0151",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0152",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0153",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0154",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0155",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0156",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0157",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0158",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0159",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0160",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0161",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0162",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0163",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0164",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0165",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0166",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0167",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0168",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0169",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0170",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0171",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0172",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0173",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0174",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0175",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0176",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0177",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0178",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0179",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0180",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0181",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0182",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0183",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0184",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0185",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0186",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0187",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0188",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0189",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0190",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0191",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0192",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0193",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0194",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0195",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0196",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0197",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      },
+      {
+        "jobId": "scale-500-southeast-job-0198",
+        "code": "SEARCH_OR_SCHEDULING",
+        "text": "В пределах бюджета допустимое назначение не найдено; невозможность не доказана"
+      }
+    ]
+  },
+  "metrics": {
+    "status": "FEASIBLE",
+    "eligibleForComparison": true,
+    "hardViolations": 0,
+    "H01Violations": 0,
+    "H02Violations": 0,
+    "H03Violations": 0,
+    "H04Violations": 0,
+    "H05Violations": 0,
+    "H06Violations": 0,
+    "H07Violations": 0,
+    "H08Violations": 0,
+    "H09Violations": 0,
+    "H10Violations": 0,
+    "H11Violations": 0,
+    "H12Violations": 0,
+    "jobsTotal": 500,
+    "served": 0,
+    "unassigned": 500,
+    "servedPercent": 0.0,
+    "workersUsed": 0,
+    "remainingDayWorkersUsed": 0,
+    "committedJobs": 0,
+    "wholeDayServed": 0,
+    "distanceScope": "initial-plan",
+    "distanceMetres": 0,
+    "distanceKm": 0.0,
+    "travelMinutes": 0.0,
+    "waitingMinutes": 0.0,
+    "serviceMinutes": 0.0,
+    "emergencyTotal": 34,
+    "emergencyServed": 0,
+    "emergencyUnassigned": 34,
+    "emergencies": [
+      {
+        "jobId": "scale-500-east-job-0009",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-east-job-0011",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-east-job-0050",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-east-job-0058",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-east-job-0071",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-east-job-0078",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-east-job-0103",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-east-job-0150",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0004",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0008",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0014",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0028",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0035",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0036",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0044",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0049",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0054",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0062",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0093",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0094",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0103",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0109",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0111",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0121",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0125",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0152",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0156",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0158",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0165",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0167",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0168",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0174",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0185",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      },
+      {
+        "jobId": "scale-500-southeast-job-0195",
+        "served": false,
+        "responseDelaySeconds": null,
+        "completionDelaySeconds": null
+      }
+    ],
+    "meanResponseDelay": null,
+    "medianResponseDelay": null,
+    "maxResponseDelay": null,
+    "meanCompletionDelay": null,
+    "maxCompletionDelay": null,
+    "reassignments": null,
+    "workerChanges": null,
+    "orderChanges": null,
+    "scheduleChanges": null,
+    "removedAssignments": null,
+    "newWorkersActivated": null,
+    "maxScheduleShiftMinutes": null,
+    "routeMetrics": [],
+    "validationTimeMs": 0.691000000188069
+  },
+  "resources": {
+    "processWallTimeMs": 57836.06409999993,
+    "peakMemoryMb": 4190.19921875,
+    "cpuTimeSampledMs": 53765.625,
+    "sampleCount": 847,
+    "samplingIntervalMs": 50,
+    "memoryGuardMiB": 6144,
+    "terminationReason": null,
+    "scope": "Fresh Python worker and descendants, including JVM/CBC. RSS peak is sampled, not an exact OS high-water mark; child CPU may be underestimated between samples."
+  },
+  "scope": "500",
+  "experimentStage": "SYNTHETIC_SCALING",
+  "sourceDatasetVersion": "f6159e9e18b37f8c5797043ba58d636bc5f35a73eb7d274531466b83c3734f23",
+  "scenarioFile": "datasets/scaling-hd-v2/500.json"
+}

@@ -1,0 +1,201 @@
+﻿solver,feature,support,note,source,implementation
+ortools_routing,Time windows,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Optional jobs,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Worker skills,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Heterogeneous workers,ADAPTER,"Skills, shifts and starts vary; transport fixed to car by user",https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Individual shifts,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Individual start locations,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Open routes,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,External matrices,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Worker activation cost,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Lexicographic objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Emergency response objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Warm start,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Fixed activities,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Protected prefix,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Return best feasible,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Random seed,NOT_CHECKED,Repeat identifier; direct control over this routing/search random stream not established,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+ortools_routing,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/routing/routing_tasks; https://or-tools.github.io/docs/python/classortools_1_1constraint__solver_1_1pywrapcp_1_1RoutingDimension.html,adapters/ortools_routing.py
+vroom,Time windows,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Optional jobs,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Worker skills,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Heterogeneous workers,DIRECT,"Skills, shifts and starts vary; transport fixed to car by user",https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Individual shifts,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Individual start locations,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Open routes,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,External matrices,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Worker activation cost,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Lexicographic objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Emergency response objective,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Warm start,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Fixed activities,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Protected prefix,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Return best feasible,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Random seed,NOT_CHECKED,Repeat identifier; direct control over this routing/search random stream not established,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+vroom,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/VROOM-Project/vroom/blob/v1.15.0/docs/API.md; https://github.com/VROOM-Project/pyvroom,adapters/vroom.py
+jsprit,Time windows,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Optional jobs,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Worker skills,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Heterogeneous workers,DIRECT,"Skills, shifts and starts vary; transport fixed to car by user",https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Individual shifts,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Individual start locations,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Open routes,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,External matrices,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Worker activation cost,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Lexicographic objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Emergency response objective,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Warm start,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Fixed activities,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Protected prefix,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Return best feasible,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Random seed,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+jsprit,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/graphhopper/jsprit/tree/master/docs,adapters/jsprit.py
+pyvrp,Time windows,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Optional jobs,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Worker skills,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Heterogeneous workers,DIRECT,"Skills, shifts and starts vary; transport fixed to car by user",https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Individual shifts,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Individual start locations,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Open routes,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,External matrices,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Worker activation cost,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Lexicographic objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Emergency response objective,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Warm start,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Fixed activities,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Protected prefix,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Return best feasible,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Random seed,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+pyvrp,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/PyVRP/PyVRP/tree/v0.14.0/pyvrp; https://github.com/PyVRP/PyVRP/blob/v0.14.0/pyvrp/solve.py,adapters/pyvrp.py
+timefold,Time windows,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Optional jobs,DIRECT,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Worker skills,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Heterogeneous workers,ADAPTER,"Skills, shifts and starts vary; transport fixed to car by user",https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Individual shifts,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Individual start locations,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Open routes,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,External matrices,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Worker activation cost,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Lexicographic objective,DIRECT,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Emergency response objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Warm start,DIRECT,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Fixed activities,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Protected prefix,ADAPTER,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Return best feasible,DIRECT,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Random seed,DIRECT,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+timefold,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://docs.timefold.ai/timefold-solver/latest/using-timefold-solver/modeling-planning-problems; https://docs.timefold.ai/timefold-solver/latest/running-timefold-solver/multithreaded-solving,adapters/timefold.py
+cpsat,Time windows,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Optional jobs,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Worker skills,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Heterogeneous workers,ADAPTER,"Skills, shifts and starts vary; transport fixed to car by user",https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Individual shifts,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Individual start locations,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Open routes,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,External matrices,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Worker activation cost,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Lexicographic objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Emergency response objective,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Warm start,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Fixed activities,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Protected prefix,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Return best feasible,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Random seed,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+cpsat,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://developers.google.com/optimization/cp/cp_solver,adapters/cpsat.py
+choco,Time windows,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Optional jobs,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Worker skills,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Heterogeneous workers,ADAPTER,"Skills, shifts and starts vary; transport fixed to car by user",https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Individual shifts,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Individual start locations,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Open routes,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,External matrices,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Worker activation cost,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Lexicographic objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Emergency response objective,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Warm start,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Fixed activities,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Protected prefix,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Return best feasible,DIRECT,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Random seed,NOT_CHECKED,Repeat identifier; direct control over this routing/search random stream not established,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+choco,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://choco-solver.org/docs/solving/limits/,adapters/choco.py
+alns,Time windows,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Optional jobs,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Worker skills,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Heterogeneous workers,ADAPTER,"Skills, shifts and starts vary; transport fixed to car by user",https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Individual shifts,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Individual start locations,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Open routes,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,External matrices,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Worker activation cost,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Lexicographic objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Emergency response objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Warm start,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Fixed activities,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Protected prefix,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Return best feasible,ADAPTER,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Random seed,DIRECT,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+alns,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://alns.readthedocs.io/en/latest/,adapters/alns.py
+scip,Time windows,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Optional jobs,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Worker skills,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Heterogeneous workers,ADAPTER,"Skills, shifts and starts vary; transport fixed to car by user",https://www.scipopt.org/,adapters/scip.py
+scip,Individual shifts,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Individual start locations,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Open routes,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,External matrices,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://www.scipopt.org/,adapters/scip.py
+scip,Worker activation cost,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Lexicographic objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Emergency response objective,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://www.scipopt.org/,adapters/scip.py
+scip,Warm start,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://www.scipopt.org/,adapters/scip.py
+scip,Fixed activities,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://www.scipopt.org/,adapters/scip.py
+scip,Protected prefix,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://www.scipopt.org/,adapters/scip.py
+scip,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Return best feasible,DIRECT,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Random seed,DIRECT,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+scip,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://www.scipopt.org/,adapters/scip.py
+cbc,Time windows,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Optional jobs,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Worker skills,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Transport compatibility,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Heterogeneous workers,ADAPTER,"Skills, shifts and starts vary; transport fixed to car by user",https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Individual shifts,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Individual start locations,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Open routes,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,External matrices,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Multiple matrix profiles,NOT_CHECKED,User selected car for every worker; simultaneous profiles not exercised,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Worker activation cost,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Lexicographic objective,ADAPTER,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Emergency response objective,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Warm start,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Fixed activities,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Protected prefix,NOT_CHECKED,Not implemented in this adapter; not a proof of solver impossibility,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Time limit,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Return best feasible,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Random seed,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
+cbc,Diagnostics,DIRECT,Exercised by the source adapter and controlled/static cases,https://github.com/coin-or/Cbc,adapters/cbc.py
