@@ -1,0 +1,2 @@
+ALTER TABLE `organization_planning_settings` ADD `solver_engine` text;--> statement-breakpoint
+ALTER TABLE `organization_planning_settings` ADD `solver_policy` text DEFAULT 'emergency_fast/v1' NOT NULL;

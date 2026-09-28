@@ -1,0 +1,123 @@
+import assert from "node:assert/strict";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { createHash, randomUUID } from "node:crypto";
+import { createFixture, localDatabase } from "./setup-mobile-demo.mjs";
+
+const base = "http://localhost:3000";
+const db = await localDatabase();
+const prefix = `QA-${Date.now()}`;
+const a = createFixture(db, prefix, `${prefix.toLowerCase()}@marsh.test`, randomUUID());
+const b = createFixture(db, `${prefix}-B`, `${prefix.toLowerCase()}-b@marsh.test`, randomUUID(), 1);
+let checks = 0;
+const verify = (condition, message) => { assert.ok(condition, message); checks++; console.log(`OK ${checks}: ${message}`); };
+async function call(path, method = "GET", body, token, cookie) {
+  const response = await fetch(base + path, { method, headers: { "Content-Type": "application/json", Origin: base,
+    ...(token ? { Authorization: `Bearer ${token}` } : {}), ...(cookie ? { Cookie: cookie } : {}) },
+    ...(body ? { body: JSON.stringify(body) } : {}), signal: AbortSignal.timeout(60000) });
+  const data = await response.json(); return { status: response.status, data, response };
+}
+const api = "/api/mobile/v1/";
+const login = async f => { const r = await call(api + "auth/login", "POST", { email:f.email, password:f.password }); assert.equal(r.status,200,JSON.stringify(r.data)); return r.data.token; };
+const state = async token => { const r = await call(api+`state?date=${a.date}`, "GET", undefined, token); assert.equal(r.status,200,JSON.stringify(r.data)); return r.data; };
+const command = (token, body) => call(api+"commands", "POST", body, token);
+const makeCommand = (visit, status) => ({ operationId:randomUUID(), action:"status", visitId:visit.id, revision:visit.revision, status });
+let tokenA, tokenB;
+try {
+  const health = await call(api+"health"); verify(health.data.protocol === 1 && health.data.mediaAvailable, "API and file storage available");
+  verify((await call(api+"state")).status === 401, "Anonymous access rejected");
+  verify((await call(api+"auth/login", "POST", {email:a.email,password:"wrong-password"})).status === 401, "Invalid password rejected");
+  tokenA = await login(a); tokenB = await login(b);
+  let current = await state(tokenA);
+  verify(current.visits.length === 3 && current.visits.every(v=>a.orderIds.includes(v.id)), "Only assigned work is returned");
+  verify((await call("/api/requests", "GET", undefined, undefined, `mmi_session=${tokenA}`)).status === 401, "Mobile token cannot become a web session");
+  const webLogin = await call("/api/auth/login", "POST", { email:a.email,password:a.password });
+  const workerCookie = webLogin.response.headers.getSetCookie()[0].split(";")[0];
+  const webRequests = await call("/api/requests", "GET", undefined, undefined, workerCookie);
+  verify(webRequests.status === 200 && webRequests.data.items.every(v=>a.orderIds.includes(v.id)), "Executor web access also stays within assignments");
+  const foreign = (await state(tokenB)).visits[0];
+  verify((await command(tokenA, makeCommand(foreign,"in_progress"))).status === 404, "Foreign visit mutation rejected");
+  const first = current.visits.find(v=>v.id === a.orderIds[0]);
+  const start = makeCommand(first,"en_route");
+  const results = await Promise.all([command(tokenA,start), command(tokenA,start)]);
+  verify(results.every(r=>r.status===200) && results.some(r=>r.data.replayed), "Concurrent duplicate command is idempotent");
+  const second = current.visits.find(v=>v.id === a.orderIds[1]);
+  verify((await command(tokenA,makeCommand(second,"in_progress"))).status === 409, "Second active visit rejected atomically");
+  current = await state(tokenA);
+  verify((await command(tokenA,makeCommand(first,"in_progress"))).status === 409, "Stale revision rejected");
+  let visit = current.visits.find(v=>v.id===first.id);
+  verify((await command(tokenA,makeCommand(visit,"in_progress"))).status === 200, "Allowed work transition accepted");
+  visit = (await state(tokenA)).visits.find(v=>v.id===first.id);
+  const problem = {operationId:randomUUID(),action:"problem",visitId:visit.id,revision:visit.revision,reason:"Проверка связи",details:"Тестовое сообщение исполнителя диспетчеру"};
+  verify((await command(tokenA,problem)).status === 200, "Problem delivered to backend");
+  visit = (await state(tokenA)).visits.find(v=>v.id===first.id);
+  verify(visit.status === "paused" && visit.problemLog[0]?.createdAt, "Problem pauses visit and records server time");
+  verify((await command(tokenA,problem)).data.replayed, "Repeated problem delivery remains idempotent");
+  verify((await command(tokenA,makeCommand(visit,"in_progress"))).status === 200, "Paused work can resume");
+  visit = (await state(tokenA)).visits.find(v=>v.id===first.id);
+  const bytes = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6lKsAAAAASUVORK5CYII=","base64");
+  const mediaId = randomUUID();
+  async function upload(id, payload, type="image/png") {
+    return fetch(base+api+`media/${visit.id}/${id}`, {method:"PUT",headers:{Authorization:`Bearer ${tokenA}`,"Content-Type":type,"X-Content-SHA256":createHash("sha256").update(payload).digest("hex"),"X-File-Name":encodeURIComponent("результат.png")},body:payload,signal:AbortSignal.timeout(60000)});
+  }
+  const invalid = await upload(randomUUID(),Buffer.alloc(32,65)); verify([400,415].includes(invalid.status), "Wrong file signature rejected");
+  const uploaded = await upload(mediaId,bytes); verify(uploaded.status===200, `Real photo bytes uploaded (${uploaded.status}: ${await uploaded.text()})`);
+  verify((await upload(mediaId,bytes)).status===200, "Repeated file upload is idempotent");
+  const ownFile = await fetch(base+api+`media/${mediaId}`,{headers:{Authorization:`Bearer ${tokenA}`}});
+  verify(ownFile.status===200 && Buffer.from(await ownFile.arrayBuffer()).equals(bytes), "Authenticated file download preserves exact bytes");
+  verify((await fetch(base+api+`media/${mediaId}`,{headers:{Authorization:`Bearer ${tokenB}`}})).status===404, "Other worker cannot read evidence");
+  verify((await fetch(base+api+`media/${mediaId}`)).status===401, "Evidence is not public");
+  const discardedId=randomUUID(); verify((await upload(discardedId,bytes)).status===200,"Second material uploaded");
+  verify((await call(api+`media/${visit.id}/${discardedId}`,"DELETE",undefined,tokenA)).status===200,"Draft material can be removed");
+  const retryId = randomUUID();
+  verify((await upload(retryId,bytes)).status===200,"Retry fixture uploaded");
+  db.prepare("UPDATE report_media SET upload_status='failed' WHERE id=?").run(retryId);
+  const extraIds = [];
+  for (let i=0;i<7;i++) { const id=randomUUID(); assert.equal((await upload(id,bytes)).status,200); extraIds.push(id); }
+  verify((await upload(retryId,bytes)).status===409,"Failed upload retry cannot bypass eight-file quota");
+  await call(api+`media/${visit.id}/${extraIds.pop()}`,"DELETE",undefined,tokenA);
+  verify((await upload(retryId,bytes)).status===200,"Failed upload can retry after a slot is released");
+  for (const id of [...extraIds,retryId]) await call(api+`media/${visit.id}/${id}`,"DELETE",undefined,tokenA);
+  const finish = {...makeCommand(visit,"completed"),report:"Проверка выполнена: отчёт с реальным файлом получен сервером.",mediaIds:[mediaId]};
+  verify((await command(tokenA,{...finish,operationId:randomUUID(),mediaIds:[]})).status===400,"Completion without evidence rejected");
+  verify((await command(tokenA,finish)).status===200,"Report and visit completed together");
+  verify((await command(tokenA,finish)).data.replayed,"Lost response retry does not duplicate report");
+  const completed=(await state(tokenA)).visits.find(v=>v.id===visit.id);
+  verify(completed.status==="completed" && completed.report===finish.report && completed.media.length===1,"Completed report round trip");
+  const source=await readFile(new URL("../.dev.vars",import.meta.url),"utf8");
+  const vars=Object.fromEntries(source.split(/\r?\n/).flatMap(line=>{const match=/^([A-Z_]+)=(.*)$/.exec(line.trim());return match?[[match[1],match[2].replace(/^["']|["']$/g,"")]]:[];}));
+  const adminLogin=await call("/api/auth/login","POST",{email:vars.AUTH_BOOTSTRAP_EMAIL,password:vars.AUTH_BOOTSTRAP_PASSWORD});
+  assert.equal(adminLogin.status,200);
+  const adminCookie=adminLogin.response.headers.getSetCookie()[0].split(";")[0];
+  const reports=await call("/api/requests","GET",undefined,undefined,adminCookie);
+  const report=reports.data.items.find(i=>i.id===visit.id);
+  verify(report.completionReport?.media[0]?.url && report.problems?.length===1,"Dispatcher receives report, materials and problem");
+  const display=await fetch(base+report.completionReport.media[0].url,{headers:{Cookie:adminCookie}});
+  verify(display.status===200 && Buffer.from(await display.arrayBuffer()).equals(bytes),"Dispatcher opens actual stored material");
+  const partial=await fetch(base+report.completionReport.media[0].url,{headers:{Cookie:adminCookie,Range:"bytes=0-9"}});
+  verify(partial.status===206 && (await partial.arrayBuffer()).byteLength===10,"Range requests support media playback");
+  const accepted = await call("/api/requests","PUT",{...report,status:"confirmed"},undefined,adminCookie);
+  verify(accepted.status===200,`Dispatcher confirms submitted report (${accepted.status}: ${accepted.data.message ?? "accepted"})`);
+  const reviewed = (await state(tokenA)).visits.find(v=>v.id===visit.id);
+  verify(reviewed.status==="confirmed" && reviewed.reportStatus==="accepted","Dispatcher acceptance reaches Android");
+  verify((await call("/api/requests","PUT",{...report,status:"completed"},undefined,adminCookie)).status===409,"Stale dispatcher edit cannot overwrite mobile changes");
+  db.prepare("UPDATE users SET must_change_password=1 WHERE id=?").run(b.userId);
+  verify((await call(api+"state","GET",undefined,tokenB)).status===428,"Temporary password must be changed before reading work");
+  const newPassword=randomUUID();
+  verify((await call(api+"auth/password","POST",{currentPassword:b.password,newPassword},tokenB)).status===200,"Temporary password change works");
+  verify((await call(api+"state","GET",undefined,tokenB)).status===401,"Password change revokes old session");
+  tokenB=await login({...b,password:newPassword});
+  verify((await call(api+"state","GET",undefined,tokenB)).status===200,"New password restores access");
+  db.prepare("UPDATE users SET status='blocked' WHERE id=?").run(a.userId);
+  verify((await call(api+"state","GET",undefined,tokenA)).status===401,"Blocked account loses access immediately");
+  db.prepare("UPDATE users SET status='active' WHERE id=?").run(a.userId);
+  await call(api+"auth/logout","POST",{},tokenA);
+  verify((await call(api+"state","GET",undefined,tokenA)).status===401,"Logout revokes the server session");
+  await mkdir(new URL("../.tmp/",import.meta.url),{recursive:true});
+  await writeFile(new URL("../.tmp/mobile-api-validation.json",import.meta.url),JSON.stringify({checks,passed:true,orderId:visit.id,at:new Date().toISOString()},null,2));
+  console.log(`PASS: ${checks} mobile API checks.`);
+} finally {
+  db.prepare("UPDATE users SET status='active' WHERE id=?").run(a.userId);
+  if(tokenA) await call(api+"auth/logout","POST",{},tokenA).catch(()=>{});
+  if(tokenB) await call(api+"auth/logout","POST",{},tokenB).catch(()=>{});
+  db.close();
+}

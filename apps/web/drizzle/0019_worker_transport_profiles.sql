@@ -1,0 +1,1 @@
+ALTER TABLE `workers` ADD `travel_mode` text;

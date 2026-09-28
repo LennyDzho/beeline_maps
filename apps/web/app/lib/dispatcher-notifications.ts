@@ -1,0 +1,2 @@
+export type DispatcherNotification = { sequence: number; orderId: string; kind: "status" | "problem"; title: string; detail: string; createdAt: string; read: boolean };
+export type NotificationFeed = { organizationId: string; timezone: string; latest: number; cursor: number; initialized: boolean; unread: number; items: DispatcherNotification[]; pending: DispatcherNotification[]; nextBefore: number | null };

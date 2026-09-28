@@ -1,0 +1,1 @@
+ALTER TABLE `work_orders` ADD `client_visit_confirmed` integer DEFAULT false NOT NULL;
