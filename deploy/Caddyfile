@@ -1,0 +1,23 @@
+{
+	admin off
+}
+
+{$APP_DOMAIN:http://localhost} {
+	encode zstd gzip
+
+	header {
+		-Server
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "same-origin"
+	}
+
+	reverse_proxy web:3000 {
+		health_uri /api/mobile/v1/health
+	}
+
+	log {
+		output stdout
+		format console
+	}
+}

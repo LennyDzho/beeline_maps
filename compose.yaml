@@ -1,0 +1,79 @@
+name: ${COMPOSE_PROJECT_NAME:-marsh}
+
+services:
+  optimizer:
+    build:
+      context: .
+      dockerfile: services/optimizer/Dockerfile
+    environment:
+      OPTIMIZER_SERVICE_TOKEN: ${OPTIMIZER_SERVICE_TOKEN:?Set OPTIMIZER_SERVICE_TOKEN in .env}
+    init: true
+    ports:
+      - "${OPTIMIZER_BIND_ADDRESS:-127.0.0.1}:${OPTIMIZER_PORT:-8765}:8765"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    depends_on:
+      optimizer:
+        condition: service_healthy
+    environment:
+      AUTH_BOOTSTRAP_EMAIL: ${AUTH_BOOTSTRAP_EMAIL:-admin@example.com}
+      AUTH_BOOTSTRAP_PASSWORD: ${AUTH_BOOTSTRAP_PASSWORD:?Set AUTH_BOOTSTRAP_PASSWORD in .env}
+      AUTH_BOOTSTRAP_NAME: ${AUTH_BOOTSTRAP_NAME:-Администратор}
+      TWO_GIS_API_KEY: ${TWO_GIS_API_KEY:-}
+      TWO_GIS_MAPGL_KEY: ${TWO_GIS_MAPGL_KEY:-}
+      OSM_TILE_URL: ${OSM_TILE_URL:-https://tile.openstreetmap.org/{z}/{x}/{y}.png}
+      OSRM_BASE_URL: ${OSRM_BASE_URL:-}
+      OSRM_WALKING_BASE_URL: ${OSRM_WALKING_BASE_URL:-}
+      OSRM_CYCLING_BASE_URL: ${OSRM_CYCLING_BASE_URL:-}
+      OPTIMIZER_SERVICE_URL: http://optimizer:8765
+      OPTIMIZER_SERVICE_TOKEN: ${OPTIMIZER_SERVICE_TOKEN:?Set OPTIMIZER_SERVICE_TOKEN in .env}
+      PLANNING_DEPOT_LAT: ${PLANNING_DEPOT_LAT:-55.7558}
+      PLANNING_DEPOT_LON: ${PLANNING_DEPOT_LON:-37.6176}
+    init: true
+    ports:
+      - "${WEB_BIND_ADDRESS:-127.0.0.1}:${WEB_PORT:-3000}:3000"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    volumes:
+      - web-state:/data
+
+  proxy:
+    image: caddy:2.10.2-alpine
+    profiles:
+      - proxy
+    depends_on:
+      web:
+        condition: service_healthy
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:-http://localhost}
+    ports:
+      - "${HTTP_BIND_ADDRESS:-0.0.0.0}:${HTTP_PORT:-80}:80"
+      - "${HTTPS_BIND_ADDRESS:-0.0.0.0}:${HTTPS_PORT:-443}:443"
+      - "${HTTPS_BIND_ADDRESS:-0.0.0.0}:${HTTPS_PORT:-443}:443/udp"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+
+volumes:
+  web-state:
+  caddy-data:
+  caddy-config:
