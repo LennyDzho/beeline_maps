@@ -1,0 +1,22 @@
+{
+  "name": "@mmi/provider-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Provider-neutral contracts for maps, routing and field-service planning",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./testing": {
+      "types": "./dist/testing/fakes.d.ts",
+      "default": "./dist/testing/fakes.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}
+
