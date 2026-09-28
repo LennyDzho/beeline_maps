@@ -1,0 +1,19 @@
+{
+  "name": "mmi-field-service-planner",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "qa": "node scripts/qa.mjs",
+    "build": "tsc -p packages/provider-contracts/tsconfig.build.json",
+    "build:test": "tsc -p tsconfig.test.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "pnpm run build:test && node --test apps/web/.tmp/test-build/packages/provider-contracts/test/contracts.test.js apps/web/.tmp/test-build/packages/provider-contracts/test/regional-time.test.js apps/web/.tmp/test-build/apps/web/tests/route-scheduling.test.js apps/web/.tmp/test-build/apps/web/tests/ortools-optimizer.test.js apps/web/.tmp/test-build/apps/web/tests/two-gis-resilience.test.js apps/web/.tmp/test-build/apps/web/tests/planning-providers.test.js",
+    "web:dev": "pnpm --filter @mmi/web dev",
+    "web:build": "pnpm --filter @mmi/web build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.2"
+  }
+}

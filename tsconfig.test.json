@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "apps/web/.tmp/test-build",
+    "noEmit": false,
+    "declaration": false,
+    "sourceMap": true
+  },
+  "include": [
+    "packages/*/src/**/*.ts",
+    "packages/*/test/**/*.ts",
+    "apps/web/app/lib/planning-settings.ts",
+    "apps/web/app/lib/planned-duration.ts",
+    "apps/web/app/lib/server/planning/route-scheduling.ts",
+    "apps/web/app/lib/server/planning/resilient-matrix.ts",
+    "apps/web/app/lib/server/planning/two-gis-fetch.ts",
+    "apps/web/app/lib/server/planning/osrm.ts",
+    "apps/web/app/lib/server/planning/two-gis-optimizer.ts",
+    "apps/web/app/lib/server/planning/providers.ts",
+    "apps/web/app/dispatcher/data.ts",
+    "apps/web/tests/route-scheduling.test.ts",
+    "apps/web/tests/two-gis-resilience.test.ts",
+    "apps/web/tests/planning-providers.test.ts",
+    "apps/web/tests/ortools-optimizer.test.ts"
+  ]
+}

@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+
+# Next.js
+.next/
+**/.next/
+out/
+**/out/
+
+# IDE files
+.idea/
+.vscode/
+
+# Python virtual envs
+.venv/
+venv/
+
+.pnpm-store/
+dist/
+.next/
+.tmp/
+coverage/
+*.tsbuildinfo
+*.log
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+__pycache__
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Obsolete generated documentation
+/apps/web/README.md
+/algorithm-research/benchmark/reports/CONTINUATION_HISTORY_BEFORE_FREEZE.md
+
+# Build outputs
+build/
+dist/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+ Performance artifacts and local access-token files
+artifacts/performance/
+tokens.local.json
+tokens.*.local.json
+*.tokens.json
+
