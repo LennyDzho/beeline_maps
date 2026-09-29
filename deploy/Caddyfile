@@ -9,7 +9,7 @@
 		-Server
 		X-Content-Type-Options "nosniff"
 		X-Frame-Options "DENY"
-		Referrer-Policy "same-origin"
+		Referrer-Policy "strict-origin-when-cross-origin"
 	}
 
 	reverse_proxy web:3000 {
