@@ -233,6 +233,7 @@ systemctl enable --now marsh-backup.timer
 
 ## Документация
 
+- [Руководство пользователя](docs/USER_GUIDE.md)
 - [Модель данных](docs/DATA_MODEL.md)
 - [Провайдеры расстояний и оптимизации](docs/PLANNING_PROVIDERS.md)
 - [Архитектура адаптеров оптимизатора](docs/OPTIMIZER_ADAPTERS.md)
