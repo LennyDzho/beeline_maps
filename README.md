@@ -234,6 +234,7 @@ systemctl enable --now marsh-backup.timer
 ## Документация
 
 - [Руководство пользователя](docs/USER_GUIDE.md)
+- [Презентация проекта для ЛЦТ 2026](<docs/ЛЦТ2026 Презентация Ронин ГУД.pdf>)
 - [Модель данных](docs/DATA_MODEL.md)
 - [Провайдеры расстояний и оптимизации](docs/PLANNING_PROVIDERS.md)
 - [Архитектура адаптеров оптимизатора](docs/OPTIMIZER_ADAPTERS.md)
