@@ -1,0 +1,8 @@
+[Unit]
+Description=Back up Marsh local D1 and R2 state
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/marsh/deploy/backup.sh

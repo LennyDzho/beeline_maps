@@ -218,6 +218,17 @@ docker compose --profile proxy up -d --build --wait
 docker compose --profile proxy ps
 ```
 
+Для локального ежедневного backup D1/R2 установите подготовленные systemd units:
+
+```bash
+chmod 750 deploy/backup.sh
+cp deploy/marsh-backup.service deploy/marsh-backup.timer /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable --now marsh-backup.timer
+```
+
+Архивы создаются в `/var/backups/marsh`, хранятся 14 дней и доступны только root. Во время снятия согласованной копии web-контейнер кратковременно останавливается. Копии на том же сервере не защищают от отказа диска, поэтому для production их нужно дополнительно вывозить во внешнее хранилище.
+
 Публичный демонстрационный OSRM не имеет производственного SLA. Для автономной эксплуатации укажите локальные `OSRM_BASE_URL`, `OSRM_WALKING_BASE_URL` и `OSRM_CYCLING_BASE_URL` либо разверните соответствующие профили маршрутизации на этом же сервере.
 
 ## Документация
